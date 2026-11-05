@@ -1,0 +1,109 @@
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.6.3LayerNorm 核函数的实现/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.6.3LayerNorm 核函数的实现/run.sh
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.6.3LayerNorm 核函数的实现/cmake/npu/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.6.3LayerNorm 核函数的实现/cmake/cpu/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.6.3LayerNorm 核函数的实现/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.3向量编程范式/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.3向量编程范式/run.sh
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.3向量编程范式/cmake/npu/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.3向量编程范式/cmake/cpu/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.3向量编程范式/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/2.3.4调用一个昇腾算子/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/2.3.4调用一个昇腾算子/run.sh
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/2.3.4调用一个昇腾算子/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.6.1双曲正弦函数算子核函数的实现/run.sh
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.6.1双曲正弦函数算子核函数的实现/cmake/npu/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.6.1双曲正弦函数算子核函数的实现/cmake/cpu/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.6.1双曲正弦函数算子核函数的实现/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/第6章Ascend C大模型算子优化/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/第6章Ascend C大模型算子优化/op_kernel/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/第6章Ascend C大模型算子优化/framework/tf_plugin/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/第6章Ascend C大模型算子优化/framework/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/第6章Ascend C大模型算子优化/cmake/util/makeself/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/第6章Ascend C大模型算子优化/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/第6章Ascend C大模型算子优化/op_host/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/第6章Ascend C大模型算子优化/op_host/common/op_common/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.4矩阵编程范式/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.4矩阵编程范式/op_host/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.4矩阵编程范式/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.6.2Strassen矩阵乘法算子核函数的实现/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.6.2Strassen矩阵乘法算子核函数的实现/run.sh
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.4矩阵编程范式/op_kernel/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.6.2Strassen矩阵乘法算子核函数的实现/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.1-4.5Ascend C算子开发流程/AclNNInvocation/run.sh
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.5混合编程范式/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.4矩阵编程范式/framework/tf_plugin/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.1-4.5Ascend C算子开发流程/AclNNInvocation/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.4矩阵编程范式/framework/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.4矩阵编程范式/cmake/util/makeself/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.1-4.5Ascend C算子开发流程/AddCustom/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.1-4.5Ascend C算子开发流程/AclNNInvocation/src/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.5混合编程范式/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.1-4.5Ascend C算子开发流程/AddCustom/op_kernel/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.1-4.5Ascend C算子开发流程/AddCustom/framework/tf_plugin/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.1-4.5Ascend C算子开发流程/AddCustom/framework/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.1-4.5Ascend C算子开发流程/AddCustom/op_host/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.5混合编程范式/op_kernel/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.5混合编程范式/framework/tf_plugin/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.5混合编程范式/framework/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.5混合编程范式/op_host/CMakeLists.txt
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/3.5混合编程范式/cmake/util/makeself/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.1-4.5Ascend C算子开发流程/AddCustom/cmake/util/makeself/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/gfl/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/nas_fcos/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/point_rend/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/atss/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/wider_face/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/gcnet/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/fp16/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/nas_fpn/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/res2net/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/paa/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/cityscapes/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/pisa/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/foveabox/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/gn+ws/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/detr/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/fast_rcnn/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/legacy_1.x/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/double_heads/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/free_anchor/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/cornernet/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/grid_rcnn/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/fcos/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/yolo/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/detectors/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/ghm/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/retinanet/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/scratch/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/regnet/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/dcn/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/carafe/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/albu_example/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/ms_rcnn/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/faster_rcnn/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/hrnet/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/mask_rcnn/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/gn/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/libra_rcnn/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/lvis/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/empirical_attention/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/ssd/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/guided_anchoring/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/instaboost/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/groie/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/deepfashion/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/reppoints/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/cascade_rcnn/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/yolact/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/htc/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/dynamic_rcnn/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/resnest/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/pascal_voc/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/pafpn/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/rpn/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/fsaf/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/sabl/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/vfnet/README.md
+tmp/archive_review/extracted/Ascend C异构并行程序设计源代码/4.7Ascend C 算子在整网中的替换/configs/centripetalnet/README.md

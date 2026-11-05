@@ -1,0 +1,163 @@
+===== PAGE 1 =====
+CANN 环境搭建
+HUAWEI TALENT · 课程文档
+CANN 环境搭建
+来源：华为人才在线 · 课程详情页
+链接：https://e.huawei.com/cn/talent/outPage/#/sxz-course/home?courseId=HnHk7u13kwvT-QN9JeyMWK55G
+wY&operate=1
+导出时间：2026-09-27 | 共 2 个章节
+目录
+实验说明
+实验实施
+CANN 环境搭建
+实验说明
+1.1 实验简介
+本实验将引导读者完成Ascend C算子开发所需要的CANN环境配置。完成本实验后，开发者应可以熟练掌握CANN软件包
+的安装过程，并可以扩展到其他昇腾相关任务中。
+在进行 Ascend C 算子开发之前，通常需要先完成驱动固件和 CANN 软件包的安装，以实现开发环境的基本配置。考虑
+到本实验默认在已完成昇腾 NPU 驱动固件部署的环境中进行，故不再提供驱动固件安装的具体步骤和示例。
+下面将以操作系统架构X86_64、root用户操作为例，介绍CANN软件包安装的步骤。
+1.2 实验要求
+学习者需要在实验报告中详细记录每一步过程的安装反馈屏显，记录完整环境配置过程，
+第 1 / 6 ⻚
+
+===== PAGE 2 =====
+CANN 环境搭建
+CANN 环境搭建
+实验实施
+1.1.1 根据操作系统安装相关依赖
+在进行 CANN 软件包的安装与配置前，需先确保系统已具备必要的依赖工具和运行环境，以支持 Ascend C 编译构建、
+Python 工具链调用及部分网络功能的正常运行。
+在Debian系列操作系统中（如Ubuntu、Debian、UOS20、UOS20 SP1），执行程序清单1-1中的指令。
+程序清单1-1 Debian系列操作系统依赖安装指令
+1. apt-get install -y gcc make net-tools python3 python3-dev python3-pip
+在openEuler系列操作系统中（如openEuler、CentOS、Kylin、BCLinux、BC-Linux-for-Euler、UOS201050e、
+UOS20 1020e、UOSV20、AntOS、CTyunOS、CULinux、Tlinux），执行程序清单1-2中的指令。
+程序清单1-2 openEuler系列操作系统依赖安装指令
+1. yum install -y gcc make net-tools python3 python3-devel python3-pip
+表1-1对安装的依赖项进行了简单的说明。学习者若有兴趣可以自行查阅更多相关资料。
+表1-1 依赖项简介
+依赖项 功能说明
+gcc GNU 编译器，必需的基础工具，用于编译 Ascend C 代码，生成可执行文件。
+make 构建自动化工具，配合 Makefile 文件执行构建、编译、安装等任务，支持 Ascend C 编
+译流程。
+net-tools 提供基本的网络工具集，如 ifconfig、netstat 等命令，用于网络状态查询与管理，便于
+在调试时进行网络环境排查。
+python3 Python 3 解释器，支持 CANN 软件框架中基于 Python 的开发和调试工具。
+python3-dev Python 3 开发头文件和库，支持开发时需要的扩展模块及编译环境。
+python3-pip Python 的包管理工具，方便安装和管理 Python 库，支持 CANN 开发过程中所需的
+Python 第三方库。
+以上依赖建议在安装 CANN 软件包前一并配置完毕，以避免后续部署过程中出现缺失依赖的问题。
+1.1.2 检查Python环境
+在开始安装和使用 CANN 开发环境之前，确保系统已经安装了符合要求的 Python 开发环境。CANN 支持 Python 3.7.x
+至 3.11.4 版本，因此，需要检查当前系统中 Python 的版本及 pip 版本。
+首先，打开终端执行程序清单1-3中的指令。此命令会返回当前安装的 Python 版本号，确保版本号在 3.7.x 至 3.11.4 之
+间。
+第 2 / 6 ⻚
+
+===== PAGE 3 =====
+CANN 环境搭建
+程序清单1-3 检查Python版本指令
+1. python3 --version
+如果版本不符合要求，需要更新 Python 至支持的版本。可以通过执行程序清单1-4中的指令，更新至指定的Python版
+本。
+程序清单1-4 Python版本更新指令
+1. sudo apt update
+2. sudo apt install python3.x # 安装指定版本的 Python 3.x
+接着，检查是否安装了对应版本的 pip 包管理工具。执行程序清单1-5中的指令，会返回当前安装的 pip 版本，确认是否
+与 Python 版本匹配。
+程序清单1-5 检查pip版本指令
+1. pip3 --version
+如果 pip 未安装或需要更新，可以执行程序清单1-6中的指令来安装或更新 pip。
+程序清单1-6 安装或更新pip指令
+1. python3 -m ensurepip --upgrade # 安装或更新 pip
+通过上述步骤检查并更新 Python 环境后，确保开发环境满足 CANN 的安装要求，接下来的实验过程将能够顺利进行。
+1.1.3 安装所需的Python第三方库
+在完成 Python 环境配置之后，还需安装若干第三方库，以满足 CANN 框架及 Ascend C 工具链运行过程中的依赖需
+求。执行程序清单1-7中指令以进行安装。
+程序清单1-7 安装所需的Python第三方库
+1.
+pip3 install attrs cython numpy==1.24.0 decorator sympy cffi pyyaml pathlib2 psutil protobuf==3.20 scipy requests absl-
+py
+表1-2对所安装的第三方库进行了简略的介绍，学习者若有兴趣可自行查阅更多详细资料。
+表1-2 Python所需第三方库简介
+库名称 主要功能简略说明
+attrs 用于简化 Python 类的定义，支持自动生成构造函数等，常用于配置项管理
+cython 支持将 Python 代码编译为 C 语言扩展，提高性能，在 Ascend C 接口层常用于加
+速模块调用
+numpy==1.24.0 数值计算库，是矩阵运算、张量操作和测试数据生成的核心工具（版本须指定）
+第 3 / 6 ⻚
+
+===== PAGE 4 =====
+CANN 环境搭建
+decorator 简化 Python 装饰器的开发，常用于函数式接口封装
+sympy 支持符号计算与表达式求解，可用于数学表达式的推理与验证
+cffi C 函数接口库，允许 Python 与 C 语言高效交互，是调用底层算子模块的重要桥梁
+pyyaml YAML 文件解析库，用于读取配置文件或模型定义
+pathlib2 为旧版本 Python 提供 pathlib 功能的兼容库，用于文件路径操作
+psutil 提供系统级信息查询能力，如 CPU 利用率、内存占用等，便于进行性能监控
+protobuf==3.20 Google Protocol Buffers 序列化库，用于模型和数据格式交换（需指定兼容版本）
+scipy 科学计算库，扩展了 numpy 功能，支持信号处理、优化、线性代数等高级运算
+requests HTTP 网络请求库，可用于访问接口、下载模型或远程调用服务
+absl-py Google 开源工具库，提供命令行参数管理、日志打印等功能，常见于 AI 工具链中
+1.1.4 安装CMake
+在进行 Ascend C 算子开发时，特别是在使用KernelLaunch 或 FrameworkLaunch调用算子的过程中，要求安装 CMake
+工具。CMake 是一个跨平台的自动化构建系统，它支持多种编译器和编译环境，广泛用于大多数开源项目的构建与配置。在本
+实验中，我们要求安装 CMake 版本 3.16 或更高 版本（适用于 Linux 系统，x86_64 架构）。
+若系统尚未安装 CMake，或版本较低，学习者可以使用程序清单1-8中的指令手动下载并安装 CMake 3.16 版本。
+程序清单1-8 安装CMake3.16
+1. mkdir -p cmake-3.16 && wget -qO- "https://cmake.org/files/v3.16/cmake-3.16.0-linux-x86_64.tar.gz" | tar --
+strip-components=1 -xz -C cmake-3.16
+2. export PATH=`pwd`/cmake-3.16/bin:$PATH
+下面对程序清单1-8中的指令进行简略说明。
+· mkdir -p cmake-3.16：创建一个名为 cmake-3.16 的目录，用于存放 CMake 的安装文件。
+· wget -qO-：通过 wget 从 CMake 官方网站下载 cmake-3.16.0-linux-x86_64.tar.gz 压缩包，并使用 -qO- 将其内容直接输
+出到标准输出。
+· tar --strip-components=1 -xz -C cmake-3.16：使用 tar 命令解压下载的文件，并将其解压到 cmake-3.16 目录中。--
+strip-components=1 选项用于去除解压路径中的第一层目录，使文件结构更简洁。
+· **export PATH=\pwd`/cmake-3.16/bin:$PATH**：将解压后的 cmake-3.16/bin` 目录加入系统的 PATH 环境变量中，使其
+成为当前会话的可执行命令。
+执行上述命令后，您可以使用程序清单1-9中的命令验证 CMake 是否成功安装。
+程序清单1-9 验证CMake是否安装成功
+1. cmake --version
+第 4 / 6 ⻚
+
+===== PAGE 5 =====
+CANN 环境搭建
+如果网络环境较差或无法直接下载文件，可以尝试使用国内镜像源，或者手动下载文件后进行解压；如果需要安装其他版
+本的 CMake，只需修改下载链接中的版本号即可。
+1.1.5 安装CANN开发套件包
+学习者需先前往昇腾官方网址下载所需的开发套件包。CANN资源分为社区版与商用版：社区版是提供了最新特性的体验
+版，供开发者提前试用；商用版是能满足商用需求的稳定版本。
+建议学习者下载社区版，其下载地址为：
+https://www.hiascend.com/developer/download/community/result?module=cann
+进入下载界面后，学习者首先需选择所需下载的CANN版本，如图1-1中红框部分所示。建议下载尽量新发布的版本。
+图1-1 CANN版本选择
+随后选择实验环境的CPU架构。本节以x86_64架构为例，如图1-2红框部分所示。
+第 5 / 6 ⻚
+
+===== PAGE 6 =====
+CANN 环境搭建
+图1-2 CPU架构选择
+选择完成后，在右侧列表中找到所需的资源。CANN开发套件包的命名格式为：Ascend-cann-toolkit_<CANN
+version>_linux_< CPU architecture>.run
+学习者可以关注命名格式中的红色部分以快速找到所需下载的开发者套件包。随后点击“软件包下载”即可在浏览器中进
+行下载，或复制下载链接在终端中用命令行方式下载亦可。
+随后，将CANN开发套件包上传至安装环境的任意目录，执行程序清单1-10中的指令增加对软件包的可执行权限。
+程序清单1-10 增加对软件包的可执行权限
+1. chmod +x Ascend-cann-toolkit_8.0.RC3.alpha001_linux-x86_64.run
+接下来，执行程序清单1-11中的命令校验软件包的一致性和完整性。
+程序清单1-11 校验软件包的一致性和完整性
+1. ./Ascend-cann-toolkit_8.0.RC3.alpha001_linux-x86_64.run --check
+校验通过后，执行程序清单1-12中的命令安装CANN开发套件包。
+程序清单1-12 安装CANN开发套件包
+1. ./Ascend-cann-toolkit_8.0.RC3.alpha001_linux-x86_64.run --install
+用户需签署华为企业业务最终用户许可协议（EULA）后进入安装流程，根据回显页面输入y或Y接受协议，安装完成后，
+若显示如图1-3的信息，则说明软件安装成功。
+图1-3 CANN开发套件包安装成功屏显反馈
+1.1.6 CANN环境变量配置
+最后，执行程序清单1-13中的指令以激活CANN的环境变量。在root用户权限下，默认安装地址
+为/usr/local/Ascend/ascend-toolkit/set_env.sh
+程序清单1-13 CANN环境变量激活
+1. source /usr/local/Ascend/ascend-toolkit/set_env.sh
+第 6 / 6 ⻚

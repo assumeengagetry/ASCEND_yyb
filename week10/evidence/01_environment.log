@@ -1,0 +1,38 @@
+2026-11-05T10:53:24+08:00
+$ uname -m
+aarch64
+$ cat /etc/os-release
+NAME="Huawei Cloud EulerOS"
+VERSION="2.0 (aarch64)"
+ID="hce"
+VERSION_ID="2.0"
+PRETTY_NAME="Huawei Cloud EulerOS 2.0 (aarch64)"
+ANSI_COLOR="0;31"
+
+$ npu-smi info
++------------------------------------------------------------------------------------------------+
+| npu-smi 25.5.1                   Version: 25.5.1                                               |
++---------------------------+---------------+----------------------------------------------------+
+| NPU   Name                | Health        | Power(W)    Temp(C)           Hugepages-Usage(page)|
+| Chip                      | Bus-Id        | AICore(%)   Memory-Usage(MB)  HBM-Usage(MB)        |
++===========================+===============+====================================================+
+| 5     910B4               | OK            | 87.6        39                0    / 0             |
+| 0                         | 0000:41:00.0  | 0           0    / 0          2886 / 32768         |
++===========================+===============+====================================================+
++---------------------------+---------------+----------------------------------------------------+
+| NPU     Chip              | Process id    | Process name             | Process memory(MB)      |
++===========================+===============+====================================================+
+| No running processes found in NPU 5                                                            |
++===========================+===============+====================================================+
+$ readlink -f /usr/local/Ascend/ascend-toolkit/latest
+/usr/local/Ascend/cann-8.5.2
+$ cmake --version
+cmake version 3.22.0
+$ gcc --version
+gcc (GCC) 10.3.1
+$ python --version
+Python 3.12.0
+$ command -v bisheng
+/usr/local/Ascend/ascend-toolkit/latest/bin/bisheng
+$ command -v ccec
+/usr/local/Ascend/ascend-toolkit/latest/bin/ccec

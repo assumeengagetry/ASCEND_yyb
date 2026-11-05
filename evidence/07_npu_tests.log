@@ -1,0 +1,30 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build
+gmake[1]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build'
+Scanning dependencies of target execute_sigmoid
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build'
+[ 50%] Building CXX object CMakeFiles/execute_sigmoid.dir/main.cpp.o
+[100%] Linking CXX executable execute_sigmoid
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build'
+[100%] Built target execute_sigmoid
+gmake[1]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build'
+PASS dtype=float16 shape=8,2048 numel=16384 max_abs=0.000244048503 failed=0 rtol=0.001 atol=0.001
+PASS dtype=float16 shape=1 numel=1 max_abs=9.92625481e-05 failed=0 rtol=0.001 atol=0.001
+PASS dtype=float16 shape=15 numel=15 max_abs=0.00015293112 failed=0 rtol=0.001 atol=0.001
+PASS dtype=float16 shape=17 numel=17 max_abs=0.00015293112 failed=0 rtol=0.001 atol=0.001
+PASS dtype=float16 shape=255 numel=255 max_abs=0.000241820249 failed=0 rtol=0.001 atol=0.001
+PASS dtype=float16 shape=257 numel=257 max_abs=0.000241922494 failed=0 rtol=0.001 atol=0.001
+PASS dtype=float16 shape=4096 numel=4096 max_abs=0.000244048503 failed=0 rtol=0.001 atol=0.001
+PASS dtype=float16 shape=65536 numel=65536 max_abs=0.000244048503 failed=0 rtol=0.001 atol=0.001
+PASS dtype=float32 shape=8,2048 numel=16384 max_abs=9.89952276e-08 failed=0 rtol=0.0001 atol=1e-06
+PASS dtype=float32 shape=1 numel=1 max_abs=2.08145944e-08 failed=0 rtol=0.0001 atol=1e-06
+PASS dtype=float32 shape=15 numel=15 max_abs=5.47084544e-08 failed=0 rtol=0.0001 atol=1e-06
+PASS dtype=float32 shape=17 numel=17 max_abs=5.47084544e-08 failed=0 rtol=0.0001 atol=1e-06
+PASS dtype=float32 shape=255 numel=255 max_abs=9.48846715e-08 failed=0 rtol=0.0001 atol=1e-06
+PASS dtype=float32 shape=257 numel=257 max_abs=8.3316517e-08 failed=0 rtol=0.0001 atol=1e-06
+PASS dtype=float32 shape=4096 numel=4096 max_abs=9.80794032e-08 failed=0 rtol=0.0001 atol=1e-06
+PASS dtype=float32 shape=65536 numel=65536 max_abs=1.02409965e-07 failed=0 rtol=0.0001 atol=1e-06
+SUMMARY 16/16 PASS; JSON=/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/results/verification.json

@@ -1,0 +1,69 @@
+gmake[1]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[ 84%] Built target cust_opapi
+[ 84%] Built target cust_op_proto
+[ 76%] Built target npu_supported_ops
+[ 76%] Built target cust_optiling
+[ 76%] Built target modify_vendor
+[ 76%] Built target cust_tf_parsers
+[ 92%] Built target ops_info_gen_ascend910b
+[ 92%] Built target gen_version_info
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[100%] Built target ascendc_impl_gen
+[100%] Built target optiling_compat
+gmake[1]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+Run CPack packaging tool...
+CPack: Create package using External
+CPack: Install projects
+CPack: - Run preinstall target for: opp
+CPack: - Install project: opp []
+CPack: Create package
+
+About to compress 580 KB of data...
+Adding files to archive named "custom_opp_euleros_aarch64.run"...
+./help.info
+./install.sh
+./packages/vendors/lab_sigmoid/framework/tensorflow/libcust_tf_parsers.so
+./packages/vendors/lab_sigmoid/framework/tensorflow/npu_supported_ops.json
+./packages/vendors/lab_sigmoid/op_api/include/aclnn_sigmoid_custom.h
+./packages/vendors/lab_sigmoid/op_api/lib/libcust_opapi.so
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/config/ascend910b/aic-ascend910b-ops-info.json
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/kernel/ascend910b/sigmoid_custom/
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/kernel/config/ascend910b/
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/lab_sigmoid_impl/dynamic/sigmoid_custom.cpp
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/lab_sigmoid_impl/dynamic/sigmoid_custom.py
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64/libcust_opmaster_rt2.0.so
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/op_tiling/liboptiling.so
+./packages/vendors/lab_sigmoid/op_proto/inc/op_proto.h
+./packages/vendors/lab_sigmoid/op_proto/lib/linux/aarch64/libcust_opsproto_rt2.0.so
+./packages/vendors/lab_sigmoid/version.info
+./upgrade.sh
+CRC: 519181186
+SHA256: 9e7d749082cfb4953d086d8cf46c7be0128d7fb3cbef8d9be6b3a0ab603e4200
+Skipping md5sum at user request
+
+Self-extractable archive "custom_opp_euleros_aarch64.run" successfully created.
+Copy /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/_CPack_Packages/Linux/External/custom_opp_euleros_aarch64.run/custom_opp_euleros_aarch64.run to /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/
+CPack: - package: /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/custom_opp_euleros_aarch64.run.json generated.

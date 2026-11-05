@@ -1,0 +1,43 @@
+gmake[1]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[100%] Built target ascendc_impl_gen
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[100%] Built target ascendc_bin_ascend910b_sigmoid_custom_copy
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[100%] Built target ascendc_bin_ascend910b
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[Ascend910B1] Generating SigmoidCustom_4404db5924972bdce81669f91b662475 ...
+[Ascend910B1] Generating SigmoidCustom_a3c9eb1f1b227778957282b95ed93786 ...
+Opc tool start working now, please wait for a moment.
+[Ascend910B1] Generating SigmoidCustom_4404db5924972bdce81669f91b662475 Done
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[100%] Built target ascendc_bin_ascend910b_sigmoid_custom_1
+Opc tool start working now, please wait for a moment.
+[Ascend910B1] Generating SigmoidCustom_a3c9eb1f1b227778957282b95ed93786 Done
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[100%] Built target ascendc_bin_ascend910b_sigmoid_custom_0
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+Scanning dependencies of target ascendc_bin_ascend910b_gen_ops_config
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[100%] Built target ascendc_bin_ascend910b_gen_ops_config
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+Scanning dependencies of target binary
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[100%] Built target binary
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[1]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'

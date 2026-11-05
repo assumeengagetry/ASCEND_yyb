@@ -1,0 +1,12 @@
+[Toolkit] [20250611-15:06:51] [INFO] CANN-ncs-7.6.0.1.220-linux.aarch64.run --full --quiet --nox11 install success
+[Toolkit] [20250611-15:06:51] [INFO] install package Ascend-test-ops_8.0.0_linux.run start
+[test-ops] [2025-06-11 15:06:51] [INFO]: new_version_info 8.0.0
+[test-ops] [2025-06-11 15:06:51] [INFO]: your install path is /home/ma-user/Ascend/ascend-toolkit/8.0.0/opp/test-ops
+[Toolkit] [20250611-15:06:51] [INFO] Ascend-test-ops_8.0.0_linux.run --full --quiet --nox11 install success
+[Toolkit] [20250611-15:06:51] [INFO] The soft link /home/ma-user/Ascend/ascend-toolkit/8.0.0/arm64-linux is created successfully.
+[Toolkit] [20250611-15:06:51] [INFO] mkdir /home/ma-user/Ascend/ascend-toolkit/8.0.0/aarch64-linux/script
+[Toolkit] [20250611-15:06:51] [INFO] mkdir /home/ma-user/Ascend/ascend-toolkit/8.0.0/combo_script
+[Toolkit] [20250611-15:06:51] [INFO] touch /home/ma-user/Ascend/ascend-toolkit/8.0.0/aarch64-linux/install.conf
+[Toolkit] [20250611-15:06:51] [INFO] touch /home/ma-user/Ascend/ascend-toolkit/8.0.0/aarch64-linux/ascend_toolkit_install.info
+[Toolkit] [20250611-15:06:52] [WARNING]  delete operation, the file /home/ma-user/Ascend/ascend-toolkit/8.0.0/aarch64-linux/script/set_env.sh is not exist.
+[Toolkit] [20250611-15:06:52] [INFO] The soft link /home/ma-user/Ascend/ascend-toolkit/8.0.0/aarch64-linux/runtime is created successfully.

@@ -1,0 +1,24 @@
+# Source default setting
+[ -f /etc/bashrc ] && . /etc/bashrc
+
+# User environment PATH
+export PATH
+umask 0027
+. /home/ma-user/anaconda3/etc/profile.d/conda.sh
+umask 027
+source /usr/local/Ascend/ascend-toolkit/set_env.sh
+export HISTSIZE=0
+export PS1='[\u \W]$'
+conda activate $ENV_NAME
+sh /modelarts/authoring/script/entrypoint/common/terminal_tips.sh
+HISTSIZE=5000
+export LD_LIBRARY_PATH=/usr/local/lib/:/usr/local/Ascend/toolbox/latest/Ascend-DMI/lib64:/usr/lib/aarch64-linux-gnu/hdf5/serial:/usr/local/Ascend/driver/lib64:/usr/local/Ascend/driver/lib64/common:/usr/local/Ascend/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/compiler/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/compiler/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/:/usr/local/seccomponent/lib/:/usr/local/seccomponent/lib/openssl/:/usr/local/mindspore-lite/mindspore-lite-2.4.0-linux-aarch64/tools/converter/lib:/usr/local/mindspore-lite/mindspore-lite-2.4.0-linux-aarch64/runtime/lib:/usr/local/mindspore-lite/mindspore-lite-2.4.0-linux-aarch64/runtime/third_party/dnnl
+
+export no_proxy=127.0.0.1,localhost,172.16.*,iam.cn-southwest-2.huaweicloud.com,pip.modelarts.private.com
+export NO_PROXY=127.0.0.1,localhost,172.16.*,iam.cn-southwest-2.huaweicloud.com,pip.modelarts.private.com
+https://ascend-repo.obs.cn-east-2.myhuaweicloud.com/CANN/CANN%208.0.0/Ascend-cann-toolkit_8.0.0_linux-aarch64.run
+
+source /home/ma-user/Ascend/ascend-toolkit/set_env.sh
+export PS1='[\u \W]$'
+conda activate $DEFAULT_CONDA_ENV_NAME
+[ -f /modelarts/authoring/script/entrypoint/common/terminal_tips.sh ] && sh /modelarts/authoring/script/entrypoint/common/terminal_tips.sh

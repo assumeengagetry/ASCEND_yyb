@@ -1,0 +1,386 @@
+using ASCEND_HOME_PATH: /home/ma-user/Ascend/ascend-toolkit/latest
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Opbuild generating sources
+-- Opbuild generating sources - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CROSS_PLATFORM_COMPILER
+
+
+-- Build files have been written to: /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out
+gmake[1]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+Scanning dependencies of target gen_version_info
+Scanning dependencies of target modify_vendor
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+Scanning dependencies of target ops_info_gen_ascend910b
+Scanning dependencies of target npu_supported_ops
+Scanning dependencies of target ascendc_impl_gen
+Scanning dependencies of target cust_tf_parsers
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+Scanning dependencies of target cust_opapi
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+Scanning dependencies of target cust_optiling
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+Scanning dependencies of target cust_op_proto
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[  7%] Generating scripts/install.sh, scripts/upgrade.sh
+[ 15%] Generating tbe/op_info_cfg/ai_core/ascend910b/aic-ascend910b-ops-info.json
+[ 23%] Generating tbe/op_info_cfg/ai_core/npu_supported_ops.json
+[ 30%] Generating tbe/.impl_timestamp
+[ 38%] Building CXX object op_host/CMakeFiles/cust_opapi.dir/__/autogen/aclnn_sigmoid_custom.cpp.o
+[ 46%] Building CXX object framework/tf_plugin/CMakeFiles/cust_tf_parsers.dir/tensorflow_sigmoid_custom_plugin.cc.o
+[ 53%] Built target gen_version_info
+[ 53%] Building CXX object op_host/CMakeFiles/cust_optiling.dir/sigmoid_custom.cpp.o
+[ 61%] Building CXX object op_host/CMakeFiles/cust_op_proto.dir/__/autogen/op_proto.cc.o
+/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/autogen /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/op_kernel/tbe/op_info_cfg/ai_core
+[ 69%] Building CXX object op_host/CMakeFiles/cust_op_proto.dir/sigmoid_custom.cpp.o
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+
+
+==============check valid for ops info start==============
+==============check valid for ops info end================
+
+
+Compile op info cfg successfully.
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[ 69%] Built target modify_vendor
+[INFO] Succed generated /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/op_kernel/tbe/op_info_cfg/ai_core/npu_supported_ops.json
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[ 69%] Built target ops_info_gen_ascend910b
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[ 69%] Built target npu_supported_ops
+[ 69%] Built target ascendc_impl_gen
+[ 76%] Linking CXX shared library libcust_opapi.so
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[ 76%] Built target cust_opapi
+[ 84%] Linking CXX shared library libcust_tf_parsers.so
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[ 84%] Built target cust_tf_parsers
+[ 92%] Linking CXX shared library libcust_opsproto_rt2.0.so
+[100%] Linking CXX shared library libcust_opmaster_rt2.0.so
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[100%] Built target cust_optiling
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+Scanning dependencies of target optiling_compat
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[100%] Built target optiling_compat
+[100%] Built target cust_op_proto
+gmake[1]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+Run CPack packaging tool...
+CPack: Create package using External
+CPack: Install projects
+CPack: - Run preinstall target for: opp
+CPack: - Install project: opp []
+CPack: Create package
+
+About to compress 576 KB of data...
+Adding files to archive named "custom_opp_euleros_aarch64.run"...
+./help.info
+./install.sh
+./packages/vendors/lab_sigmoid/framework/tensorflow/libcust_tf_parsers.so
+./packages/vendors/lab_sigmoid/framework/tensorflow/npu_supported_ops.json
+./packages/vendors/lab_sigmoid/op_api/include/aclnn_sigmoid_custom.h
+./packages/vendors/lab_sigmoid/op_api/lib/libcust_opapi.so
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/config/ascend910b/aic-ascend910b-ops-info.json
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/kernel/ascend910b/sigmoid_custom/
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/kernel/config/ascend910b/
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/lab_sigmoid_impl/dynamic/sigmoid_custom.cpp
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/lab_sigmoid_impl/dynamic/sigmoid_custom.py
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64/libcust_opmaster_rt2.0.so
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/op_tiling/liboptiling.so
+./packages/vendors/lab_sigmoid/op_proto/inc/op_proto.h
+./packages/vendors/lab_sigmoid/op_proto/lib/linux/aarch64/libcust_opsproto_rt2.0.so
+./packages/vendors/lab_sigmoid/version.info
+./upgrade.sh
+CRC: 3919551407
+SHA256: fc5daed9f55e89c4b8489eb6c5626643b6d1f3459aea3c3ecc3e3a8ae86e96fb
+Skipping md5sum at user request
+
+Self-extractable archive "custom_opp_euleros_aarch64.run" successfully created.
+Copy /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/_CPack_Packages/Linux/External/custom_opp_euleros_aarch64.run/custom_opp_euleros_aarch64.run to /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/
+CPack: - package: /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/custom_opp_euleros_aarch64.run.json generated.
+Verifying archive integrity...     0%    55%  100%   SHA256 checksums are OK. All good.
+Uncompressing version:1.0     0%    55%  100%  
+[ops_custom] [2026-10-29 11:44:13] [INFO] copy uninstall sh success
+[ops_custom] [2026-10-29 11:44:13] [INFO] create /home/ma-user/work/ascend_lab_20261029/install/vendors.
+[ops_custom] [2026-10-29 11:44:13] [INFO] upgrade framework
+[ops_custom] [2026-10-29 11:44:13] [INFO] create /home/ma-user/work/ascend_lab_20261029/install/vendors/lab_sigmoid/framework.
+[ops_custom] [2026-10-29 11:44:14] copy new ops framework files ......
+[ops_custom] [2026-10-29 11:44:14] [INFO] upgrade op proto
+[ops_custom] [2026-10-29 11:44:14] [INFO] create /home/ma-user/work/ascend_lab_20261029/install/vendors/lab_sigmoid/op_proto.
+[ops_custom] [2026-10-29 11:44:14] copy new ops op_proto files ......
+[ops_custom] [2026-10-29 11:44:14] [INFO] upgrade op impl
+[ops_custom] [2026-10-29 11:44:14] [INFO] create /home/ma-user/work/ascend_lab_20261029/install/vendors/lab_sigmoid/op_impl.
+[ops_custom] [2026-10-29 11:44:14] copy new ops op_impl files ......
+[ops_custom] [2026-10-29 11:44:14] [INFO] upgrade op api
+[ops_custom] [2026-10-29 11:44:14] [INFO] create /home/ma-user/work/ascend_lab_20261029/install/vendors/lab_sigmoid/op_api.
+[ops_custom] [2026-10-29 11:44:14] copy new ops op_api files ......
+[ops_custom] [2026-10-29 11:44:14] [INFO] upgrade version.info
+[ops_custom] [2026-10-29 11:44:14] copy new version.info files ......
+[ops_custom] [2026-10-29 11:44:14] [INFO] no need to upgrade custom.proto files
+[ops_custom] [2026-10-29 11:44:14] [INFO] using requirements: when custom module install finished or before you run the custom module, execute the command [ source /home/ma-user/work/ascend_lab_20261029/install/vendors/lab_sigmoid/bin/set_env.bash ] to set the environment path
+SUCCESS
+gmake[1]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+Scanning dependencies of target ascendc_bin_ascend910b_sigmoid_custom_copy
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[100%] Built target ascendc_impl_gen
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[100%] Built target ascendc_bin_ascend910b_sigmoid_custom_copy
+Scanning dependencies of target ascendc_bin_ascend910b
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[100%] Built target ascendc_bin_ascend910b
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+Scanning dependencies of target ascendc_bin_ascend910b_sigmoid_custom_1
+Scanning dependencies of target ascendc_bin_ascend910b_sigmoid_custom_0
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[3]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[Ascend910B1] Generating SigmoidCustom_a3c9eb1f1b227778957282b95ed93786 ...
+[Ascend910B1] Generating SigmoidCustom_4404db5924972bdce81669f91b662475 ...
+[ERROR] TBE(51659,python3):2026-10-29-11:44:21.921.262 [../../../opc_tool/opc_common.py:223][_log_error] Traceback (most recent call last):
+  File "/home/ma-user/Ascend/ascend-toolkit/8.0.0/python/site-packages/opc_tool/op_compilation.py", line 590, in single_op_compilation
+    self.__op_compile_by_json_info(json_dict)
+  File "/home/ma-user/Ascend/ascend-toolkit/8.0.0/python/site-packages/opc_tool/op_compilation.py", line 451, in __op_compile_by_json_info
+    op_func_attr = self.get_op_func_attr(op_type, self.__opc_compile_args.get(OpcOptions.MAIN_FUNC),
+  File "/home/ma-user/Ascend/ascend-toolkit/8.0.0/python/site-packages/opc_tool/op_compilation.py", line 406, in get_op_func_attr
+    opm = is_valid_module_path(op_path)
+  File "/home/ma-user/Ascend/ascend-toolkit/8.0.0/python/site-packages/opc_tool/op_manager.py", line 391, in is_valid_module_path
+    spec.loader.exec_module(opm)
+[ERROR] TBE(51659,python3):2026-10-29-11:44:21.921.439 [../../../opc_tool/opc_common.py:223][_log_error]   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/op_kernel/binary/ascend910b/src/SigmoidCustom.py", line 16, in <module>
+    from impl.util.platform_adapter import tbe_register
+  File "/home/ma-user/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/impl/__init__.py", line 25, in <module>
+    from .reduce_mean_d import reduce_mean_d
+  File "/home/ma-user/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/impl/reduce_mean_d.py", line 25, in <module>
+    from impl.dynamic.reduce_mean_d import is_vir_type
+[ERROR] TBE(51659,python3):2026-10-29-11:44:21.921.496 [../../../opc_tool/opc_common.py:223][_log_error]   File "/home/ma-user/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/impl/dynamic/__init__.py", line 564, in <module>
+    from .sparse_apply_ftrl import sparse_apply_ftrl
+  File "/home/ma-user/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/impl/dynamic/sparse_apply_ftrl.py", line 18, in <module>
+    from distutils.command.config import config
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 666, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 565, in module_from_spec
+[ERROR] TBE(51659,python3):2026-10-29-11:44:21.921.546 [../../../opc_tool/opc_common.py:223][_log_error]   File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/_distutils_hack/__init__.py", line 88, in create_module
+    return importlib.import_module('setuptools._distutils')
+  File "/home/ma-user/anaconda3/envs/MindSpore/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+[ERROR] TBE(51659,python3):2026-10-29-11:44:21.921.593 [../../../opc_tool/opc_common.py:223][_log_error]   File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/pkg_resources/__init__.py", line 3243, in <module>
+    def _initialize_master_working_set():
+  File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside
+    f(*args, **kwargs)
+  File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/pkg_resources/__init__.py", line 559, in _build_master
+    ws = cls()
+[ERROR] TBE(51659,python3):2026-10-29-11:44:21.921.639 [../../../opc_tool/opc_common.py:223][_log_error]   File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/pkg_resources/__init__.py", line 552, in __init__
+    self.add_entry(entry)
+  File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/pkg_resources/__init__.py", line 608, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/pkg_resources/__init__.py", line 1964, in find_distributions
+    importer = get_importer(path_item)
+  File "/home/ma-user/anaconda3/envs/MindSpore/lib/python3.9/pkgutil.py", line 415, in get_importer
+    path_item = os.fsdecode(path_item)
+[ERROR] TBE(51659,python3):2026-10-29-11:44:21.921.685 [../../../opc_tool/opc_common.py:223][_log_error]   File "/home/ma-user/anaconda3/envs/MindSpore/lib/python3.9/os.py", line 822, in fsdecode
+    filename = fspath(filename)  # Does type-checking of `filename`.
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+[ERROR] TBE(51659,python3):2026-10-29-11:44:21.921.734 [../../../opc_tool/op_compilation.py:593][single_op_compilation] Compile failed, reason is: expected str, bytes or os.PathLike object, not NoneType.
+[ERROR] TBE(51659,python3):2026-10-29-11:44:21.922.179 [../../../opc_tool/opc.py:721][main] Opc tool compile failed.
+Opc tool start working now, please wait for a moment.
+/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/op_kernel/binary/ascend910b/bin/sigmoid_custom/SigmoidCustom_a3c9eb1f1b227778957282b95ed93786.json not generated!
+gmake[3]: *** [op_kernel/CMakeFiles/ascendc_bin_ascend910b_sigmoid_custom_0.dir/build.make:57: op_kernel/CMakeFiles/ascendc_bin_ascend910b_sigmoid_custom_0] Error 1
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: *** [CMakeFiles/Makefile2:391: op_kernel/CMakeFiles/ascendc_bin_ascend910b_sigmoid_custom_0.dir/all] Error 2
+gmake[2]: *** Waiting for unfinished jobs....
+[ERROR] TBE(51660,python3):2026-10-29-11:44:21.962.674 [../../../opc_tool/opc_common.py:223][_log_error] Traceback (most recent call last):
+  File "/home/ma-user/Ascend/ascend-toolkit/8.0.0/python/site-packages/opc_tool/op_compilation.py", line 590, in single_op_compilation
+    self.__op_compile_by_json_info(json_dict)
+  File "/home/ma-user/Ascend/ascend-toolkit/8.0.0/python/site-packages/opc_tool/op_compilation.py", line 451, in __op_compile_by_json_info
+    op_func_attr = self.get_op_func_attr(op_type, self.__opc_compile_args.get(OpcOptions.MAIN_FUNC),
+  File "/home/ma-user/Ascend/ascend-toolkit/8.0.0/python/site-packages/opc_tool/op_compilation.py", line 406, in get_op_func_attr
+    opm = is_valid_module_path(op_path)
+  File "/home/ma-user/Ascend/ascend-toolkit/8.0.0/python/site-packages/opc_tool/op_manager.py", line 391, in is_valid_module_path
+    spec.loader.exec_module(opm)
+[ERROR] TBE(51660,python3):2026-10-29-11:44:21.962.849 [../../../opc_tool/opc_common.py:223][_log_error]   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/op_kernel/binary/ascend910b/src/SigmoidCustom.py", line 16, in <module>
+    from impl.util.platform_adapter import tbe_register
+  File "/home/ma-user/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/impl/__init__.py", line 25, in <module>
+    from .reduce_mean_d import reduce_mean_d
+  File "/home/ma-user/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/impl/reduce_mean_d.py", line 25, in <module>
+    from impl.dynamic.reduce_mean_d import is_vir_type
+[ERROR] TBE(51660,python3):2026-10-29-11:44:21.962.904 [../../../opc_tool/opc_common.py:223][_log_error]   File "/home/ma-user/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/impl/dynamic/__init__.py", line 564, in <module>
+    from .sparse_apply_ftrl import sparse_apply_ftrl
+  File "/home/ma-user/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/impl/dynamic/sparse_apply_ftrl.py", line 18, in <module>
+    from distutils.command.config import config
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 666, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 565, in module_from_spec
+[ERROR] TBE(51660,python3):2026-10-29-11:44:21.962.955 [../../../opc_tool/opc_common.py:223][_log_error]   File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/_distutils_hack/__init__.py", line 88, in create_module
+    return importlib.import_module('setuptools._distutils')
+  File "/home/ma-user/anaconda3/envs/MindSpore/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+[ERROR] TBE(51660,python3):2026-10-29-11:44:21.963.004 [../../../opc_tool/opc_common.py:223][_log_error]   File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/pkg_resources/__init__.py", line 3243, in <module>
+    def _initialize_master_working_set():
+  File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside
+    f(*args, **kwargs)
+  File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/pkg_resources/__init__.py", line 559, in _build_master
+    ws = cls()
+[ERROR] TBE(51660,python3):2026-10-29-11:44:21.963.051 [../../../opc_tool/opc_common.py:223][_log_error]   File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/pkg_resources/__init__.py", line 552, in __init__
+    self.add_entry(entry)
+  File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/pkg_resources/__init__.py", line 608, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/home/ma-user/work/ascend_lab_20261029/venv/lib/python3.9/site-packages/pkg_resources/__init__.py", line 1964, in find_distributions
+    importer = get_importer(path_item)
+  File "/home/ma-user/anaconda3/envs/MindSpore/lib/python3.9/pkgutil.py", line 415, in get_importer
+    path_item = os.fsdecode(path_item)
+[ERROR] TBE(51660,python3):2026-10-29-11:44:21.963.096 [../../../opc_tool/opc_common.py:223][_log_error]   File "/home/ma-user/anaconda3/envs/MindSpore/lib/python3.9/os.py", line 822, in fsdecode
+    filename = fspath(filename)  # Does type-checking of `filename`.
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+[ERROR] TBE(51660,python3):2026-10-29-11:44:21.963.145 [../../../opc_tool/op_compilation.py:593][single_op_compilation] Compile failed, reason is: expected str, bytes or os.PathLike object, not NoneType.
+[ERROR] TBE(51660,python3):2026-10-29-11:44:21.963.620 [../../../opc_tool/opc.py:721][main] Opc tool compile failed.
+Opc tool start working now, please wait for a moment.
+/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/op_kernel/binary/ascend910b/bin/sigmoid_custom/SigmoidCustom_4404db5924972bdce81669f91b662475.json not generated!
+gmake[3]: *** [op_kernel/CMakeFiles/ascendc_bin_ascend910b_sigmoid_custom_1.dir/build.make:57: op_kernel/CMakeFiles/ascendc_bin_ascend910b_sigmoid_custom_1] Error 1
+gmake[3]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: *** [CMakeFiles/Makefile2:446: op_kernel/CMakeFiles/ascendc_bin_ascend910b_sigmoid_custom_1.dir/all] Error 2
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[1]: *** [CMakeFiles/Makefile2:425: op_kernel/CMakeFiles/binary.dir/rule] Error 2
+gmake[1]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake: *** [Makefile:303: binary] Error 2
+[ERROR] Kernel compile failed, the run package will not be generated.
+rm: unrecognized option '--install-path=/home/ma-user/work/ascend_lab_20261029/install'
+Try 'rm --help' for more information.
+gmake[1]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[ 23%] Built target modify_vendor
+[ 23%] Built target cust_tf_parsers
+[ 30%] Built target ops_info_gen_ascend910b
+[ 46%] Built target cust_optiling
+[ 61%] Built target cust_opapi
+[ 69%] Built target npu_supported_ops
+[ 76%] Built target ascendc_impl_gen
+[100%] Built target cust_op_proto
+[100%] Built target gen_version_info
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+[100%] Built target optiling_compat
+gmake[1]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out'
+Run CPack packaging tool...
+CPack: Create package using External
+CPack: Install projects
+CPack: - Run preinstall target for: opp
+CPack: - Install project: opp []
+CPack: Create package
+
+About to compress 576 KB of data...
+Adding files to archive named "custom_opp_euleros_aarch64.run"...
+./help.info
+./install.sh
+./packages/vendors/lab_sigmoid/framework/tensorflow/libcust_tf_parsers.so
+./packages/vendors/lab_sigmoid/framework/tensorflow/npu_supported_ops.json
+./packages/vendors/lab_sigmoid/op_api/include/aclnn_sigmoid_custom.h
+./packages/vendors/lab_sigmoid/op_api/lib/libcust_opapi.so
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/config/ascend910b/aic-ascend910b-ops-info.json
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/kernel/ascend910b/sigmoid_custom/
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/kernel/config/ascend910b/
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/lab_sigmoid_impl/dynamic/sigmoid_custom.cpp
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/lab_sigmoid_impl/dynamic/sigmoid_custom.py
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64/libcust_opmaster_rt2.0.so
+./packages/vendors/lab_sigmoid/op_impl/ai_core/tbe/op_tiling/liboptiling.so
+./packages/vendors/lab_sigmoid/op_proto/inc/op_proto.h
+./packages/vendors/lab_sigmoid/op_proto/lib/linux/aarch64/libcust_opsproto_rt2.0.so
+./packages/vendors/lab_sigmoid/version.info
+./upgrade.sh
+CRC: 92536260
+SHA256: 479182086dfc647934e9984830e3992988de1aaa32a3d6598b3d950fa0fe8c36
+Skipping md5sum at user request
+
+Self-extractable archive "custom_opp_euleros_aarch64.run" successfully created.
+Copy /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/_CPack_Packages/Linux/External/custom_opp_euleros_aarch64.run/custom_opp_euleros_aarch64.run to /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/
+CPack: - package: /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/build_out/custom_opp_euleros_aarch64.run.json generated.

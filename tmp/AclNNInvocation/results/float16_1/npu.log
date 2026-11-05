@@ -1,0 +1,6 @@
+ERROR: aclnnSigmoidCustomGetWorkspaceSize failed, code=361001: EZ1001: [PID: 55261] 2026-10-29-11:46:15.900.976 Get path and read binary_info_config.json failed, please check if the opp_kernel package is installed!
+        TraceBack (most recent call last):
+        Check NnopbaseCollecterWork(binCollecter.get()) failed
+        Assert ((NnopbaseInit()) == 0) failed
+        Check NnopbaseCreateExecutorSpace(&executorSpace) failed
+

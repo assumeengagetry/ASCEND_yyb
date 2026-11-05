@@ -1,0 +1,1 @@
+NPU_CALL_SUCCESS dtype=float16 shape=17 numel=17 device=0 workspace_bytes=0

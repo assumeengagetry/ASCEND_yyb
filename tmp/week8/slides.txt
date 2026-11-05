@@ -1,0 +1,331 @@
+
+--- ppt/slides/slide1.xml ---
+智能边缘计算
+实验课（第八周 
+– 
+云边协同实验）
+
+--- ppt/slides/slide2.xml ---
+云边协同计算
+什么是云边协同计算？
+云边协同计算是一种将云计算与边缘计算 相结合的计算模式，旨在通过合理分配计 算任务，使得数据处理既能够在靠近数据 源的地方高效完成，又能够利用云计算的 强大计算能力和资源。这种方式有助于解 决延迟敏感应用的需求，同时减轻云中心 的压力，提高整个系统的效率和响应速度。
+
+--- ppt/slides/slide3.xml ---
+云边协同类型
+云端训练、边缘推理
+云边协同推理
+AI
+计算协同
+云边协同类型种类丰富：
+资源协同、数据协同、智能协同、业务编排协同、应用管理协同、服务协同
+
+--- ppt/slides/slide4.xml ---
+云边端协同计算
+什么是云边端协同计算？
+云边端协同计算（
+Cloud-Edge-End Synergy Computing
+）是一种分布式计算模型，它结合了云计算、边缘计算和终端设备计算的优势，以 实现高效、低延迟和高可靠性的计算任务处理。这种模型特别适用于物联网（
+IoT
+）、自动驾驶、智能制造等需要实时处理大量数据的场景。
+
+--- ppt/slides/slide5.xml ---
+智能边缘平台 
+IEF
+1
+、注册并登录华为云账号
+https://id.
+cloud.huawei.com/
+2
+、登录智能边缘平台
+https://www.huaweicloud.com/product/ief.html
+3
+、进入智能边缘平台 
+IEF
+，选择就近地区，授权服务
+IEF 
+是华为云的云边协同平台，支持边缘节点管理、应用部署、数据协同和统一运维。
+
+--- ppt/slides/slide6.xml ---
+注册边缘节点
+注册边缘节点
+名称、描述任意填写
+AI
+加速卡选择不启用（以免产生费用）最后完成注册
+
+--- ppt/slides/slide7.xml ---
+注册边缘节点
+完成注册后，请选择
+arm64
+架构
+昇腾
+310
+处理器为
+64
+位
+arm
+架构
+下载
+Atlas200DK.tar.gz
+配置文件 
+EdgeCore Installer
+至本地
+PC
+（ 
+Atlas200DK
+为边缘节点名称）
+
+--- ppt/slides/slide8.xml ---
+注册边缘节点
+使用
+MobaXterm
+连接
+Atlas 200 DK
+设备点击
+上传
+按钮将
+Atlas200DK.tar.gz
+edge-installer_1.0.10_arm64.tar.gz
+上传至
+/home/HwHiAiUser
+或者通过
+OpenSSH
+连接
+Atlas 200 DK
+配合
+SCP
+命令进行上传
+命令解读：
+tar
+：用于打包和解包文件的工具
+参数
+z
+：使用
+gzip
+算法进行压缩或解压参数
+x
+：从归档文件中提取文件
+参数
+v
+：在处理过程中显示详细信息参数
+f
+：指定归档文件的名称
+参数
+C
+：解压至指定目录
+1
+、解压 
+edge-installer_1.0.10_arm64.tar.gz 
+至
+/opt
+目录下
+cd /home/HwHiAiUser
+sudo tar -zxvf edge-installer_1.0.10_arm64.tar.gz -C /opt
+
+--- ppt/slides/slide9.xml ---
+注册边缘节点
+2
+、解压 
+Atlas200DK.tar.gz 
+配置文件到
+/opt/IEF/Cert
+sudo mkdir -p /opt/IEF/Cert
+sudo tar -zxvf Atlas200DK.tar.gz -C /opt/IEF/Cert
+命令解读：
+mkdir
+：创建新目录
+参数
+p
+：创建多级目录，当需要创建的目录的
+父目录不存在时，自动创建所有必要的父目录。
+若提示不存在，请参照
+下一页
+安装
+3
+、检查 
+Docker
+docker -v
+4
+、安装边缘节点管理程序
+cd /opt/edge-installer sudo ./installer -op=install
+配置文件包含边缘节点管理程序与智能边缘平台的身份认证信息
+
+--- ppt/slides/slide10.xml ---
+Docker
+安装
+1
+、安装必要工具
+sudo apt-get update
+sudo apt-get -y install apt-transport-https ca-certificates curl software-properties-common
+2
+、安装
+GPG
+证书
+curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
+4
+、更新并安装
+Docker-CE
+sudo apt-get -y update
+sudo apt-get -y install docker-ce
+5
+、查看
+Docker
+版本
+docker -v
+什么是
+Docker CE
+？
+Docker CE (Community Edition) 
+是 
+Docker 
+公司提供的免费版本，它包含了构建、部署和运行容器所需的所有核心功能。
+GPG
+证书用于
+APT
+软件包管理工具确保下载
+Docker
+软件包的真实性和完整性
+3
+、添加
+Docker
+国内镜像源
+sudo add-apt-repository "deb [arch=
+arm
+64] https://mirrors.aliyun.com/docker-ce/linux/ubuntu $(lsb_release -cs) stable"
+
+--- ppt/slides/slide11.xml ---
+边缘节点
+安装完成后，边缘节点管理程序会自动启动，并与智能边缘平台连接
+
+--- ppt/slides/slide12.xml ---
+云边协同实验
+什么是
+MQTT
+协议？
+MQTT
+（ 
+Message Queuing Telemetry Transport Protocol
+，消息队列遥测传输协议
+） 
+是一种专门为物联网设计的轻量级消息协议，支持发布
+/
+订阅模式和多种
+QOS 
+级别。
+Mosquitto
+是支持
+MQTT 
+协议的应用程序。
+要实现 
+MQTT
+ 
+消息收发，需要服务端代理和客户端工具两个部分配合工作。
+官方文档：
+https://mosquitto.org/documentation/
+Mosquitto
+：
+MQTT 
+消息代理（
+Broker
+）。它是服务器端程序，负责接收、过滤和转发所有客户端的 
+MQTT 
+消息，是物联网消息通信的核心枢纽。
+Mosquitto-clients
+：
+MQTT 
+客户端工具包。包含 
+mosquitto_pub
+（发布消息）和 
+mosquitto_sub
+（订阅消息）等命令行工具，用于测试、调试或脚本中连接 
+Mosquitto 
+代理发送
+/
+接收消息。
+
+--- ppt/slides/slide13.xml ---
+云边协同实验
+-h
+：主机地址
+-t
+：
+MQTT
+主题
+-m
+：单条消息
+-f
+：传输文件路径
+-P
+：用户密码
+-u
+：用户名
+1
+、在 
+Atlas 200 DK
+ 
+上安装
+MQTT
+客户端和服务端，
+ 
+Atlas 200 DK
+充当边缘设备和服务端
+      sudo sed -i.bak 's|repo.huaweicloud.com|mirrors.aliyun.com|' /etc/apt/sources.list && sudo apt update && sudo apt install -y mosquitto mosquitto-clients; sudo mv /etc/apt/sources.list.bak /etc/apt/sources.list
+2
+、
+Windows
+上安装
+mosquitto
+，取消勾选不必要的组件，
+作为云端
+     
+点击下载
+3
+、打开
+Windows
+的
+CMD
+，将 
+mosquitto
+ 
+临时加入环境变量并订阅
+set "PATH=%PATH%;C:\Program Files\Mosquitto"          
+CMD
+$env:PATH = "$env:PATH;C:\Program Files\Mosquitto"    
+PowerShell
+mosquitto_sub -h 192.168.137.2 -t "test/topic"
+4
+、在 
+Atlas 200 DK 
+上发布消息
+mosquitto_pub -h 192.168.1
+37
+.2 -t "test/topic" -m "hello world"
+Mosuqitto
+部分参数
+替换为你的安装目录
+
+--- ppt/slides/slide14.xml ---
+云边协同实验
+请同学们使用编程实现（语言不限）
+用 
+Atlas 200 DK 
+连接温湿度传感器，读取环境温湿度，再通过
+MQTT
+协议传输给云端设备（即你的电脑）
+提示：支持
+MQTT
+协议的库有很多，常见的如
+Eclipse Paho
+：
+https://eclipse.dev/paho/
+Eclipse Mosquitto
+：
+https://mosquitto.org
+AIO-MQTT
+：
+https://aiomqtt.bo3hm.com
+也可以直接调用 
+Mosquitto_pub 
+命令
+请完成实验并记录实验过程文字和截图、代码以及结果截图等
+实验报告提交至
+雨课堂

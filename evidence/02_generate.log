@@ -1,0 +1,16 @@
+2026-10-29 11:38:14 (42810) - [INFO] Start to generate AI Core operator files. 
+2026-10-29 11:38:14 (42810) - [INFO] Start to parse the ir template:/home/ma-user/work/ascend_lab_20261029/sigmoid_custom.json 
+2026-10-29 11:38:14 (42810) - [INFO] Start to parse the op: SigmoidCustom 
+2026-10-29 11:38:14 (42810) - [INFO] Start to parse the input_desc: x 
+2026-10-29 11:38:14 (42810) - [INFO] Start to parse the output_desc: y 
+2026-10-29 11:38:14 (42810) - [WARNING] The "attr" value is invalid or no "attr" exists in the map. 
+2026-10-29 11:38:14 (42810) - [INFO] Start to check the type and format between the inputs/outputs in IR template. 
+2026-10-29 11:38:14 (42810) - [INFO] Start to generate a new project. 
+2026-10-29 11:38:14 (42810) - [WARNING] File /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/cmake/config.cmake already exists and will be overwrite! 
+2026-10-29 11:38:14 (42810) - [INFO] File /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/cmake/config.cmake generated successfully. 
+2026-10-29 11:38:14 (42810) - [INFO] File /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/op_host/sigmoid_custom_tiling.h generated successfully. 
+2026-10-29 11:38:14 (42810) - [INFO] File /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/op_host/sigmoid_custom.cpp generated successfully. 
+2026-10-29 11:38:14 (42810) - [INFO] File /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/op_kernel/sigmoid_custom.cpp generated successfully. 
+2026-10-29 11:38:14 (42810) - [INFO] File /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/framework/tf_plugin/tensorflow_sigmoid_custom_plugin.cc generated successfully. 
+2026-10-29 11:38:14 (42810) - [INFO] File /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/framework/tf_plugin/CMakeLists.txt generated successfully. 
+2026-10-29 11:38:14 (42810) - [INFO] Generation completed. 

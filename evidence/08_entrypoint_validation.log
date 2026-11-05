@@ -1,0 +1,10 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build
+gmake[1]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build'
+gmake[2]: Entering directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build'
+gmake[2]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build'
+[100%] Built target execute_sigmoid
+gmake[1]: Leaving directory '/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build'
+PASS dtype=float32 shape=17 numel=17 max_abs=5.47084544e-08 failed=0 rtol=0.0001 atol=1e-06
+SUMMARY 1/1 PASS; JSON=/home/ma-user/work/ascend_lab_20261029/evidence/wrapper_validation/verification.json

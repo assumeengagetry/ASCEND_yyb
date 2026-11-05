@@ -1,0 +1,73 @@
+DATE: 2026-10-29 Asia/Shanghai
+USER: ma-user
+ARCH: aarch64
+PYTHON: 3.9.10
+PYTHON_EXECUTABLE: /home/ma-user/work/ascend_lab_20261029/venv/bin/python
+PYTHON_HEADER: True
+attrs 23.2.0
+cython 3.0.2
+numpy 1.24.0
+decorator 5.1.1
+sympy 1.13.0
+cffi 1.16.0
+pyyaml 6.0.2
+pathlib2 2.3.7.post1
+psutil 6.0.0
+protobuf 3.20.0
+scipy 1.12.0
+requests 2.32.2
+absl-py 1.4.0
+
+$ cat /etc/os-release
+NAME="EulerOS"
+VERSION="2.0 (SP10)"
+ID="euleros"
+VERSION_ID="2.0"
+PRETTY_NAME="EulerOS 2.0 (SP10)"
+ANSI_COLOR="0;31"
+
+
+$ gcc --version
+gcc (GCC) 7.3.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+$ make --version
+GNU Make 4.3
+Built for aarch64-openEuler-linux-gnu
+Copyright (C) 1988-2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+$ cmake --version
+cmake version 3.16.5
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+
+$ npu-smi info
++------------------------------------------------------------------------------------------------+
+| npu-smi 25.5.1                   Version: 25.5.1                                               |
++---------------------------+---------------+----------------------------------------------------+
+| NPU   Name                | Health        | Power(W)    Temp(C)           Hugepages-Usage(page)|
+| Chip                      | Bus-Id        | AICore(%)   Memory-Usage(MB)  HBM-Usage(MB)        |
++===========================+===============+====================================================+
+| 7     910B4               | OK            | 86.3        39                0    / 0             |
+| 0                         | 0000:42:00.0  | 0           0    / 0          2844 / 32768         |
++===========================+===============+====================================================+
++---------------------------+---------------+----------------------------------------------------+
+| NPU     Chip              | Process id    | Process name             | Process memory(MB)      |
++===========================+===============+====================================================+
+| No running processes found in NPU 7                                                            |
++===========================+===============+====================================================+
+package_name=Ascend-cann-toolkit
+version=8.0.0
+innerversion=V100R001C20SPC001B251
+compatible_version=[V100R001C15],[V100R001C17],[V100R001C18],[V100R001C19],[V100R001C20]
+arch=aarch64
+os=linux
+path=/home/ma-user/Ascend/ascend-toolkit/8.0.0/aarch64-linux
+
+ASCEND_HOME_PATH= /home/ma-user/Ascend/ascend-toolkit/latest

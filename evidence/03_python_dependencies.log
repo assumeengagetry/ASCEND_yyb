@@ -1,0 +1,28 @@
+Looking in indexes: http://pip.modelarts.private.com:8888/repository/pypi/simple
+Collecting numpy==1.24.0
+  Downloading http://pip.modelarts.private.com:8888/repository/pypi/packages/numpy/1.24.0/numpy-1.24.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (14.0 MB)
+Collecting protobuf==3.20.0
+  Downloading http://pip.modelarts.private.com:8888/repository/pypi/packages/protobuf/3.20.0/protobuf-3.20.0-cp39-cp39-manylinux2014_aarch64.whl (917 kB)
+Installing collected packages: protobuf, numpy
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 3.20.2
+    Not uninstalling protobuf at /home/ma-user/anaconda3/envs/MindSpore/lib/python3.9/site-packages, outside environment /home/ma-user/work/ascend_lab_20261029/venv
+    Can't uninstall 'protobuf'. No files were found to uninstall.
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.23.0
+    Not uninstalling numpy at /home/ma-user/anaconda3/envs/MindSpore/lib/python3.9/site-packages, outside environment /home/ma-user/work/ascend_lab_20261029/venv
+    Can't uninstall 'numpy'. No files were found to uninstall.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+onnxconverter-common 1.14.0 requires protobuf==3.20.2, but you have protobuf 3.20.0 which is incompatible.
+onnx 1.17.0 requires protobuf>=3.20.2, but you have protobuf 3.20.0 which is incompatible.
+msit-surgeon 7.0.0rc2 requires setuptools>=63.2.0, but you have setuptools 58.1.0 which is incompatible.
+msit-compare 7.0.0rc2 requires protobuf==3.20.2, but you have protobuf 3.20.0 which is incompatible.
+msit-compare 7.0.0rc2 requires setuptools>=63.2.0, but you have setuptools 58.1.0 which is incompatible.
+grpcio-tools 1.60.0 requires protobuf<5.0dev,>=4.21.6, but you have protobuf 3.20.0 which is incompatible.
+modelarts 1.4.28 requires matplotlib==3.5.2, but you have matplotlib 3.7.3 which is incompatible.
+modelarts 1.4.28 requires prettytable<=3.7.0, but you have prettytable 3.12.0 which is incompatible.
+modelarts 1.4.28 requires psutil==5.9.5, but you have psutil 6.0.0 which is incompatible.
+modelarts 1.4.28 requires requests==2.31.0, but you have requests 2.32.2 which is incompatible.
+modelarts 1.4.28 requires typing-extensions==4.7.1, but you have typing-extensions 4.12.2 which is incompatible.
+modelarts 1.4.28 requires urllib3==1.26.18, but you have urllib3 1.26.7 which is incompatible.
+Successfully installed numpy-1.24.0 protobuf-3.20.0
