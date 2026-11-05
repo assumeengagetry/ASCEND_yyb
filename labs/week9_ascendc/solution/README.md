@@ -48,7 +48,7 @@ bash run.sh
 
 逐元素条件为 `abs(actual-reference) <= atol + rtol*abs(reference)`。float16 使用 atol=1e-3、rtol=1e-3；float32 使用 atol=1e-6、rtol=1e-4。16/16 PASS，所有失败元素数为0。float16 最大绝对误差约 2.44048503e-4，float32 约 1.02409965e-7。
 
-原始输入输出、float64 基准、每例 NPU 回显及结构化结果位于 `SigmoidCustom/AclNNInvocation/results/`。配置、依赖安装、编译、部署和调试回显位于 `evidence/`。完整 CANN Toolkit 为镜像预装，历史安装日志为2025年，本次未重新下载或安装 Toolkit。
+原始输入输出、float64 基准、每例 NPU 回显及结构化结果位于 `SigmoidCustom/AclNNInvocation/results/`。配置、依赖安装、编译、部署和调试回显位于同级目录外的 [`../evidence/`](../evidence/)。完整 CANN Toolkit 为镜像预装，历史安装日志为2025年，本次未重新下载或安装 Toolkit。
 
 ## 主要文件
 

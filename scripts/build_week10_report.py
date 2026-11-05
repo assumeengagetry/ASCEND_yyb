@@ -8,11 +8,13 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from PIL import Image,ImageDraw,ImageFont
 
-R=Path('/Users/apple/Workspace/ascend')
-E=R/'week10/evidence'
+R=Path(__file__).resolve().parents[1]
+E=R/'labs/week10_helloworld/evidence'
 T=R/'tmp/week10'
-OUT=R/'output'
-REF=OUT/'许盛凯_2024141460445_AscendC实验报告.docx'
+OUT=R/'output/week10'
+REF=R/'output/week9/许盛凯_2024141460445_AscendC实验报告.docx'
+OUT.mkdir(parents=True,exist_ok=True)
+T.mkdir(parents=True,exist_ok=True)
 assert hashlib.sha256(REF.read_bytes()).hexdigest()=='3d8234ee8065639d42bde24fa181c253890d0fee728330d7de269a1fe3319706'
 assert json.loads((E/'verification.json').read_text())['passed']
 name='2024141460445-许盛凯-第10讲（11月5日）-HelloWorld算子-实验报告'

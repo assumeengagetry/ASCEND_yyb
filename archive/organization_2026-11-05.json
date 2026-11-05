@@ -1,0 +1,2891 @@
+{
+  "date": "2026-11-05",
+  "root": "/Users/apple/Workspace/ascend",
+  "summary": {
+    "moved_entries": 25,
+    "relocated_files": 193,
+    "original_files_checked": 1578,
+    "unchanged_files": 1570,
+    "files_with_path_or_documentation_updates": 8,
+    "missing_files": 0,
+    "deleted_files": 0
+  },
+  "moves": [
+    {
+      "from": "CANN 环境搭建.pdf",
+      "to": "materials/courseware/CANN 环境搭建.pdf"
+    },
+    {
+      "from": "HelloWorld算子.pdf",
+      "to": "materials/courseware/HelloWorld算子.pdf"
+    },
+    {
+      "from": "华为云Ascend C算子开发环境搭建.pdf",
+      "to": "materials/courseware/华为云Ascend C算子开发环境搭建.pdf"
+    },
+    {
+      "from": "向量编程基础算子.pdf",
+      "to": "materials/courseware/向量编程基础算子.pdf"
+    },
+    {
+      "from": "向量编程进阶算子.pdf",
+      "to": "materials/courseware/向量编程进阶算子.pdf"
+    },
+    {
+      "from": "智能边缘计算第八周（云边协同实验） (1).ppt",
+      "to": "materials/courseware/智能边缘计算第八周（云边协同实验） (1).ppt"
+    },
+    {
+      "from": "矩阵运算性能探究.pdf",
+      "to": "materials/courseware/矩阵运算性能探究.pdf"
+    },
+    {
+      "from": "算子工程化开发及整网调用.pdf",
+      "to": "materials/courseware/算子工程化开发及整网调用.pdf"
+    },
+    {
+      "from": "Ascend C异构并行程序设计源代码.rar",
+      "to": "materials/source/Ascend C异构并行程序设计源代码.rar"
+    },
+    {
+      "from": "计算机（软件）学院学生实验报告格式 (1).docx",
+      "to": "materials/templates/计算机（软件）学院学生实验报告格式 (1).docx"
+    },
+    {
+      "from": "许盛凯_2024141460445_AscendC实验报告.docx",
+      "to": "archive/duplicates/许盛凯_2024141460445_AscendC实验报告.docx"
+    },
+    {
+      "from": "2024141460445-许盛凯-第9讲（10月29日）-华为云Ascend C算子开发环境搭建-实验报告.zip",
+      "to": "archive/duplicates/2024141460445-许盛凯-第9讲（10月29日）-华为云Ascend C算子开发环境搭建-实验报告.zip"
+    },
+    {
+      "from": "solution",
+      "to": "labs/week9_ascendc/solution"
+    },
+    {
+      "from": "evidence",
+      "to": "labs/week9_ascendc/evidence"
+    },
+    {
+      "from": "week10",
+      "to": "labs/week10_helloworld"
+    },
+    {
+      "from": "output/week8_atlas_dht11/云边协同实验报告.docx",
+      "to": "output/week8/云边协同实验报告.docx"
+    },
+    {
+      "from": "output/week8_atlas_dht11",
+      "to": "labs/week8_atlas_dht11"
+    },
+    {
+      "from": "output/Atlas200DK_DHT11云边协同实验材料.zip",
+      "to": "output/week8/Atlas200DK_DHT11云边协同实验材料.zip"
+    },
+    {
+      "from": "output/2024141460445-许盛凯-第9讲（10月29日）-华为云Ascend C算子开发环境搭建-实验报告.zip",
+      "to": "output/week9/2024141460445-许盛凯-第9讲（10月29日）-华为云Ascend C算子开发环境搭建-实验报告.zip"
+    },
+    {
+      "from": "output/许盛凯_2024141460445_AscendC实验报告.docx",
+      "to": "output/week9/许盛凯_2024141460445_AscendC实验报告.docx"
+    },
+    {
+      "from": "output/许盛凯_2024141460445_SigmoidCustom.zip",
+      "to": "output/week9/许盛凯_2024141460445_SigmoidCustom.zip"
+    },
+    {
+      "from": "output/2024141460445-许盛凯-第10讲（11月5日）-HelloWorld算子-实验报告.docx",
+      "to": "output/week10/2024141460445-许盛凯-第10讲（11月5日）-HelloWorld算子-实验报告.docx"
+    },
+    {
+      "from": "output/2024141460445-许盛凯-第10讲（11月5日）-HelloWorld算子-实验报告.zip",
+      "to": "output/week10/2024141460445-许盛凯-第10讲（11月5日）-HelloWorld算子-实验报告.zip"
+    },
+    {
+      "from": "scripts/build_report.py",
+      "to": "scripts/build_week9_report.py"
+    },
+    {
+      "from": "tmp/week8/build_report.py",
+      "to": "scripts/build_week8_report.py"
+    }
+  ],
+  "modified_files": [
+    {
+      "original_path": "solution/README.md",
+      "path": "labs/week9_ascendc/solution/README.md",
+      "sha256_before": "8ea29efcc45aa2664b9fbe23343624b3f2e4c213ad408c7aeb05e15d3a7e12f4",
+      "sha256_after": "07ce94f6484c8684c2a1989145316d401ad142ebd42a20d5bdc16e58a8ff3e40"
+    },
+    {
+      "original_path": "scripts/build_report.py",
+      "path": "scripts/build_week9_report.py",
+      "sha256_before": "a47df886ddce8aab0840a6df45fbdabe6132bd0cd6466f52f347d4221312ead7",
+      "sha256_after": "e99906ee1dc9985c7ddc328d87c657ff7f361b5954d32fe4c4a03d0258375703"
+    },
+    {
+      "original_path": "scripts/package_week10.py",
+      "path": "scripts/package_week10.py",
+      "sha256_before": "beb65c88c1819c9117d8377ccb37707a9dfa26323d4bb5b47d1c362e3ff664b5",
+      "sha256_after": "56c49b17592df61bb4001797a65a7dd697bd471fbdbd7098f40a125fa97c81f5"
+    },
+    {
+      "original_path": "scripts/build_week10_report.py",
+      "path": "scripts/build_week10_report.py",
+      "sha256_before": "c307a84bf227d4c114712ce3287ca8a59f0b1f78027f32e663acbb5f2b266e9f",
+      "sha256_after": "6dbe1254af876c8b7af70c0486f0ef2735fdafe4453701ee673e01b1d4d1451c"
+    },
+    {
+      "original_path": "tmp/week8/build_report.py",
+      "path": "scripts/build_week8_report.py",
+      "sha256_before": "3924e6f36a8f575638b0d681f341de370fed18ef691db219b4bf1a4db42bcd57",
+      "sha256_after": "1227afd0fd9a493c87e7c53e8ae97b3b1197866aa7c537c4734e3fd077827a50"
+    },
+    {
+      "original_path": "tmp/week10/verification.py",
+      "path": "tmp/week10/verification.py",
+      "sha256_before": "0a02ba93ce40ae2d3c17714724a64268234ff2edc50f209d23a4941aa496e4ca",
+      "sha256_after": "fb5a2abe06784b60d2388b9a76355851e93da0b09a34a2c972b41ebf1dfd23e6"
+    },
+    {
+      "original_path": "tmp/week10/template-style-evidence.json",
+      "path": "tmp/week10/template-style-evidence.json",
+      "sha256_before": "26a96f605ecc91dab5b822e67a66a7bfafcc06b71385e232e52bd50e03e58be4",
+      "sha256_after": "c6e8ddf344efa410b5b629a3cbf113fab7e69e2f98b233441d51399740ff2fc9"
+    },
+    {
+      "original_path": "tmp/week10/artifact.md",
+      "path": "tmp/week10/artifact.md",
+      "sha256_before": "d3a84d0a7223bf9a4020174236e6180ea371f611b9e28c0aa6d4dd4e2a567b64",
+      "sha256_after": "b36fadbf2ad37bbf1aa227823a7ac707a03d928ebf930c6fbbb5efad9d6f832d"
+    }
+  ],
+  "verification": {
+    "script_syntax_and_resolved_paths": {
+      "scripts/build_week8_report.py": "PASS",
+      "scripts/build_week9_report.py": "PASS",
+      "scripts/build_week10_report.py": "PASS",
+      "scripts/package_week10.py": "PASS",
+      "tmp/week10/verification.py": "PASS"
+    },
+    "unchanged_week10_style_reference_sha256": "3d8234ee8065639d42bde24fa181c253890d0fee728330d7de269a1fe3319706",
+    "zip_and_docx_integrity_passed": [
+      "materials/templates/计算机（软件）学院学生实验报告格式 (1).docx",
+      "output/week8/Atlas200DK_DHT11云边协同实验材料.zip",
+      "output/week8/云边协同实验报告.docx",
+      "output/week9/许盛凯_2024141460445_AscendC实验报告.docx",
+      "output/week9/许盛凯_2024141460445_SigmoidCustom.zip",
+      "output/week9/2024141460445-许盛凯-第9讲（10月29日）-华为云Ascend C算子开发环境搭建-实验报告.zip",
+      "output/week10/2024141460445-许盛凯-第10讲（11月5日）-HelloWorld算子-实验报告.zip",
+      "output/week10/2024141460445-许盛凯-第10讲（11月5日）-HelloWorld算子-实验报告.docx",
+      "archive/duplicates/许盛凯_2024141460445_AscendC实验报告.docx",
+      "archive/duplicates/2024141460445-许盛凯-第9讲（10月29日）-华为云Ascend C算子开发环境搭建-实验报告.zip"
+    ]
+  },
+  "relocated_files": [
+    {
+      "from": "计算机（软件）学院学生实验报告格式 (1).docx",
+      "to": "materials/templates/计算机（软件）学院学生实验报告格式 (1).docx",
+      "before": {
+        "type": "file",
+        "size": 17592,
+        "sha256": "6c1bc4cb671856adc8dccf69f31df0f4107a4d275cc3ceeaacf6e583e0a030da"
+      },
+      "after": {
+        "type": "file",
+        "size": 17592,
+        "sha256": "6c1bc4cb671856adc8dccf69f31df0f4107a4d275cc3ceeaacf6e583e0a030da"
+      }
+    },
+    {
+      "from": "智能边缘计算第八周（云边协同实验） (1).ppt",
+      "to": "materials/courseware/智能边缘计算第八周（云边协同实验） (1).ppt",
+      "before": {
+        "type": "file",
+        "size": 3136000,
+        "sha256": "f870844ea9426711e86dcad3748480363f003c8a6584cba27919cb9a4f0f2d44"
+      },
+      "after": {
+        "type": "file",
+        "size": 3136000,
+        "sha256": "f870844ea9426711e86dcad3748480363f003c8a6584cba27919cb9a4f0f2d44"
+      }
+    },
+    {
+      "from": "CANN 环境搭建.pdf",
+      "to": "materials/courseware/CANN 环境搭建.pdf",
+      "before": {
+        "type": "file",
+        "size": 693784,
+        "sha256": "a8f10cc0d0dd8e9592417b1fd4797659d410ce501015456549872743ec79666c"
+      },
+      "after": {
+        "type": "file",
+        "size": 693784,
+        "sha256": "a8f10cc0d0dd8e9592417b1fd4797659d410ce501015456549872743ec79666c"
+      }
+    },
+    {
+      "from": "Ascend C异构并行程序设计源代码.rar",
+      "to": "materials/source/Ascend C异构并行程序设计源代码.rar",
+      "before": {
+        "type": "file",
+        "size": 2160049,
+        "sha256": "47f0baf4e9933bf730e2c565b2afd0c871e046b9636bf45b146328c54a0e60ea"
+      },
+      "after": {
+        "type": "file",
+        "size": 2160049,
+        "sha256": "47f0baf4e9933bf730e2c565b2afd0c871e046b9636bf45b146328c54a0e60ea"
+      }
+    },
+    {
+      "from": "许盛凯_2024141460445_AscendC实验报告.docx",
+      "to": "archive/duplicates/许盛凯_2024141460445_AscendC实验报告.docx",
+      "before": {
+        "type": "file",
+        "size": 253738,
+        "sha256": "3d8234ee8065639d42bde24fa181c253890d0fee728330d7de269a1fe3319706"
+      },
+      "after": {
+        "type": "file",
+        "size": 253738,
+        "sha256": "3d8234ee8065639d42bde24fa181c253890d0fee728330d7de269a1fe3319706"
+      }
+    },
+    {
+      "from": "矩阵运算性能探究.pdf",
+      "to": "materials/courseware/矩阵运算性能探究.pdf",
+      "before": {
+        "type": "file",
+        "size": 439661,
+        "sha256": "7bcf854733182ca82514ecfb06a7000c9c14196af36608f0f1e7451a6fd40a6f"
+      },
+      "after": {
+        "type": "file",
+        "size": 439661,
+        "sha256": "7bcf854733182ca82514ecfb06a7000c9c14196af36608f0f1e7451a6fd40a6f"
+      }
+    },
+    {
+      "from": "HelloWorld算子.pdf",
+      "to": "materials/courseware/HelloWorld算子.pdf",
+      "before": {
+        "type": "file",
+        "size": 754311,
+        "sha256": "c505561d4c68a42dbc704ec172cf1734c9d99d1e555019885b089c76afd26ea7"
+      },
+      "after": {
+        "type": "file",
+        "size": 754311,
+        "sha256": "c505561d4c68a42dbc704ec172cf1734c9d99d1e555019885b089c76afd26ea7"
+      }
+    },
+    {
+      "from": "向量编程基础算子.pdf",
+      "to": "materials/courseware/向量编程基础算子.pdf",
+      "before": {
+        "type": "file",
+        "size": 451317,
+        "sha256": "c8bbea00cfc2982a40f2f15350c066aca03232f3a070acf25328e33133bc8509"
+      },
+      "after": {
+        "type": "file",
+        "size": 451317,
+        "sha256": "c8bbea00cfc2982a40f2f15350c066aca03232f3a070acf25328e33133bc8509"
+      }
+    },
+    {
+      "from": "算子工程化开发及整网调用.pdf",
+      "to": "materials/courseware/算子工程化开发及整网调用.pdf",
+      "before": {
+        "type": "file",
+        "size": 331636,
+        "sha256": "bf5bf42f59c1122980d4a27ae984b944dc5d67912882eb7544ceb455cb989c6e"
+      },
+      "after": {
+        "type": "file",
+        "size": 331636,
+        "sha256": "bf5bf42f59c1122980d4a27ae984b944dc5d67912882eb7544ceb455cb989c6e"
+      }
+    },
+    {
+      "from": "华为云Ascend C算子开发环境搭建.pdf",
+      "to": "materials/courseware/华为云Ascend C算子开发环境搭建.pdf",
+      "before": {
+        "type": "file",
+        "size": 1878206,
+        "sha256": "c45694aa8aa61c4e801f89c141808bb07f42d821745bfe99dceb7085042bf3c1"
+      },
+      "after": {
+        "type": "file",
+        "size": 1878206,
+        "sha256": "c45694aa8aa61c4e801f89c141808bb07f42d821745bfe99dceb7085042bf3c1"
+      }
+    },
+    {
+      "from": "向量编程进阶算子.pdf",
+      "to": "materials/courseware/向量编程进阶算子.pdf",
+      "before": {
+        "type": "file",
+        "size": 508175,
+        "sha256": "71a1aee88b966c387d3ab34b8b77c452b55127b52854ea7438dd1beab7615956"
+      },
+      "after": {
+        "type": "file",
+        "size": 508175,
+        "sha256": "71a1aee88b966c387d3ab34b8b77c452b55127b52854ea7438dd1beab7615956"
+      }
+    },
+    {
+      "from": "2024141460445-许盛凯-第9讲（10月29日）-华为云Ascend C算子开发环境搭建-实验报告.zip",
+      "to": "archive/duplicates/2024141460445-许盛凯-第9讲（10月29日）-华为云Ascend C算子开发环境搭建-实验报告.zip",
+      "before": {
+        "type": "file",
+        "size": 251545,
+        "sha256": "123110f32aff10d54b6238521aef5ef45c58025ed8b9bc2afb4301446dc0e089"
+      },
+      "after": {
+        "type": "file",
+        "size": 251545,
+        "sha256": "123110f32aff10d54b6238521aef5ef45c58025ed8b9bc2afb4301446dc0e089"
+      }
+    },
+    {
+      "from": "evidence/00_preinstalled_toolkit_history.log",
+      "to": "labs/week9_ascendc/evidence/00_preinstalled_toolkit_history.log",
+      "before": {
+        "type": "file",
+        "size": 1364,
+        "sha256": "da84cfd0365b5e41921b6aabd21bda1e43d9affd3b7a3ad5ac94d468c759489f"
+      },
+      "after": {
+        "type": "file",
+        "size": 1364,
+        "sha256": "da84cfd0365b5e41921b6aabd21bda1e43d9affd3b7a3ad5ac94d468c759489f"
+      }
+    },
+    {
+      "from": "evidence/01_environment.log",
+      "to": "labs/week9_ascendc/evidence/01_environment.log",
+      "before": {
+        "type": "file",
+        "size": 2881,
+        "sha256": "5af2804310e62509051295c1ca1c3db54f112c283ca87d09418e74ec98e10bbd"
+      },
+      "after": {
+        "type": "file",
+        "size": 2881,
+        "sha256": "5af2804310e62509051295c1ca1c3db54f112c283ca87d09418e74ec98e10bbd"
+      }
+    },
+    {
+      "from": "evidence/05_build.log",
+      "to": "labs/week9_ascendc/evidence/05_build.log",
+      "before": {
+        "type": "file",
+        "size": 30665,
+        "sha256": "b26ddfdc48c08ab3a91f09ad4bdd810b4245c7004f66722af1f5caccf2ed7b7c"
+      },
+      "after": {
+        "type": "file",
+        "size": 30665,
+        "sha256": "b26ddfdc48c08ab3a91f09ad4bdd810b4245c7004f66722af1f5caccf2ed7b7c"
+      }
+    },
+    {
+      "from": "evidence/07_npu_tests.log",
+      "to": "labs/week9_ascendc/evidence/07_npu_tests.log",
+      "before": {
+        "type": "file",
+        "size": 2602,
+        "sha256": "66fb3d4e8b63d6450a6f0d687c2218ebaac9a3f2fd70d2f8f3c05f44ae40b33a"
+      },
+      "after": {
+        "type": "file",
+        "size": 2602,
+        "sha256": "66fb3d4e8b63d6450a6f0d687c2218ebaac9a3f2fd70d2f8f3c05f44ae40b33a"
+      }
+    },
+    {
+      "from": "evidence/07b_reciprocal_precision.log",
+      "to": "labs/week9_ascendc/evidence/07b_reciprocal_precision.log",
+      "before": {
+        "type": "file",
+        "size": 2601,
+        "sha256": "3ba841ad65f3b6660928567cf8f247774f14806505f2fbf8cfbf0ff99a67ce4b"
+      },
+      "after": {
+        "type": "file",
+        "size": 2601,
+        "sha256": "3ba841ad65f3b6660928567cf8f247774f14806505f2fbf8cfbf0ff99a67ce4b"
+      }
+    },
+    {
+      "from": "evidence/06_install.log",
+      "to": "labs/week9_ascendc/evidence/06_install.log",
+      "before": {
+        "type": "file",
+        "size": 1640,
+        "sha256": "55bf699fd0ccf6b2f03870c0c7b8028ee2b54d86cc3133639a6c3dca24953655"
+      },
+      "after": {
+        "type": "file",
+        "size": 1640,
+        "sha256": "55bf699fd0ccf6b2f03870c0c7b8028ee2b54d86cc3133639a6c3dca24953655"
+      }
+    },
+    {
+      "from": "evidence/05b_kernel_build.log",
+      "to": "labs/week9_ascendc/evidence/05b_kernel_build.log",
+      "before": {
+        "type": "file",
+        "size": 8717,
+        "sha256": "00b3e94e94cf67c591151f11f03b3e15b3d01709afef1c651f96047d87c6d0f7"
+      },
+      "after": {
+        "type": "file",
+        "size": 8717,
+        "sha256": "00b3e94e94cf67c591151f11f03b3e15b3d01709afef1c651f96047d87c6d0f7"
+      }
+    },
+    {
+      "from": "evidence/03_python_dependencies.log",
+      "to": "labs/week9_ascendc/evidence/03_python_dependencies.log",
+      "before": {
+        "type": "file",
+        "size": 2557,
+        "sha256": "f74beab4896c37d01b05d15fd4d52e948ce3f7ef425f13133bc2b77ace561cbc"
+      },
+      "after": {
+        "type": "file",
+        "size": 2557,
+        "sha256": "f74beab4896c37d01b05d15fd4d52e948ce3f7ef425f13133bc2b77ace561cbc"
+      }
+    },
+    {
+      "from": "evidence/04_shell_and_tls.log",
+      "to": "labs/week9_ascendc/evidence/04_shell_and_tls.log",
+      "before": {
+        "type": "file",
+        "size": 473,
+        "sha256": "a7eb1e1fe1ddf405494cd2e95cb064ee7b04db14affe884bc9fb95008c75e12d"
+      },
+      "after": {
+        "type": "file",
+        "size": 473,
+        "sha256": "a7eb1e1fe1ddf405494cd2e95cb064ee7b04db14affe884bc9fb95008c75e12d"
+      }
+    },
+    {
+      "from": "evidence/07a_before_kernel_install.log",
+      "to": "labs/week9_ascendc/evidence/07a_before_kernel_install.log",
+      "before": {
+        "type": "file",
+        "size": 2765,
+        "sha256": "f10c85be8b766adc4bd55b52f1de6170a2fcdc23bc8c24db0e4c2789e4bbd7b4"
+      },
+      "after": {
+        "type": "file",
+        "size": 2765,
+        "sha256": "f10c85be8b766adc4bd55b52f1de6170a2fcdc23bc8c24db0e4c2789e4bbd7b4"
+      }
+    },
+    {
+      "from": "evidence/05c_precision_build.log",
+      "to": "labs/week9_ascendc/evidence/05c_precision_build.log",
+      "before": {
+        "type": "file",
+        "size": 8716,
+        "sha256": "d8c71a490a389daef8993a922b70f78a38a2d95331f18b7ca8aa6faba90a89a8"
+      },
+      "after": {
+        "type": "file",
+        "size": 8716,
+        "sha256": "d8c71a490a389daef8993a922b70f78a38a2d95331f18b7ca8aa6faba90a89a8"
+      }
+    },
+    {
+      "from": "evidence/08_entrypoint_validation.log",
+      "to": "labs/week9_ascendc/evidence/08_entrypoint_validation.log",
+      "before": {
+        "type": "file",
+        "size": 809,
+        "sha256": "1fbc5797bacbb45ad8a5d4ce397dd83a55b564aafed0d70df85c64cee1f7e177"
+      },
+      "after": {
+        "type": "file",
+        "size": 809,
+        "sha256": "1fbc5797bacbb45ad8a5d4ce397dd83a55b564aafed0d70df85c64cee1f7e177"
+      }
+    },
+    {
+      "from": "evidence/02_generate.log",
+      "to": "labs/week9_ascendc/evidence/02_generate.log",
+      "before": {
+        "type": "file",
+        "size": 1848,
+        "sha256": "806aa8ce36c032bfcc9eec38124490cac67ed76edfdde30d0c4605c1c1f1aa3d"
+      },
+      "after": {
+        "type": "file",
+        "size": 1848,
+        "sha256": "806aa8ce36c032bfcc9eec38124490cac67ed76edfdde30d0c4605c1c1f1aa3d"
+      }
+    },
+    {
+      "from": "evidence/bashrc.before",
+      "to": "labs/week9_ascendc/evidence/bashrc.before",
+      "before": {
+        "type": "file",
+        "size": 1764,
+        "sha256": "a78ce118f682d48e0aa164e4614f22b5cf537b398cf6812a5d1041d44ddbaec9"
+      },
+      "after": {
+        "type": "file",
+        "size": 1764,
+        "sha256": "a78ce118f682d48e0aa164e4614f22b5cf537b398cf6812a5d1041d44ddbaec9"
+      }
+    },
+    {
+      "from": "evidence/logs/sigmoid_binary.log",
+      "to": "labs/week9_ascendc/evidence/logs/sigmoid_binary.log",
+      "before": {
+        "type": "file",
+        "size": 3489,
+        "sha256": "e2313850a292689c50d3ca84028567ceb07ccf60f51f28f65f2f5dcc4ac684c1"
+      },
+      "after": {
+        "type": "file",
+        "size": 3489,
+        "sha256": "e2313850a292689c50d3ca84028567ceb07ccf60f51f28f65f2f5dcc4ac684c1"
+      }
+    },
+    {
+      "from": "evidence/logs/sigmoid_build.log",
+      "to": "labs/week9_ascendc/evidence/logs/sigmoid_build.log",
+      "before": {
+        "type": "file",
+        "size": 4764,
+        "sha256": "08288a1f90b31485362116202336fd663e68a4405ba1c4dad9939709f7edb932"
+      },
+      "after": {
+        "type": "file",
+        "size": 4764,
+        "sha256": "08288a1f90b31485362116202336fd663e68a4405ba1c4dad9939709f7edb932"
+      }
+    },
+    {
+      "from": "evidence/logs/sigmoid_configure.log",
+      "to": "labs/week9_ascendc/evidence/logs/sigmoid_configure.log",
+      "before": {
+        "type": "file",
+        "size": 206,
+        "sha256": "d2e82ef8a37992c34c4febb15ea586a7faa8890f2c6ed3686d0298af9ffb6a57"
+      },
+      "after": {
+        "type": "file",
+        "size": 206,
+        "sha256": "d2e82ef8a37992c34c4febb15ea586a7faa8890f2c6ed3686d0298af9ffb6a57"
+      }
+    },
+    {
+      "from": "evidence/logs/sigmoid_package.log",
+      "to": "labs/week9_ascendc/evidence/logs/sigmoid_package.log",
+      "before": {
+        "type": "file",
+        "size": 5337,
+        "sha256": "0c2c6c8414f41dee77cb163b2ee8281d8c46b5cb43f9e64d7e49adfa16b0ee4f"
+      },
+      "after": {
+        "type": "file",
+        "size": 5337,
+        "sha256": "0c2c6c8414f41dee77cb163b2ee8281d8c46b5cb43f9e64d7e49adfa16b0ee4f"
+      }
+    },
+    {
+      "from": "evidence/logs/sigmoid_install.log",
+      "to": "labs/week9_ascendc/evidence/logs/sigmoid_install.log",
+      "before": {
+        "type": "file",
+        "size": 1476,
+        "sha256": "92819c6166c3e5f190e47403bb66c6f3533eb12a59f9849a3a8506f697faacf4"
+      },
+      "after": {
+        "type": "file",
+        "size": 1476,
+        "sha256": "92819c6166c3e5f190e47403bb66c6f3533eb12a59f9849a3a8506f697faacf4"
+      }
+    },
+    {
+      "from": "output/许盛凯_2024141460445_AscendC实验报告.docx",
+      "to": "output/week9/许盛凯_2024141460445_AscendC实验报告.docx",
+      "before": {
+        "type": "file",
+        "size": 253738,
+        "sha256": "3d8234ee8065639d42bde24fa181c253890d0fee728330d7de269a1fe3319706"
+      },
+      "after": {
+        "type": "file",
+        "size": 253738,
+        "sha256": "3d8234ee8065639d42bde24fa181c253890d0fee728330d7de269a1fe3319706"
+      }
+    },
+    {
+      "from": "output/2024141460445-许盛凯-第10讲（11月5日）-HelloWorld算子-实验报告.zip",
+      "to": "output/week10/2024141460445-许盛凯-第10讲（11月5日）-HelloWorld算子-实验报告.zip",
+      "before": {
+        "type": "file",
+        "size": 200184,
+        "sha256": "19d2bbda2f5b4936556ed3a5bb947cdeb00a04256f0f4bb64c150aa4fb3505d5"
+      },
+      "after": {
+        "type": "file",
+        "size": 200184,
+        "sha256": "19d2bbda2f5b4936556ed3a5bb947cdeb00a04256f0f4bb64c150aa4fb3505d5"
+      }
+    },
+    {
+      "from": "output/许盛凯_2024141460445_SigmoidCustom.zip",
+      "to": "output/week9/许盛凯_2024141460445_SigmoidCustom.zip",
+      "before": {
+        "type": "file",
+        "size": 2301961,
+        "sha256": "02526123e04779f6de33fd81e43e9c2386b8fc6bc7c36a5b76c69361ff8a90f3"
+      },
+      "after": {
+        "type": "file",
+        "size": 2301961,
+        "sha256": "02526123e04779f6de33fd81e43e9c2386b8fc6bc7c36a5b76c69361ff8a90f3"
+      }
+    },
+    {
+      "from": "output/2024141460445-许盛凯-第10讲（11月5日）-HelloWorld算子-实验报告.docx",
+      "to": "output/week10/2024141460445-许盛凯-第10讲（11月5日）-HelloWorld算子-实验报告.docx",
+      "before": {
+        "type": "file",
+        "size": 113380,
+        "sha256": "4bd1b9b56cb3735c07baab9fa4251a6423ed5bc800bc72eb135d8f276d65a857"
+      },
+      "after": {
+        "type": "file",
+        "size": 113380,
+        "sha256": "4bd1b9b56cb3735c07baab9fa4251a6423ed5bc800bc72eb135d8f276d65a857"
+      }
+    },
+    {
+      "from": "output/Atlas200DK_DHT11云边协同实验材料.zip",
+      "to": "output/week8/Atlas200DK_DHT11云边协同实验材料.zip",
+      "before": {
+        "type": "file",
+        "size": 61058,
+        "sha256": "671d24eab5f2ed65afd22702cdec09426e3cdcdf3d83ff15a2af65b86672cb3d"
+      },
+      "after": {
+        "type": "file",
+        "size": 61058,
+        "sha256": "671d24eab5f2ed65afd22702cdec09426e3cdcdf3d83ff15a2af65b86672cb3d"
+      }
+    },
+    {
+      "from": "output/2024141460445-许盛凯-第9讲（10月29日）-华为云Ascend C算子开发环境搭建-实验报告.zip",
+      "to": "output/week9/2024141460445-许盛凯-第9讲（10月29日）-华为云Ascend C算子开发环境搭建-实验报告.zip",
+      "before": {
+        "type": "file",
+        "size": 251545,
+        "sha256": "123110f32aff10d54b6238521aef5ef45c58025ed8b9bc2afb4301446dc0e089"
+      },
+      "after": {
+        "type": "file",
+        "size": 251545,
+        "sha256": "123110f32aff10d54b6238521aef5ef45c58025ed8b9bc2afb4301446dc0e089"
+      }
+    },
+    {
+      "from": "output/week8_atlas_dht11/dht11_read.c",
+      "to": "labs/week8_atlas_dht11/dht11_read.c",
+      "before": {
+        "type": "file",
+        "size": 15004,
+        "sha256": "0dbf111ce08011334bfcf9041cfbc0c22e29e5040b6675f2c44e231beba6a488"
+      },
+      "after": {
+        "type": "file",
+        "size": 15004,
+        "sha256": "0dbf111ce08011334bfcf9041cfbc0c22e29e5040b6675f2c44e231beba6a488"
+      }
+    },
+    {
+      "from": "output/week8_atlas_dht11/云边协同实验报告.md",
+      "to": "labs/week8_atlas_dht11/云边协同实验报告.md",
+      "before": {
+        "type": "file",
+        "size": 12254,
+        "sha256": "bb75aeeebf53a82863ed19e34669ebc59018491253f6707a56e3f35ee274ba2d"
+      },
+      "after": {
+        "type": "file",
+        "size": 12254,
+        "sha256": "bb75aeeebf53a82863ed19e34669ebc59018491253f6707a56e3f35ee274ba2d"
+      }
+    },
+    {
+      "from": "output/week8_atlas_dht11/云边协同实验报告.docx",
+      "to": "output/week8/云边协同实验报告.docx",
+      "before": {
+        "type": "file",
+        "size": 44649,
+        "sha256": "e9c5cb1794c7b9f7a6c3fbdddd360811b2c00bdd61609055db843f060d6fb128"
+      },
+      "after": {
+        "type": "file",
+        "size": 44649,
+        "sha256": "e9c5cb1794c7b9f7a6c3fbdddd360811b2c00bdd61609055db843f060d6fb128"
+      }
+    },
+    {
+      "from": "output/week8_atlas_dht11/publish_dht11.py",
+      "to": "labs/week8_atlas_dht11/publish_dht11.py",
+      "before": {
+        "type": "file",
+        "size": 4587,
+        "sha256": "f03e1f5403b5705a75f98d056c254cb549e1b500d6c8ad34eb084a3cff47599f"
+      },
+      "after": {
+        "type": "file",
+        "size": 4587,
+        "sha256": "f03e1f5403b5705a75f98d056c254cb549e1b500d6c8ad34eb084a3cff47599f"
+      }
+    },
+    {
+      "from": "output/week8_atlas_dht11/实验操作指南.md",
+      "to": "labs/week8_atlas_dht11/实验操作指南.md",
+      "before": {
+        "type": "file",
+        "size": 11720,
+        "sha256": "8cd8c2d8b4af5383a626c208b8e1d11678837e8acd9b9af6f2dfbaee54517d75"
+      },
+      "after": {
+        "type": "file",
+        "size": 11720,
+        "sha256": "8cd8c2d8b4af5383a626c208b8e1d11678837e8acd9b9af6f2dfbaee54517d75"
+      }
+    },
+    {
+      "from": "output/week8_atlas_dht11/__pycache__/publish_dht11.cpython-312.pyc",
+      "to": "labs/week8_atlas_dht11/__pycache__/publish_dht11.cpython-312.pyc",
+      "before": {
+        "type": "file",
+        "size": 7176,
+        "sha256": "f3987630815a79e89773270efcf5aaccb47b36d47d9a828c3eca9b1661bfef1f"
+      },
+      "after": {
+        "type": "file",
+        "size": 7176,
+        "sha256": "f3987630815a79e89773270efcf5aaccb47b36d47d9a828c3eca9b1661bfef1f"
+      }
+    },
+    {
+      "from": "solution/requirements.txt",
+      "to": "labs/week9_ascendc/solution/requirements.txt",
+      "before": {
+        "type": "file",
+        "size": 199,
+        "sha256": "8d439b2e5205c968107f14536a1bacb09d9adef0e8a04cf7db26c77ce02b5ac6"
+      },
+      "after": {
+        "type": "file",
+        "size": 199,
+        "sha256": "8d439b2e5205c968107f14536a1bacb09d9adef0e8a04cf7db26c77ce02b5ac6"
+      }
+    },
+    {
+      "from": "solution/sigmoid_custom.json",
+      "to": "labs/week9_ascendc/solution/sigmoid_custom.json",
+      "before": {
+        "type": "file",
+        "size": 269,
+        "sha256": "a501474c488f39dfb1bd7b224b1467b2e4f2dcb4c20060bc4cc782c1652cc245"
+      },
+      "after": {
+        "type": "file",
+        "size": 269,
+        "sha256": "a501474c488f39dfb1bd7b224b1467b2e4f2dcb4c20060bc4cc782c1652cc245"
+      }
+    },
+    {
+      "from": "solution/README.md",
+      "to": "labs/week9_ascendc/solution/README.md",
+      "before": {
+        "type": "file",
+        "size": 3298,
+        "sha256": "8ea29efcc45aa2664b9fbe23343624b3f2e4c213ad408c7aeb05e15d3a7e12f4"
+      },
+      "after": {
+        "type": "file",
+        "size": 3335,
+        "sha256": "07ce94f6484c8684c2a1989145316d401ad142ebd42a20d5bdc16e58a8ff3e40"
+      }
+    },
+    {
+      "from": "solution/custom_opp_euleros_aarch64.run",
+      "to": "labs/week9_ascendc/solution/custom_opp_euleros_aarch64.run",
+      "before": {
+        "type": "file",
+        "size": 141663,
+        "sha256": "5de915084126289a180fef5e544a5066803674f7d6a4b50b2267a751899a0cc8"
+      },
+      "after": {
+        "type": "file",
+        "size": 141663,
+        "sha256": "5de915084126289a180fef5e544a5066803674f7d6a4b50b2267a751899a0cc8"
+      }
+    },
+    {
+      "from": "solution/setup_env.sh",
+      "to": "labs/week9_ascendc/solution/setup_env.sh",
+      "before": {
+        "type": "file",
+        "size": 194,
+        "sha256": "dbdd10be8cae5c7cc678357c64393b3720d5e878f2eae988f6d2d7092da8386a"
+      },
+      "after": {
+        "type": "file",
+        "size": 194,
+        "sha256": "dbdd10be8cae5c7cc678357c64393b3720d5e878f2eae988f6d2d7092da8386a"
+      }
+    },
+    {
+      "from": "solution/env.sh",
+      "to": "labs/week9_ascendc/solution/env.sh",
+      "before": {
+        "type": "file",
+        "size": 442,
+        "sha256": "4a5064a14353c7c4d9dabec80b583938be222d34511ffef36194e97893a86cba"
+      },
+      "after": {
+        "type": "file",
+        "size": 442,
+        "sha256": "4a5064a14353c7c4d9dabec80b583938be222d34511ffef36194e97893a86cba"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/CMakeLists.txt",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/CMakeLists.txt",
+      "before": {
+        "type": "file",
+        "size": 3120,
+        "sha256": "2e3b12955c48dfa5faed5c8502c5f300859b9effaf8d47d742355f5cbfd05d95"
+      },
+      "after": {
+        "type": "file",
+        "size": 3120,
+        "sha256": "2e3b12955c48dfa5faed5c8502c5f300859b9effaf8d47d742355f5cbfd05d95"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/rebuild.sh",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/rebuild.sh",
+      "before": {
+        "type": "file",
+        "size": 1325,
+        "sha256": "8af6e2d68876cad8db86937641641dac3e923820993359306c9b270c4f0180dc"
+      },
+      "after": {
+        "type": "file",
+        "size": 1325,
+        "sha256": "8af6e2d68876cad8db86937641641dac3e923820993359306c9b270c4f0180dc"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/run.sh",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/run.sh",
+      "before": {
+        "type": "file",
+        "size": 111,
+        "sha256": "4fa04f61e88c68ece9242e7dc71e7fd87240afa43e6d5ce04b341ec80c6957c7"
+      },
+      "after": {
+        "type": "file",
+        "size": 111,
+        "sha256": "4fa04f61e88c68ece9242e7dc71e7fd87240afa43e6d5ce04b341ec80c6957c7"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/CMakePresets.json",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/CMakePresets.json",
+      "before": {
+        "type": "file",
+        "size": 2031,
+        "sha256": "d8b8efef1ddf331dddbfbb21efd0c33651dbbd29ccf92c766b6636cc780fdc88"
+      },
+      "after": {
+        "type": "file",
+        "size": 2031,
+        "sha256": "d8b8efef1ddf331dddbfbb21efd0c33651dbbd29ccf92c766b6636cc780fdc88"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/build.sh",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/build.sh",
+      "before": {
+        "type": "file",
+        "size": 99,
+        "sha256": "81b17043e9925b4350b1846742e3bf50a9b165810c3f278eabc69d3c025efbe1"
+      },
+      "after": {
+        "type": "file",
+        "size": 99,
+        "sha256": "81b17043e9925b4350b1846742e3bf50a9b165810c3f278eabc69d3c025efbe1"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/op_host/CMakeLists.txt",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/op_host/CMakeLists.txt",
+      "before": {
+        "type": "file",
+        "size": 3306,
+        "sha256": "aabc6a4525c3e71f061071f226cfbbac3a9a322d6305d9d8a857213bb6886774"
+      },
+      "after": {
+        "type": "file",
+        "size": 3306,
+        "sha256": "aabc6a4525c3e71f061071f226cfbbac3a9a322d6305d9d8a857213bb6886774"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/op_host/sigmoid_custom_tiling.h",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/op_host/sigmoid_custom_tiling.h",
+      "before": {
+        "type": "file",
+        "size": 370,
+        "sha256": "d6a30c9d93ef98b9e091d7f7f9705c5def82cb1154c22925fee35d6b87ba0b1b"
+      },
+      "after": {
+        "type": "file",
+        "size": 370,
+        "sha256": "d6a30c9d93ef98b9e091d7f7f9705c5def82cb1154c22925fee35d6b87ba0b1b"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/op_host/sigmoid_custom.cpp",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/op_host/sigmoid_custom.cpp",
+      "before": {
+        "type": "file",
+        "size": 2692,
+        "sha256": "a37041b2b902354a2572c73fb707e82b95d03bc072d4a518222900a3f1f9ea7b"
+      },
+      "after": {
+        "type": "file",
+        "size": 2692,
+        "sha256": "a37041b2b902354a2572c73fb707e82b95d03bc072d4a518222900a3f1f9ea7b"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/func.cmake",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/func.cmake",
+      "before": {
+        "type": "file",
+        "size": 9508,
+        "sha256": "dd2967a22886524a01e7a6a0bd479f81661ad33769f3bb73b0d13d7ecc302032"
+      },
+      "after": {
+        "type": "file",
+        "size": 9508,
+        "sha256": "dd2967a22886524a01e7a6a0bd479f81661ad33769f3bb73b0d13d7ecc302032"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/intf.cmake",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/intf.cmake",
+      "before": {
+        "type": "file",
+        "size": 1033,
+        "sha256": "11f403bd112a3e399f59748476df1718d40872e4a689d05c8055dfed4a8258ba"
+      },
+      "after": {
+        "type": "file",
+        "size": 1033,
+        "sha256": "11f403bd112a3e399f59748476df1718d40872e4a689d05c8055dfed4a8258ba"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/makeself.cmake",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/makeself.cmake",
+      "before": {
+        "type": "file",
+        "size": 1378,
+        "sha256": "5dad2e99a567b68c3aaef20b005cc2c1bedc5a32c48fbd456543f9a7f124f12d"
+      },
+      "after": {
+        "type": "file",
+        "size": 1378,
+        "sha256": "5dad2e99a567b68c3aaef20b005cc2c1bedc5a32c48fbd456543f9a7f124f12d"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/config.cmake",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/config.cmake",
+      "before": {
+        "type": "file",
+        "size": 1332,
+        "sha256": "c4dc1ed5caf0df82467c7ad73d824df55a531b0ec7dcc17733015cfd21955fa7"
+      },
+      "after": {
+        "type": "file",
+        "size": 1332,
+        "sha256": "c4dc1ed5caf0df82467c7ad73d824df55a531b0ec7dcc17733015cfd21955fa7"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/tiling_data_def_build.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/tiling_data_def_build.py",
+      "before": {
+        "type": "file",
+        "size": 4084,
+        "sha256": "1c3275129b4d8c9cd751b98a040e093af1288fd1dc71086651ef4ab78c566ee1"
+      },
+      "after": {
+        "type": "file",
+        "size": 4084,
+        "sha256": "1c3275129b4d8c9cd751b98a040e093af1288fd1dc71086651ef4ab78c566ee1"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/kernel_entry.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/kernel_entry.py",
+      "before": {
+        "type": "file",
+        "size": 3832,
+        "sha256": "d281f010e29880f96bb78d1e49dc8e69d8e51f8c846baf0e300dd903d6ab6e2e"
+      },
+      "after": {
+        "type": "file",
+        "size": 3832,
+        "sha256": "d281f010e29880f96bb78d1e49dc8e69d8e51f8c846baf0e300dd903d6ab6e2e"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/insert_simplified_keys.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/insert_simplified_keys.py",
+      "before": {
+        "type": "file",
+        "size": 6421,
+        "sha256": "814ef477038700eb4c835b023b4da43bf0ed26ad748c46adb2fdbf8953c0bbe6"
+      },
+      "after": {
+        "type": "file",
+        "size": 6421,
+        "sha256": "814ef477038700eb4c835b023b4da43bf0ed26ad748c46adb2fdbf8953c0bbe6"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/batch_replay_impl.temp",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/batch_replay_impl.temp",
+      "before": {
+        "type": "file",
+        "size": 3772,
+        "sha256": "238ee50017d057ebac0936a1ea25e10ea5a3b7bbd4bfa5070f0a89f4f61bc129"
+      },
+      "after": {
+        "type": "file",
+        "size": 3772,
+        "sha256": "238ee50017d057ebac0936a1ea25e10ea5a3b7bbd4bfa5070f0a89f4f61bc129"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/const_var.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/const_var.py",
+      "before": {
+        "type": "file",
+        "size": 1416,
+        "sha256": "ac3d762f76d879e9e3020f7f30c81d3a6288aee342a3bccc08becc463fc13a88"
+      },
+      "after": {
+        "type": "file",
+        "size": 1416,
+        "sha256": "ac3d762f76d879e9e3020f7f30c81d3a6288aee342a3bccc08becc463fc13a88"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/gen_ops_filter.sh",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/gen_ops_filter.sh",
+      "before": {
+        "type": "file",
+        "size": 1444,
+        "sha256": "ddaf3d54512de6ea96caa53375bf395c618e7fa155e33721ada439d0a94a740d"
+      },
+      "after": {
+        "type": "file",
+        "size": 1444,
+        "sha256": "ddaf3d54512de6ea96caa53375bf395c618e7fa155e33721ada439d0a94a740d"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/gen_impl_and_mrege_json.sh",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/gen_impl_and_mrege_json.sh",
+      "before": {
+        "type": "file",
+        "size": 625,
+        "sha256": "2c7d4db976037f975b790ede7aaa402b67f91103943001db4aa58af120fe775f"
+      },
+      "after": {
+        "type": "file",
+        "size": 625,
+        "sha256": "2c7d4db976037f975b790ede7aaa402b67f91103943001db4aa58af120fe775f"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/gen_version_info.sh",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/gen_version_info.sh",
+      "before": {
+        "type": "file",
+        "size": 344,
+        "sha256": "315fd6e39203aef5a3fd068ea1db89467b1db7d9b9edc3df6d1925e7acf972c1"
+      },
+      "after": {
+        "type": "file",
+        "size": 344,
+        "sha256": "315fd6e39203aef5a3fd068ea1db89467b1db7d9b9edc3df6d1925e7acf972c1"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/opdesc_parser.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/opdesc_parser.py",
+      "before": {
+        "type": "file",
+        "size": 14144,
+        "sha256": "d00449b36fb724b7335a8151c75ead0e8dc122f34fad8afe012060c154ac267d"
+      },
+      "after": {
+        "type": "file",
+        "size": 14144,
+        "sha256": "d00449b36fb724b7335a8151c75ead0e8dc122f34fad8afe012060c154ac267d"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/parse_ini_to_json.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/parse_ini_to_json.py",
+      "before": {
+        "type": "file",
+        "size": 12849,
+        "sha256": "3ccfbf4fa811d9c2f275373a10cfc6f8a094a00f2787bc77989b43edfd6abaac"
+      },
+      "after": {
+        "type": "file",
+        "size": 12849,
+        "sha256": "3ccfbf4fa811d9c2f275373a10cfc6f8a094a00f2787bc77989b43edfd6abaac"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/__init__.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/__init__.py",
+      "before": {
+        "type": "file",
+        "size": 150,
+        "sha256": "e2bd25909256c6726bab98f6bd3fae193e0846fe60f05a9280770298a563d3e2"
+      },
+      "after": {
+        "type": "file",
+        "size": 150,
+        "sha256": "e2bd25909256c6726bab98f6bd3fae193e0846fe60f05a9280770298a563d3e2"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/preset_parse.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/preset_parse.py",
+      "before": {
+        "type": "file",
+        "size": 826,
+        "sha256": "0964169c3a2d5d540f7b00f8e33613468872c597d39ce3adb0faae46e88100b3"
+      },
+      "after": {
+        "type": "file",
+        "size": 826,
+        "sha256": "0964169c3a2d5d540f7b00f8e33613468872c597d39ce3adb0faae46e88100b3"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/code_channel_infer.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/code_channel_infer.py",
+      "before": {
+        "type": "file",
+        "size": 1539,
+        "sha256": "f3a2d5f4bfa0573409499206926ffc02f497e30c69fc24728ad0a1650d14e1de"
+      },
+      "after": {
+        "type": "file",
+        "size": 1539,
+        "sha256": "f3a2d5f4bfa0573409499206926ffc02f497e30c69fc24728ad0a1650d14e1de"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/merge_aicpu_info_json.sh",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/merge_aicpu_info_json.sh",
+      "before": {
+        "type": "file",
+        "size": 1111,
+        "sha256": "6c6817a440263bdc23f52fafccd211a2aa4c38ea7501e2ed1397121773477a4d"
+      },
+      "after": {
+        "type": "file",
+        "size": 1111,
+        "sha256": "6c6817a440263bdc23f52fafccd211a2aa4c38ea7501e2ed1397121773477a4d"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/insert_op_info.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/insert_op_info.py",
+      "before": {
+        "type": "file",
+        "size": 1062,
+        "sha256": "aa1e927cbb2e02fa00ed26a1e87623987115ffa9e2aba9663f8390826f332350"
+      },
+      "after": {
+        "type": "file",
+        "size": 1062,
+        "sha256": "aa1e927cbb2e02fa00ed26a1e87623987115ffa9e2aba9663f8390826f332350"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/replay_codegen.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/replay_codegen.py",
+      "before": {
+        "type": "file",
+        "size": 4422,
+        "sha256": "44f81f88c9fefcac35f52e04a81362aea3b52e0be01fb2e6b0278b40c6bd0a4e"
+      },
+      "after": {
+        "type": "file",
+        "size": 4422,
+        "sha256": "44f81f88c9fefcac35f52e04a81362aea3b52e0be01fb2e6b0278b40c6bd0a4e"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/ascendc_replay_build.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/ascendc_replay_build.py",
+      "before": {
+        "type": "file",
+        "size": 2647,
+        "sha256": "ac64ca2298ebf38a0503431cbe588c4c27e950a8d8104b9e22bf0ebb4a31178a"
+      },
+      "after": {
+        "type": "file",
+        "size": 2647,
+        "sha256": "ac64ca2298ebf38a0503431cbe588c4c27e950a8d8104b9e22bf0ebb4a31178a"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/ascendc_impl_build.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/ascendc_impl_build.py",
+      "before": {
+        "type": "file",
+        "size": 27696,
+        "sha256": "355e5bf4387f275caa435678605acd983f3e7f1c7fe8dd13fb639337420beec2"
+      },
+      "after": {
+        "type": "file",
+        "size": 27696,
+        "sha256": "355e5bf4387f275caa435678605acd983f3e7f1c7fe8dd13fb639337420beec2"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/ascendc_bin_param_build.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/ascendc_bin_param_build.py",
+      "before": {
+        "type": "file",
+        "size": 20726,
+        "sha256": "888e902f39bb8a9bb7a3f556f5e1b8718dab7d9557d8a6482c30294d7cb65a68"
+      },
+      "after": {
+        "type": "file",
+        "size": 20726,
+        "sha256": "888e902f39bb8a9bb7a3f556f5e1b8718dab7d9557d8a6482c30294d7cb65a68"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/replay_impl.temp",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/replay_impl.temp",
+      "before": {
+        "type": "file",
+        "size": 4087,
+        "sha256": "62ace6fd8527ba4c9b0436bb1bd622cef628fb081ab02d7162b8296639f007bb"
+      },
+      "after": {
+        "type": "file",
+        "size": 4087,
+        "sha256": "62ace6fd8527ba4c9b0436bb1bd622cef628fb081ab02d7162b8296639f007bb"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/ascendc_ops_config.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/ascendc_ops_config.py",
+      "before": {
+        "type": "file",
+        "size": 9995,
+        "sha256": "2e3fe358e67392f6745129babb281a12ca2c6e889f7af211dbb7946a3dcf3b88"
+      },
+      "after": {
+        "type": "file",
+        "size": 9995,
+        "sha256": "2e3fe358e67392f6745129babb281a12ca2c6e889f7af211dbb7946a3dcf3b88"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/ascendc_gen_options.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/ascendc_gen_options.py",
+      "before": {
+        "type": "file",
+        "size": 3265,
+        "sha256": "b113d776229198ef2b57079850fdb0b23ab35be3a9109dda8052a1837c22f6d2"
+      },
+      "after": {
+        "type": "file",
+        "size": 3265,
+        "sha256": "b113d776229198ef2b57079850fdb0b23ab35be3a9109dda8052a1837c22f6d2"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/kernel_impl.temp",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/kernel_impl.temp",
+      "before": {
+        "type": "file",
+        "size": 230,
+        "sha256": "19c0b31c6667f70974144856697e242044d5d3f3f8a4f63a019794e4cd7989a4"
+      },
+      "after": {
+        "type": "file",
+        "size": 230,
+        "sha256": "19c0b31c6667f70974144856697e242044d5d3f3f8a4f63a019794e4cd7989a4"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/makeself/run-tests.sh",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/makeself/run-tests.sh",
+      "before": {
+        "type": "file",
+        "size": 184,
+        "sha256": "c1c80a0e4cd6594beaeb0f40b02ea41052d6f775342564917a1b682fbe7a884a"
+      },
+      "after": {
+        "type": "file",
+        "size": 184,
+        "sha256": "c1c80a0e4cd6594beaeb0f40b02ea41052d6f775342564917a1b682fbe7a884a"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/makeself/makeself.sh",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/makeself/makeself.sh",
+      "before": {
+        "type": "file",
+        "size": 24965,
+        "sha256": "659fbca4ad9d2b3de3c53ec03d0fe89700a8483da0688d6ca4d7cfaca3c4701d"
+      },
+      "after": {
+        "type": "file",
+        "size": 24965,
+        "sha256": "659fbca4ad9d2b3de3c53ec03d0fe89700a8483da0688d6ca4d7cfaca3c4701d"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/makeself/make-release.sh",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/makeself/make-release.sh",
+      "before": {
+        "type": "file",
+        "size": 340,
+        "sha256": "910c4c84f5a5e42a1ac9e689769b2f0ca88a2f1b516c1fab2bd0c93b31486357"
+      },
+      "after": {
+        "type": "file",
+        "size": 340,
+        "sha256": "910c4c84f5a5e42a1ac9e689769b2f0ca88a2f1b516c1fab2bd0c93b31486357"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/makeself/README.md",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/makeself/README.md",
+      "before": {
+        "type": "file",
+        "size": 21900,
+        "sha256": "d7a4d8f7e4cabab02f0fd0fb384618e5b39899183822bb2accf7612d284ef9bc"
+      },
+      "after": {
+        "type": "file",
+        "size": 21900,
+        "sha256": "d7a4d8f7e4cabab02f0fd0fb384618e5b39899183822bb2accf7612d284ef9bc"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/makeself/COPYING",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/makeself/COPYING",
+      "before": {
+        "type": "file",
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      "after": {
+        "type": "file",
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/makeself/VERSION",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/makeself/VERSION",
+      "before": {
+        "type": "file",
+        "size": 6,
+        "sha256": "5d038a6af9998b1157a49314369f525e6ef8dc34201a1b596b175de1df722a7d"
+      },
+      "after": {
+        "type": "file",
+        "size": 6,
+        "sha256": "5d038a6af9998b1157a49314369f525e6ef8dc34201a1b596b175de1df722a7d"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/makeself/makeself.lsm",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/makeself/makeself.lsm",
+      "before": {
+        "type": "file",
+        "size": 820,
+        "sha256": "9a70bd763f9aa7e02f72d99ea01bd0d98882857b7d612e5e12ff36cf85e5a8f5"
+      },
+      "after": {
+        "type": "file",
+        "size": 820,
+        "sha256": "9a70bd763f9aa7e02f72d99ea01bd0d98882857b7d612e5e12ff36cf85e5a8f5"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/makeself/makeself-header.sh",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/makeself/makeself-header.sh",
+      "before": {
+        "type": "file",
+        "size": 17958,
+        "sha256": "a1055f6ac1afd3d3042f31e47b3e64338f8be1d84481919c13a343c280be63ed"
+      },
+      "after": {
+        "type": "file",
+        "size": 17958,
+        "sha256": "a1055f6ac1afd3d3042f31e47b3e64338f8be1d84481919c13a343c280be63ed"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/cmake/util/makeself/makeself.1",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/cmake/util/makeself/makeself.1",
+      "before": {
+        "type": "file",
+        "size": 3079,
+        "sha256": "0cdd0744a196a4b981d9df5a44fcc003b8eb244f3a2036e1f2ae9c853611fcc5"
+      },
+      "after": {
+        "type": "file",
+        "size": 3079,
+        "sha256": "0cdd0744a196a4b981d9df5a44fcc003b8eb244f3a2036e1f2ae9c853611fcc5"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/framework/CMakeLists.txt",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/framework/CMakeLists.txt",
+      "before": {
+        "type": "file",
+        "size": 385,
+        "sha256": "c39b72b4c61014fcd34138708d8bf7d94a9ee2f21036c564e6f533be9fa51f6e"
+      },
+      "after": {
+        "type": "file",
+        "size": 385,
+        "sha256": "c39b72b4c61014fcd34138708d8bf7d94a9ee2f21036c564e6f533be9fa51f6e"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/framework/tf_plugin/CMakeLists.txt",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/framework/tf_plugin/CMakeLists.txt",
+      "before": {
+        "type": "file",
+        "size": 579,
+        "sha256": "6cfbfc539ef122023f2a65ede222c1b023bbd412c99f699d983eb51a2bc185ed"
+      },
+      "after": {
+        "type": "file",
+        "size": 579,
+        "sha256": "6cfbfc539ef122023f2a65ede222c1b023bbd412c99f699d983eb51a2bc185ed"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/framework/tf_plugin/tensorflow_sigmoid_custom_plugin.cc",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/framework/tf_plugin/tensorflow_sigmoid_custom_plugin.cc",
+      "before": {
+        "type": "file",
+        "size": 870,
+        "sha256": "cdfd003e16dd26b5389f497a4ca015f7112e013b8756e510bb33f0f2f8569207"
+      },
+      "after": {
+        "type": "file",
+        "size": 870,
+        "sha256": "cdfd003e16dd26b5389f497a4ca015f7112e013b8756e510bb33f0f2f8569207"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/op_kernel/CMakeLists.txt",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/op_kernel/CMakeLists.txt",
+      "before": {
+        "type": "file",
+        "size": 2690,
+        "sha256": "43800adcf9dbb571461cfb01a3941a77e52e335325344085355bafc6e4d7455f"
+      },
+      "after": {
+        "type": "file",
+        "size": 2690,
+        "sha256": "43800adcf9dbb571461cfb01a3941a77e52e335325344085355bafc6e4d7455f"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/op_kernel/sigmoid_custom.cpp",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/op_kernel/sigmoid_custom.cpp",
+      "before": {
+        "type": "file",
+        "size": 4432,
+        "sha256": "f647c8d753d09fc37e99f4885c2e22108501dac1078d4fa21f81c0e41521e2a6"
+      },
+      "after": {
+        "type": "file",
+        "size": 4432,
+        "sha256": "f647c8d753d09fc37e99f4885c2e22108501dac1078d4fa21f81c0e41521e2a6"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/scripts/install.sh",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/scripts/install.sh",
+      "before": {
+        "type": "file",
+        "size": 9563,
+        "sha256": "78416d357bd34e64476c4d0c4d0d106e8348331678d5362d79aa1a15b4e72d03"
+      },
+      "after": {
+        "type": "file",
+        "size": 9563,
+        "sha256": "78416d357bd34e64476c4d0c4d0d106e8348331678d5362d79aa1a15b4e72d03"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/scripts/help.info",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/scripts/help.info",
+      "before": {
+        "type": "file",
+        "size": 81,
+        "sha256": "27067f1ec0a23a694ae80ec4a05bc68415a284fbaf509b1a9cc0234035c61e5b"
+      },
+      "after": {
+        "type": "file",
+        "size": 81,
+        "sha256": "27067f1ec0a23a694ae80ec4a05bc68415a284fbaf509b1a9cc0234035c61e5b"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/scripts/upgrade.sh",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/scripts/upgrade.sh",
+      "before": {
+        "type": "file",
+        "size": 4006,
+        "sha256": "93a827f178b288497ab8489c26305064e497c954dbd975caf6c48ce21ed281ea"
+      },
+      "after": {
+        "type": "file",
+        "size": 4006,
+        "sha256": "93a827f178b288497ab8489c26305064e497c954dbd975caf6c48ce21ed281ea"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/CMakeLists.txt",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/CMakeLists.txt",
+      "before": {
+        "type": "file",
+        "size": 1281,
+        "sha256": "7365fdee45aabfa9352202dbff656fd835e83803b8843a0c950ec28827419cf3"
+      },
+      "after": {
+        "type": "file",
+        "size": 1281,
+        "sha256": "7365fdee45aabfa9352202dbff656fd835e83803b8843a0c950ec28827419cf3"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/run.sh",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/run.sh",
+      "before": {
+        "type": "file",
+        "size": 650,
+        "sha256": "c974f94019645f8796b5f5ce20f30ea40df6fde26d47177dbef3b26454956e0d"
+      },
+      "after": {
+        "type": "file",
+        "size": 650,
+        "sha256": "c974f94019645f8796b5f5ce20f30ea40df6fde26d47177dbef3b26454956e0d"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/README.md",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/README.md",
+      "before": {
+        "type": "file",
+        "size": 1194,
+        "sha256": "ce3856b2d7013b22e47df52383ca351850e3b9e6dd011cf793f9a1c154430e2e"
+      },
+      "after": {
+        "type": "file",
+        "size": 1194,
+        "sha256": "ce3856b2d7013b22e47df52383ca351850e3b9e6dd011cf793f9a1c154430e2e"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/verify.py",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/verify.py",
+      "before": {
+        "type": "file",
+        "size": 5839,
+        "sha256": "f0b5273a1ef56a1678e73572d363a882d4e7385c359bea43f4e27c912d6e6ee6"
+      },
+      "after": {
+        "type": "file",
+        "size": 5839,
+        "sha256": "f0b5273a1ef56a1678e73572d363a882d4e7385c359bea43f4e27c912d6e6ee6"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/main.cpp",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/main.cpp",
+      "before": {
+        "type": "file",
+        "size": 5612,
+        "sha256": "8fde3ba19fa93658dbdae756dd9dc5172919eb6497d729aff3a94a3a93498f8a"
+      },
+      "after": {
+        "type": "file",
+        "size": 5612,
+        "sha256": "8fde3ba19fa93658dbdae756dd9dc5172919eb6497d729aff3a94a3a93498f8a"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/verification.json",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/verification.json",
+      "before": {
+        "type": "file",
+        "size": 13824,
+        "sha256": "c7b03cfedd3538aac2af42db75560653d7f2a65888a486e82e2c20bbd49e1917"
+      },
+      "after": {
+        "type": "file",
+        "size": 13824,
+        "sha256": "c7b03cfedd3538aac2af42db75560653d7f2a65888a486e82e2c20bbd49e1917"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_257/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_257/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 2056,
+        "sha256": "c9e2ae12199468d495d9e645561215f078acc485af9fbbeadb46233a0af6eb23"
+      },
+      "after": {
+        "type": "file",
+        "size": 2056,
+        "sha256": "c9e2ae12199468d495d9e645561215f078acc485af9fbbeadb46233a0af6eb23"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_257/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_257/npu.log",
+      "before": {
+        "type": "file",
+        "size": 78,
+        "sha256": "1eab958f10debb7354d432bc81b5a10582a4f27ffd7055ed2503b14de7bafc0e"
+      },
+      "after": {
+        "type": "file",
+        "size": 78,
+        "sha256": "1eab958f10debb7354d432bc81b5a10582a4f27ffd7055ed2503b14de7bafc0e"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_257/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_257/input.bin",
+      "before": {
+        "type": "file",
+        "size": 514,
+        "sha256": "d9d98d290588f12cadbb1710dfba7167e647a0bbe43899f0a02826ee003391c8"
+      },
+      "after": {
+        "type": "file",
+        "size": 514,
+        "sha256": "d9d98d290588f12cadbb1710dfba7167e647a0bbe43899f0a02826ee003391c8"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_257/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_257/output.bin",
+      "before": {
+        "type": "file",
+        "size": 514,
+        "sha256": "b49110425537436aa8e6dd1dd0f5dcb71189e4e700301ad06bd5d29ddb11e7f5"
+      },
+      "after": {
+        "type": "file",
+        "size": 514,
+        "sha256": "b49110425537436aa8e6dd1dd0f5dcb71189e4e700301ad06bd5d29ddb11e7f5"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_4096/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_4096/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 32768,
+        "sha256": "98b05da00658f608678e878c18f686c57cc096456bb04a937ecb68fce8e867e7"
+      },
+      "after": {
+        "type": "file",
+        "size": 32768,
+        "sha256": "98b05da00658f608678e878c18f686c57cc096456bb04a937ecb68fce8e867e7"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_4096/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_4096/npu.log",
+      "before": {
+        "type": "file",
+        "size": 80,
+        "sha256": "7206cf7c775d4e5a40c4394299923611edfb808ceed11962c6eaf27b35b26be6"
+      },
+      "after": {
+        "type": "file",
+        "size": 80,
+        "sha256": "7206cf7c775d4e5a40c4394299923611edfb808ceed11962c6eaf27b35b26be6"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_4096/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_4096/input.bin",
+      "before": {
+        "type": "file",
+        "size": 8192,
+        "sha256": "0914701adaa23632d56ac67c8a9b8571862390aaaa389831f785b13178d239f1"
+      },
+      "after": {
+        "type": "file",
+        "size": 8192,
+        "sha256": "0914701adaa23632d56ac67c8a9b8571862390aaaa389831f785b13178d239f1"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_4096/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_4096/output.bin",
+      "before": {
+        "type": "file",
+        "size": 8192,
+        "sha256": "0d7c1a455f7804ac7596358433779cbc8ac1ca6ea0b470e61a0f70e7cbf40e33"
+      },
+      "after": {
+        "type": "file",
+        "size": 8192,
+        "sha256": "0d7c1a455f7804ac7596358433779cbc8ac1ca6ea0b470e61a0f70e7cbf40e33"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_1/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_1/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 8,
+        "sha256": "7b651777705043ad45bbfa406391052142c1f9b0f713b49132ca518fba620cf2"
+      },
+      "after": {
+        "type": "file",
+        "size": 8,
+        "sha256": "7b651777705043ad45bbfa406391052142c1f9b0f713b49132ca518fba620cf2"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_1/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_1/npu.log",
+      "before": {
+        "type": "file",
+        "size": 74,
+        "sha256": "63d63bd883c1bc8f935d0ed20ad4a4ea83e4ef99a326cbfdba77bca79a0131bb"
+      },
+      "after": {
+        "type": "file",
+        "size": 74,
+        "sha256": "63d63bd883c1bc8f935d0ed20ad4a4ea83e4ef99a326cbfdba77bca79a0131bb"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_1/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_1/input.bin",
+      "before": {
+        "type": "file",
+        "size": 4,
+        "sha256": "d99e58435243d9fef9c88273b8d553b4fba4d0baf8009d29eae74fa99e0d9f57"
+      },
+      "after": {
+        "type": "file",
+        "size": 4,
+        "sha256": "d99e58435243d9fef9c88273b8d553b4fba4d0baf8009d29eae74fa99e0d9f57"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_1/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_1/output.bin",
+      "before": {
+        "type": "file",
+        "size": 4,
+        "sha256": "ec0f180db8a8d9a1da746edb4e55c724819b4454915c7e5570ce94bb36be8df7"
+      },
+      "after": {
+        "type": "file",
+        "size": 4,
+        "sha256": "ec0f180db8a8d9a1da746edb4e55c724819b4454915c7e5570ce94bb36be8df7"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_17/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_17/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 136,
+        "sha256": "e664de62f7c15b29b43584eb7434dd737865f532eef835c747c8651d916386aa"
+      },
+      "after": {
+        "type": "file",
+        "size": 136,
+        "sha256": "e664de62f7c15b29b43584eb7434dd737865f532eef835c747c8651d916386aa"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_17/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_17/npu.log",
+      "before": {
+        "type": "file",
+        "size": 76,
+        "sha256": "5bb43a7a14fe07ea705cf2b9200afd69c78a05c75597e948bdbe640dbe74a9ee"
+      },
+      "after": {
+        "type": "file",
+        "size": 76,
+        "sha256": "5bb43a7a14fe07ea705cf2b9200afd69c78a05c75597e948bdbe640dbe74a9ee"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_17/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_17/input.bin",
+      "before": {
+        "type": "file",
+        "size": 34,
+        "sha256": "4f9570ece048e2378adcd33e729d8ec330e96a73ad14fe8532e683f032b0478d"
+      },
+      "after": {
+        "type": "file",
+        "size": 34,
+        "sha256": "4f9570ece048e2378adcd33e729d8ec330e96a73ad14fe8532e683f032b0478d"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_17/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_17/output.bin",
+      "before": {
+        "type": "file",
+        "size": 34,
+        "sha256": "a02ebc72ff2e8f203c797944e161a8c5f9d66c059a2cb0f5af228e50c7cd62d0"
+      },
+      "after": {
+        "type": "file",
+        "size": 34,
+        "sha256": "a02ebc72ff2e8f203c797944e161a8c5f9d66c059a2cb0f5af228e50c7cd62d0"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_17/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_17/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 136,
+        "sha256": "e664de62f7c15b29b43584eb7434dd737865f532eef835c747c8651d916386aa"
+      },
+      "after": {
+        "type": "file",
+        "size": 136,
+        "sha256": "e664de62f7c15b29b43584eb7434dd737865f532eef835c747c8651d916386aa"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_17/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_17/npu.log",
+      "before": {
+        "type": "file",
+        "size": 76,
+        "sha256": "39541a1b6863a18da7a9902858c7aec59303497ad0d51ad26a6416e577f83033"
+      },
+      "after": {
+        "type": "file",
+        "size": 76,
+        "sha256": "39541a1b6863a18da7a9902858c7aec59303497ad0d51ad26a6416e577f83033"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_17/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_17/input.bin",
+      "before": {
+        "type": "file",
+        "size": 68,
+        "sha256": "f721ea8c78c1413a472c3e689b737948b39f858c3e08f663311916d073ead1b6"
+      },
+      "after": {
+        "type": "file",
+        "size": 68,
+        "sha256": "f721ea8c78c1413a472c3e689b737948b39f858c3e08f663311916d073ead1b6"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_17/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_17/output.bin",
+      "before": {
+        "type": "file",
+        "size": 68,
+        "sha256": "483be3cc9d8d330f03a162d297d6ed01153ca8c313bac147f6e4a16d84f1d0cf"
+      },
+      "after": {
+        "type": "file",
+        "size": 68,
+        "sha256": "483be3cc9d8d330f03a162d297d6ed01153ca8c313bac147f6e4a16d84f1d0cf"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_255/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_255/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 2040,
+        "sha256": "fc5e40a8c5e913fa1e9c31afdb34110e8ee66287b9d9eabc9f9294afa022e799"
+      },
+      "after": {
+        "type": "file",
+        "size": 2040,
+        "sha256": "fc5e40a8c5e913fa1e9c31afdb34110e8ee66287b9d9eabc9f9294afa022e799"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_255/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_255/npu.log",
+      "before": {
+        "type": "file",
+        "size": 78,
+        "sha256": "b402b9f296171218e0ea7de176092fe51681a38e9c4495a4240a2811e34bf1a3"
+      },
+      "after": {
+        "type": "file",
+        "size": 78,
+        "sha256": "b402b9f296171218e0ea7de176092fe51681a38e9c4495a4240a2811e34bf1a3"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_255/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_255/input.bin",
+      "before": {
+        "type": "file",
+        "size": 1020,
+        "sha256": "01934a10715007405bd9d807374193b61e36904a06d9d459fb9c730442b16855"
+      },
+      "after": {
+        "type": "file",
+        "size": 1020,
+        "sha256": "01934a10715007405bd9d807374193b61e36904a06d9d459fb9c730442b16855"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_255/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_255/output.bin",
+      "before": {
+        "type": "file",
+        "size": 1020,
+        "sha256": "28075504ae2e31238a26a3bf6e5c5f1b6354252f69f7928237e44419a68b199c"
+      },
+      "after": {
+        "type": "file",
+        "size": 1020,
+        "sha256": "28075504ae2e31238a26a3bf6e5c5f1b6354252f69f7928237e44419a68b199c"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_1/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_1/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 8,
+        "sha256": "7b651777705043ad45bbfa406391052142c1f9b0f713b49132ca518fba620cf2"
+      },
+      "after": {
+        "type": "file",
+        "size": 8,
+        "sha256": "7b651777705043ad45bbfa406391052142c1f9b0f713b49132ca518fba620cf2"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_1/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_1/npu.log",
+      "before": {
+        "type": "file",
+        "size": 74,
+        "sha256": "429d2b2fdead969f628d238a8e5169909364c206ca5fc5ff49d2ff2118ed7a45"
+      },
+      "after": {
+        "type": "file",
+        "size": 74,
+        "sha256": "429d2b2fdead969f628d238a8e5169909364c206ca5fc5ff49d2ff2118ed7a45"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_1/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_1/input.bin",
+      "before": {
+        "type": "file",
+        "size": 2,
+        "sha256": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a"
+      },
+      "after": {
+        "type": "file",
+        "size": 2,
+        "sha256": "195f58bc6d6b7b36335c95e08343825a7ae6f30437b4a7e6fa7b89d76907570a"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_1/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_1/output.bin",
+      "before": {
+        "type": "file",
+        "size": 2,
+        "sha256": "fdf799671c02ab219120737885b0e67ffae44837fd55acbc186786b04b6365ae"
+      },
+      "after": {
+        "type": "file",
+        "size": 2,
+        "sha256": "fdf799671c02ab219120737885b0e67ffae44837fd55acbc186786b04b6365ae"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_255/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_255/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 2040,
+        "sha256": "7657a74dc2ff351bb3b8bc5d1d55209a851255d994744db44aadfeb4dcbe7eb7"
+      },
+      "after": {
+        "type": "file",
+        "size": 2040,
+        "sha256": "7657a74dc2ff351bb3b8bc5d1d55209a851255d994744db44aadfeb4dcbe7eb7"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_255/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_255/npu.log",
+      "before": {
+        "type": "file",
+        "size": 78,
+        "sha256": "8b104204f76fc32d84b512882ff5300b0136da1adfd476aaa98374d755b01416"
+      },
+      "after": {
+        "type": "file",
+        "size": 78,
+        "sha256": "8b104204f76fc32d84b512882ff5300b0136da1adfd476aaa98374d755b01416"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_255/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_255/input.bin",
+      "before": {
+        "type": "file",
+        "size": 510,
+        "sha256": "e895fbd04d041fea8e56526703a9ae2a3340018048fd356ab90b9b02fe1b6631"
+      },
+      "after": {
+        "type": "file",
+        "size": 510,
+        "sha256": "e895fbd04d041fea8e56526703a9ae2a3340018048fd356ab90b9b02fe1b6631"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_255/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_255/output.bin",
+      "before": {
+        "type": "file",
+        "size": 510,
+        "sha256": "eefee0ea4d26de53bf0baf8c196613e438ff1bd97be2ccc20e38e5474468eada"
+      },
+      "after": {
+        "type": "file",
+        "size": 510,
+        "sha256": "eefee0ea4d26de53bf0baf8c196613e438ff1bd97be2ccc20e38e5474468eada"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_65536/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_65536/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 524288,
+        "sha256": "82ddb15fc2b78923390e0f9a0f5da47405b3f1086f14fd44e9528e0cfd4f37d5"
+      },
+      "after": {
+        "type": "file",
+        "size": 524288,
+        "sha256": "82ddb15fc2b78923390e0f9a0f5da47405b3f1086f14fd44e9528e0cfd4f37d5"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_65536/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_65536/npu.log",
+      "before": {
+        "type": "file",
+        "size": 82,
+        "sha256": "b5788be723fd8557834c0eb5163421e7166ee4805e1806c140802e473cf8379e"
+      },
+      "after": {
+        "type": "file",
+        "size": 82,
+        "sha256": "b5788be723fd8557834c0eb5163421e7166ee4805e1806c140802e473cf8379e"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_65536/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_65536/input.bin",
+      "before": {
+        "type": "file",
+        "size": 131072,
+        "sha256": "702991b414447695b9d5f6a673978830bfef2421a5a7c65ba3152f91d5d2d670"
+      },
+      "after": {
+        "type": "file",
+        "size": 131072,
+        "sha256": "702991b414447695b9d5f6a673978830bfef2421a5a7c65ba3152f91d5d2d670"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_65536/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_65536/output.bin",
+      "before": {
+        "type": "file",
+        "size": 131072,
+        "sha256": "8844a3b13c262023576df6ba89191cd1dc9398f744436a92b66427edb704d256"
+      },
+      "after": {
+        "type": "file",
+        "size": 131072,
+        "sha256": "8844a3b13c262023576df6ba89191cd1dc9398f744436a92b66427edb704d256"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_8x2048/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_8x2048/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 131072,
+        "sha256": "e0ef5f60f3cc4d17ed7add7eff0f4e542a919ee71033026035ce9a0c36fcbae4"
+      },
+      "after": {
+        "type": "file",
+        "size": 131072,
+        "sha256": "e0ef5f60f3cc4d17ed7add7eff0f4e542a919ee71033026035ce9a0c36fcbae4"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_8x2048/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_8x2048/npu.log",
+      "before": {
+        "type": "file",
+        "size": 83,
+        "sha256": "5dc904dcd76b0d466442ac8e2404caa075baeab60435525dc5a30ee0874669c5"
+      },
+      "after": {
+        "type": "file",
+        "size": 83,
+        "sha256": "5dc904dcd76b0d466442ac8e2404caa075baeab60435525dc5a30ee0874669c5"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_8x2048/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_8x2048/input.bin",
+      "before": {
+        "type": "file",
+        "size": 65536,
+        "sha256": "af00a3d450f190a91f5e03d04906de0b81b659a35b74c04dfb8d08eed445f682"
+      },
+      "after": {
+        "type": "file",
+        "size": 65536,
+        "sha256": "af00a3d450f190a91f5e03d04906de0b81b659a35b74c04dfb8d08eed445f682"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_8x2048/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_8x2048/output.bin",
+      "before": {
+        "type": "file",
+        "size": 65536,
+        "sha256": "d1f31ca0e3e15b0bbf2ba3889d0994155d01d219d697d58ac8faf89260d96615"
+      },
+      "after": {
+        "type": "file",
+        "size": 65536,
+        "sha256": "d1f31ca0e3e15b0bbf2ba3889d0994155d01d219d697d58ac8faf89260d96615"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_65536/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_65536/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 524288,
+        "sha256": "e0a5828c59e7468d79ffa55ac1e5820460a1580e0ab5524c5837336421940035"
+      },
+      "after": {
+        "type": "file",
+        "size": 524288,
+        "sha256": "e0a5828c59e7468d79ffa55ac1e5820460a1580e0ab5524c5837336421940035"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_65536/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_65536/npu.log",
+      "before": {
+        "type": "file",
+        "size": 82,
+        "sha256": "32b0be22f6bfa633160b56a8b47f7be9f7bae34296cd3acd2aaeca2eaf322479"
+      },
+      "after": {
+        "type": "file",
+        "size": 82,
+        "sha256": "32b0be22f6bfa633160b56a8b47f7be9f7bae34296cd3acd2aaeca2eaf322479"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_65536/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_65536/input.bin",
+      "before": {
+        "type": "file",
+        "size": 262144,
+        "sha256": "2768e2c3eae29496a00e9b1f23ac6afd2bda513f6f70f9ea1a26fd682afa59f3"
+      },
+      "after": {
+        "type": "file",
+        "size": 262144,
+        "sha256": "2768e2c3eae29496a00e9b1f23ac6afd2bda513f6f70f9ea1a26fd682afa59f3"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_65536/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_65536/output.bin",
+      "before": {
+        "type": "file",
+        "size": 262144,
+        "sha256": "168c2c2ec18927ec26d62047d8623c3a714c775a5b1a6a7bae79cf3c5e828bbe"
+      },
+      "after": {
+        "type": "file",
+        "size": 262144,
+        "sha256": "168c2c2ec18927ec26d62047d8623c3a714c775a5b1a6a7bae79cf3c5e828bbe"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_8x2048/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_8x2048/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 131072,
+        "sha256": "f57ea7b5d81593a3d9f0ed905eb1b46e0ac226c61f63eb9ec96ebcee4fe0e12d"
+      },
+      "after": {
+        "type": "file",
+        "size": 131072,
+        "sha256": "f57ea7b5d81593a3d9f0ed905eb1b46e0ac226c61f63eb9ec96ebcee4fe0e12d"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_8x2048/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_8x2048/npu.log",
+      "before": {
+        "type": "file",
+        "size": 83,
+        "sha256": "92ae715eb8d6f7f15aa80fcd53cec45148f01c1b0b38631b7ebaed37470e7273"
+      },
+      "after": {
+        "type": "file",
+        "size": 83,
+        "sha256": "92ae715eb8d6f7f15aa80fcd53cec45148f01c1b0b38631b7ebaed37470e7273"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_8x2048/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_8x2048/input.bin",
+      "before": {
+        "type": "file",
+        "size": 32768,
+        "sha256": "09b6a78c744359bbe151892d4fcc9f08521db702498886c1f30d04c8f8c90db8"
+      },
+      "after": {
+        "type": "file",
+        "size": 32768,
+        "sha256": "09b6a78c744359bbe151892d4fcc9f08521db702498886c1f30d04c8f8c90db8"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_8x2048/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_8x2048/output.bin",
+      "before": {
+        "type": "file",
+        "size": 32768,
+        "sha256": "1ec6eb1d18b34f1660c362deb4c8b75593e3f1163a34c84dd90a00bf2effc03d"
+      },
+      "after": {
+        "type": "file",
+        "size": 32768,
+        "sha256": "1ec6eb1d18b34f1660c362deb4c8b75593e3f1163a34c84dd90a00bf2effc03d"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_4096/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_4096/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 32768,
+        "sha256": "fa749a6852c449dd9b606b3106d136a0c5f8d9587b202f54537feaed9c03be47"
+      },
+      "after": {
+        "type": "file",
+        "size": 32768,
+        "sha256": "fa749a6852c449dd9b606b3106d136a0c5f8d9587b202f54537feaed9c03be47"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_4096/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_4096/npu.log",
+      "before": {
+        "type": "file",
+        "size": 80,
+        "sha256": "7cba606071b540436001dc2e34bc178f53f082106ba197fdc236ca72f3dc7f56"
+      },
+      "after": {
+        "type": "file",
+        "size": 80,
+        "sha256": "7cba606071b540436001dc2e34bc178f53f082106ba197fdc236ca72f3dc7f56"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_4096/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_4096/input.bin",
+      "before": {
+        "type": "file",
+        "size": 16384,
+        "sha256": "677d6461a18f3a1b0ba8c8a6c51e10c93f6f8d2ce9c1d5cdae48fb3b0fa700c3"
+      },
+      "after": {
+        "type": "file",
+        "size": 16384,
+        "sha256": "677d6461a18f3a1b0ba8c8a6c51e10c93f6f8d2ce9c1d5cdae48fb3b0fa700c3"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_4096/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_4096/output.bin",
+      "before": {
+        "type": "file",
+        "size": 16384,
+        "sha256": "da4460f77d1f1dc23df543da9e1da8614899545c58b7f19a0bec69198cad9de8"
+      },
+      "after": {
+        "type": "file",
+        "size": 16384,
+        "sha256": "da4460f77d1f1dc23df543da9e1da8614899545c58b7f19a0bec69198cad9de8"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_15/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_15/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 120,
+        "sha256": "0fe3bae338053c688d1d0007c7d385395606f59955b43570dece24d2b3162e76"
+      },
+      "after": {
+        "type": "file",
+        "size": 120,
+        "sha256": "0fe3bae338053c688d1d0007c7d385395606f59955b43570dece24d2b3162e76"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_15/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_15/npu.log",
+      "before": {
+        "type": "file",
+        "size": 76,
+        "sha256": "c261b1957cb8ae4f4495d27aa02545f10874d60d260d04ab6e4baba942541aab"
+      },
+      "after": {
+        "type": "file",
+        "size": 76,
+        "sha256": "c261b1957cb8ae4f4495d27aa02545f10874d60d260d04ab6e4baba942541aab"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_15/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_15/input.bin",
+      "before": {
+        "type": "file",
+        "size": 60,
+        "sha256": "bfb7f6e9cf31b4f1042414d0051299a2f70dc1f9c10c371b3bec07b3bdaafd91"
+      },
+      "after": {
+        "type": "file",
+        "size": 60,
+        "sha256": "bfb7f6e9cf31b4f1042414d0051299a2f70dc1f9c10c371b3bec07b3bdaafd91"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_15/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_15/output.bin",
+      "before": {
+        "type": "file",
+        "size": 60,
+        "sha256": "462aa477f9a7e044252157a2b5c8351a718284f612d4ab66532e5add770aa2ef"
+      },
+      "after": {
+        "type": "file",
+        "size": 60,
+        "sha256": "462aa477f9a7e044252157a2b5c8351a718284f612d4ab66532e5add770aa2ef"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_15/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_15/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 120,
+        "sha256": "0fe3bae338053c688d1d0007c7d385395606f59955b43570dece24d2b3162e76"
+      },
+      "after": {
+        "type": "file",
+        "size": 120,
+        "sha256": "0fe3bae338053c688d1d0007c7d385395606f59955b43570dece24d2b3162e76"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_15/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_15/npu.log",
+      "before": {
+        "type": "file",
+        "size": 76,
+        "sha256": "ba19846e4f2244a49f8daaea8623accc3762bef6726af159cbc733df6a6ccc6a"
+      },
+      "after": {
+        "type": "file",
+        "size": 76,
+        "sha256": "ba19846e4f2244a49f8daaea8623accc3762bef6726af159cbc733df6a6ccc6a"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_15/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_15/input.bin",
+      "before": {
+        "type": "file",
+        "size": 30,
+        "sha256": "2843ec44874b58ea80d51914d9e80250a9ea2db5ceb51d4b6b28f6251a8df705"
+      },
+      "after": {
+        "type": "file",
+        "size": 30,
+        "sha256": "2843ec44874b58ea80d51914d9e80250a9ea2db5ceb51d4b6b28f6251a8df705"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float16_15/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float16_15/output.bin",
+      "before": {
+        "type": "file",
+        "size": 30,
+        "sha256": "e93ffbda610630ba75732ad735f18598913876d0a0412b07fb6f505a33eacc37"
+      },
+      "after": {
+        "type": "file",
+        "size": 30,
+        "sha256": "e93ffbda610630ba75732ad735f18598913876d0a0412b07fb6f505a33eacc37"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_257/golden_float64.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_257/golden_float64.bin",
+      "before": {
+        "type": "file",
+        "size": 2056,
+        "sha256": "2ef8e9bc688add57e0c8d48471350ff20f2344d8713c55664c61394354e935f0"
+      },
+      "after": {
+        "type": "file",
+        "size": 2056,
+        "sha256": "2ef8e9bc688add57e0c8d48471350ff20f2344d8713c55664c61394354e935f0"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_257/npu.log",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_257/npu.log",
+      "before": {
+        "type": "file",
+        "size": 78,
+        "sha256": "ec926f445a2b26ff24aaaf84d80211544fdba18f7450e64ae366cec163f3a04b"
+      },
+      "after": {
+        "type": "file",
+        "size": 78,
+        "sha256": "ec926f445a2b26ff24aaaf84d80211544fdba18f7450e64ae366cec163f3a04b"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_257/input.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_257/input.bin",
+      "before": {
+        "type": "file",
+        "size": 1028,
+        "sha256": "c2087f16c9c6e9ef654493cb83159ed30adc749dc26fce2c434387fc0d9fda70"
+      },
+      "after": {
+        "type": "file",
+        "size": 1028,
+        "sha256": "c2087f16c9c6e9ef654493cb83159ed30adc749dc26fce2c434387fc0d9fda70"
+      }
+    },
+    {
+      "from": "solution/SigmoidCustom/AclNNInvocation/results/float32_257/output.bin",
+      "to": "labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results/float32_257/output.bin",
+      "before": {
+        "type": "file",
+        "size": 1028,
+        "sha256": "a1d3004c5a819acb7eda93136d7c7a811f257a85c6aeaabdd5803dfe448a3195"
+      },
+      "after": {
+        "type": "file",
+        "size": 1028,
+        "sha256": "a1d3004c5a819acb7eda93136d7c7a811f257a85c6aeaabdd5803dfe448a3195"
+      }
+    },
+    {
+      "from": "scripts/build_report.py",
+      "to": "scripts/build_week9_report.py",
+      "before": {
+        "type": "file",
+        "size": 19468,
+        "sha256": "a47df886ddce8aab0840a6df45fbdabe6132bd0cd6466f52f347d4221312ead7"
+      },
+      "after": {
+        "type": "file",
+        "size": 19524,
+        "sha256": "e99906ee1dc9985c7ddc328d87c657ff7f361b5954d32fe4c4a03d0258375703"
+      }
+    },
+    {
+      "from": "week10/README.md",
+      "to": "labs/week10_helloworld/README.md",
+      "before": {
+        "type": "file",
+        "size": 1902,
+        "sha256": "48e08fb9de9632ca0fec938ee6b61167db2d91f836b675739c5d0ca0b757400a"
+      },
+      "after": {
+        "type": "file",
+        "size": 1902,
+        "sha256": "48e08fb9de9632ca0fec938ee6b61167db2d91f836b675739c5d0ca0b757400a"
+      }
+    },
+    {
+      "from": "week10/evidence/verify_local_logs.py",
+      "to": "labs/week10_helloworld/evidence/verify_local_logs.py",
+      "before": {
+        "type": "file",
+        "size": 1119,
+        "sha256": "70a2a45279e2189088361a2c1e91ddc5515dfa052e8fbebca4c5d45a501204b7"
+      },
+      "after": {
+        "type": "file",
+        "size": 1119,
+        "sha256": "70a2a45279e2189088361a2c1e91ddc5515dfa052e8fbebca4c5d45a501204b7"
+      }
+    },
+    {
+      "from": "week10/evidence/01_environment.log",
+      "to": "labs/week10_helloworld/evidence/01_environment.log",
+      "before": {
+        "type": "file",
+        "size": 1942,
+        "sha256": "a56c81cb18191b3c95cd01a2bc53bd7002230f20739213b5bad531e345affdca"
+      },
+      "after": {
+        "type": "file",
+        "size": 1942,
+        "sha256": "a56c81cb18191b3c95cd01a2bc53bd7002230f20739213b5bad531e345affdca"
+      }
+    },
+    {
+      "from": "week10/evidence/06_npu_output_render.png",
+      "to": "labs/week10_helloworld/evidence/06_npu_output_render.png",
+      "before": {
+        "type": "file",
+        "size": 96049,
+        "sha256": "49b45f55d8c0e04ba262ccd6c0ae7a6148e62eaa4fd10f01c2efab16cdbfe252"
+      },
+      "after": {
+        "type": "file",
+        "size": 96049,
+        "sha256": "49b45f55d8c0e04ba262ccd6c0ae7a6148e62eaa4fd10f01c2efab16cdbfe252"
+      }
+    },
+    {
+      "from": "week10/evidence/05_binary_info.log",
+      "to": "labs/week10_helloworld/evidence/05_binary_info.log",
+      "before": {
+        "type": "file",
+        "size": 630,
+        "sha256": "9291ea2f3df128c0555abf31bf73185bb08529eddb8a0373173cb95bb8b73f10"
+      },
+      "after": {
+        "type": "file",
+        "size": 630,
+        "sha256": "9291ea2f3df128c0555abf31bf73185bb08529eddb8a0373173cb95bb8b73f10"
+      }
+    },
+    {
+      "from": "week10/evidence/02_build_and_run.log",
+      "to": "labs/week10_helloworld/evidence/02_build_and_run.log",
+      "before": {
+        "type": "file",
+        "size": 13732,
+        "sha256": "5e572ce1b1536af44eb7d1f5c6ddaf143a09f5635526585663875d4735c503e4"
+      },
+      "after": {
+        "type": "file",
+        "size": 13732,
+        "sha256": "5e572ce1b1536af44eb7d1f5c6ddaf143a09f5635526585663875d4735c503e4"
+      }
+    },
+    {
+      "from": "week10/evidence/verification.json",
+      "to": "labs/week10_helloworld/evidence/verification.json",
+      "before": {
+        "type": "file",
+        "size": 552,
+        "sha256": "59745997ce917a2fc73bd4f71140a2234dc6aabee0f8a12258e43492271a9485"
+      },
+      "after": {
+        "type": "file",
+        "size": 552,
+        "sha256": "59745997ce917a2fc73bd4f71140a2234dc6aabee0f8a12258e43492271a9485"
+      }
+    },
+    {
+      "from": "week10/evidence/03_npu_run.log",
+      "to": "labs/week10_helloworld/evidence/03_npu_run.log",
+      "before": {
+        "type": "file",
+        "size": 1747,
+        "sha256": "8a85639748115f49d61e08ad789dcd969fbb0741f6ebc64b223e2d655878a0ac"
+      },
+      "after": {
+        "type": "file",
+        "size": 1747,
+        "sha256": "8a85639748115f49d61e08ad789dcd969fbb0741f6ebc64b223e2d655878a0ac"
+      }
+    },
+    {
+      "from": "week10/evidence/04_output_msg.txt",
+      "to": "labs/week10_helloworld/evidence/04_output_msg.txt",
+      "before": {
+        "type": "file",
+        "size": 1712,
+        "sha256": "c9c7d15cfc0a986c07b3702966528d05b3a29e5488c70f284f2d5399b5b11ba5"
+      },
+      "after": {
+        "type": "file",
+        "size": 1712,
+        "sha256": "c9c7d15cfc0a986c07b3702966528d05b3a29e5488c70f284f2d5399b5b11ba5"
+      }
+    },
+    {
+      "from": "week10/Lab2_helloworld/CMakeLists.txt",
+      "to": "labs/week10_helloworld/Lab2_helloworld/CMakeLists.txt",
+      "before": {
+        "type": "file",
+        "size": 1438,
+        "sha256": "c497c4b598789c676e27d4dfa02cc55e0ecd9250d8c0c14ed0b5a0e011a589f6"
+      },
+      "after": {
+        "type": "file",
+        "size": 1438,
+        "sha256": "c497c4b598789c676e27d4dfa02cc55e0ecd9250d8c0c14ed0b5a0e011a589f6"
+      }
+    },
+    {
+      "from": "week10/Lab2_helloworld/run.sh",
+      "to": "labs/week10_helloworld/Lab2_helloworld/run.sh",
+      "before": {
+        "type": "file",
+        "size": 1150,
+        "sha256": "d09c808181636f38566525002ddc01c329e7c216a8d255ea1b6cd1396d6d7a8d"
+      },
+      "after": {
+        "type": "file",
+        "size": 1150,
+        "sha256": "d09c808181636f38566525002ddc01c329e7c216a8d255ea1b6cd1396d6d7a8d"
+      }
+    },
+    {
+      "from": "week10/Lab2_helloworld/README.md",
+      "to": "labs/week10_helloworld/Lab2_helloworld/README.md",
+      "before": {
+        "type": "file",
+        "size": 3664,
+        "sha256": "e230406abdce98b0a8e507752fafd4c3dcef27e4c87da4c4375edbc16cdd8fe6"
+      },
+      "after": {
+        "type": "file",
+        "size": 3664,
+        "sha256": "e230406abdce98b0a8e507752fafd4c3dcef27e4c87da4c4375edbc16cdd8fe6"
+      }
+    },
+    {
+      "from": "week10/Lab2_helloworld/hello_world.cpp",
+      "to": "labs/week10_helloworld/Lab2_helloworld/hello_world.cpp",
+      "before": {
+        "type": "file",
+        "size": 536,
+        "sha256": "7a79eca4e405a506d106ca90dc8589c4f25a0de84a79b1e18a822dab3a82f55b"
+      },
+      "after": {
+        "type": "file",
+        "size": 536,
+        "sha256": "7a79eca4e405a506d106ca90dc8589c4f25a0de84a79b1e18a822dab3a82f55b"
+      }
+    },
+    {
+      "from": "week10/Lab2_helloworld/main.cpp",
+      "to": "labs/week10_helloworld/Lab2_helloworld/main.cpp",
+      "before": {
+        "type": "file",
+        "size": 1089,
+        "sha256": "252255a819994fa3d07aa73a6a4f6e76e2baf5984c7ca163ce6a287e6658f156"
+      },
+      "after": {
+        "type": "file",
+        "size": 1089,
+        "sha256": "252255a819994fa3d07aa73a6a4f6e76e2baf5984c7ca163ce6a287e6658f156"
+      }
+    },
+    {
+      "from": "week10/Lab2_helloworld/output_msg.txt",
+      "to": "labs/week10_helloworld/Lab2_helloworld/output_msg.txt",
+      "before": {
+        "type": "file",
+        "size": 1712,
+        "sha256": "c9c7d15cfc0a986c07b3702966528d05b3a29e5488c70f284f2d5399b5b11ba5"
+      },
+      "after": {
+        "type": "file",
+        "size": 1712,
+        "sha256": "c9c7d15cfc0a986c07b3702966528d05b3a29e5488c70f284f2d5399b5b11ba5"
+      }
+    },
+    {
+      "from": "week10/original_source/CMakeLists.txt",
+      "to": "labs/week10_helloworld/original_source/CMakeLists.txt",
+      "before": {
+        "type": "file",
+        "size": 1437,
+        "sha256": "12fc33d5b5187d5de6e40ff712af4132a181f8eed9b21b95328b6b67e0fbca21"
+      },
+      "after": {
+        "type": "file",
+        "size": 1437,
+        "sha256": "12fc33d5b5187d5de6e40ff712af4132a181f8eed9b21b95328b6b67e0fbca21"
+      }
+    },
+    {
+      "from": "week10/original_source/run.sh",
+      "to": "labs/week10_helloworld/original_source/run.sh",
+      "before": {
+        "type": "file",
+        "size": 1301,
+        "sha256": "c4403c517f1171a3048e18b6db45d308d92b0c59f706e5f15a2e28915c29d31e"
+      },
+      "after": {
+        "type": "file",
+        "size": 1301,
+        "sha256": "c4403c517f1171a3048e18b6db45d308d92b0c59f706e5f15a2e28915c29d31e"
+      }
+    },
+    {
+      "from": "week10/original_source/README.md",
+      "to": "labs/week10_helloworld/original_source/README.md",
+      "before": {
+        "type": "file",
+        "size": 3664,
+        "sha256": "e230406abdce98b0a8e507752fafd4c3dcef27e4c87da4c4375edbc16cdd8fe6"
+      },
+      "after": {
+        "type": "file",
+        "size": 3664,
+        "sha256": "e230406abdce98b0a8e507752fafd4c3dcef27e4c87da4c4375edbc16cdd8fe6"
+      }
+    },
+    {
+      "from": "week10/original_source/hello_world.cpp",
+      "to": "labs/week10_helloworld/original_source/hello_world.cpp",
+      "before": {
+        "type": "file",
+        "size": 551,
+        "sha256": "f144df9b5f789ea83c4bacd42e8b919b17f0d81794dbf01f7b513ce74683dc63"
+      },
+      "after": {
+        "type": "file",
+        "size": 551,
+        "sha256": "f144df9b5f789ea83c4bacd42e8b919b17f0d81794dbf01f7b513ce74683dc63"
+      }
+    },
+    {
+      "from": "week10/original_source/main.cpp",
+      "to": "labs/week10_helloworld/original_source/main.cpp",
+      "before": {
+        "type": "file",
+        "size": 778,
+        "sha256": "51e95614dfede0b76d9752076b5b4d42b23bd70120d2f31fc7b5674f4651ad60"
+      },
+      "after": {
+        "type": "file",
+        "size": 778,
+        "sha256": "51e95614dfede0b76d9752076b5b4d42b23bd70120d2f31fc7b5674f4651ad60"
+      }
+    },
+    {
+      "from": "tmp/week8/build_report.py",
+      "to": "scripts/build_week8_report.py",
+      "before": {
+        "type": "file",
+        "size": 4491,
+        "sha256": "3924e6f36a8f575638b0d681f341de370fed18ef691db219b4bf1a4db42bcd57"
+      },
+      "after": {
+        "type": "file",
+        "size": 4520,
+        "sha256": "1227afd0fd9a493c87e7c53e8ae97b3b1197866aa7c537c4734e3fd077827a50"
+      }
+    }
+  ]
+}

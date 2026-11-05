@@ -5,7 +5,7 @@
 ## 目录
 
 - `Lab2_helloworld/`：完整可编译算子工程。
-- `evidence/`：环境、构建、两次NPU运行日志、结构化核验结果与真实屏显截图。
+- `evidence/`：环境、构建、两次NPU运行日志、结构化核验结果与原始回显排版图。
 - `original_source/`：用户提供RAR中“2.3.4调用一个昇腾算子”的原始代码。
 
 ## 实测环境及复现
@@ -27,3 +27,5 @@ bash run.sh -v Ascend910B4
 源自所提供的《Ascend C异构并行程序设计源代码.rar》内“2.3.4调用一个昇腾算子”，对应讲义的Lab2_helloworld。原始源码已包含printf及8核常量，不存在待填空占位符。本次保留核心逻辑，修改默认SOC为Ascend910B4，显式调用AscendC::printf，增加ACL返回值检查，并使脚本在编译/运行失败时立即停止、检查管道退出状态及问候行数。
 
 未修改系统Toolkit或Shell启动配置；工程位于云端持久目录 `/home/ma-user/work/ascend_week10_20261105/`。无需自定义OPP包安装。
+
+运行图说明：`evidence/06_npu_output_render.png` 由真实NPU日志排版生成，保留8组核编号、版本及问候语。图中仅省略冗长的打印缓冲区元数据；完整原始字段见03_npu_run.log。该图没有伪称为原生终端截图。

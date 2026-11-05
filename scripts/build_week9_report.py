@@ -7,13 +7,13 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 
-ROOT = Path('/Users/apple/Workspace/ascend')
-OUT = ROOT / 'output'
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / 'output/week9'
 FIG = ROOT / 'tmp/report_figures'
-OUT.mkdir(exist_ok=True)
+OUT.mkdir(parents=True, exist_ok=True)
 FIG.mkdir(parents=True, exist_ok=True)
-E = ROOT / 'evidence'
-RESULTS = ROOT / 'solution/SigmoidCustom/AclNNInvocation/results'
+E = ROOT / 'labs/week9_ascendc/evidence'
+RESULTS = ROOT / 'labs/week9_ascendc/solution/SigmoidCustom/AclNNInvocation/results'
 data = json.loads((RESULTS/'verification.json').read_text())
 assert data['passed_cases'] == data['total_cases'] == 16
 

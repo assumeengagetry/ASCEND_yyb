@@ -1,6 +1,6 @@
 from pathlib import Path
 import re,json,hashlib
-root=Path('/Users/apple/Workspace/ascend/week10')
+root=Path(__file__).resolve().parents[2]/'labs/week10_helloworld'
 logs=[root/'evidence/03_npu_run.log',root/'evidence/04_output_msg.txt']
 results=[]
 for path in logs:

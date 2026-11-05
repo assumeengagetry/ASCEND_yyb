@@ -1,0 +1,7 @@
+# macOS and Python generated files
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Local renders, font caches and scratch work (existing tracked files are retained)
+/tmp/

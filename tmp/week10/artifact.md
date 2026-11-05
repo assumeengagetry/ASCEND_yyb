@@ -2,7 +2,7 @@
 
 ## Reference and evidence
 
-- Authority: `/Users/apple/Workspace/ascend/output/许盛凯_2024141460445_AscendC实验报告.docx`, SHA-256 `3d8234ee8065639d42bde24fa181c253890d0fee728330d7de269a1fe3319706`.
+- Authority: `/Users/apple/Workspace/ascend/output/week9/许盛凯_2024141460445_AscendC实验报告.docx`, SHA-256 `3d8234ee8065639d42bde24fa181c253890d0fee728330d7de269a1fe3319706`.
 - Reference has 7 rendered pages, 1 portrait section, 81 top-level body paragraphs, 6 tables and 5 inline PNGs. It is a content-rich prior report, not a blank form. It must remain unchanged.
 - Fresh reference render: `/Users/apple/Workspace/ascend/tmp/week10/template-reference-render/`, all 7 pages visually inspected. Existing earlier render is `/Users/apple/Workspace/ascend/tmp/report_render_final/`.
 - Style audit: `template-style-evidence.json`. Package inventory with size and SHA-256 for all 23 parts: `template-package-inventory.json`.
