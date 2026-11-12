@@ -1,0 +1,1 @@
+NPU_CALL_SUCCESS blockDim=8 elements=16384 dtype=float32 bytes=65536

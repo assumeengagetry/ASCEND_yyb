@@ -1,0 +1,2 @@
+[DATA] case=all_negative seed=20261112 dtype=float32 shape=8x2048 elements=16384 bytes=65536
+[DATA] sum_counts={"negative": 16384, "positive": 0, "zero": 0}

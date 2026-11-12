@@ -1,0 +1,17 @@
+[VERIFY] elements=16384 failed=0 max_abs_error=0 rtol=1e-06 atol=1e-06
+[VERIFY] sum_counts={"negative": 8162, "positive": 8123, "zero": 99}
+[VERIFY] core_failed_counts=[0, 0, 0, 0, 0, 0, 0, 0]
+[VERIFY] first 12 elements: index x y sum expected actual
+    0 -10 -10 -20 +0 +0
+    1 +10 +10 +20 +20 +20
+    2 -10 +10 +0 +0 +0
+    3 +10 -10 +0 +0 +0
+    4 +0 +0 +0 +0 +0
+    5 -3 +1 -2 +0 +0
+    6 +3 -1 +2 +2 +2
+    7 +1 -3 -2 +0 +0
+    8 -1 +3 +2 +2 +2
+    9 +1.00000012 -1 +1.1920929e-07 +1.1920929e-07 +1.1920929e-07
+   10 +0.99999994 -1 -5.96046448e-08 +0 +0
+   11 +1 -0.99999994 +5.96046448e-08 +5.96046448e-08 +5.96046448e-08
+test pass

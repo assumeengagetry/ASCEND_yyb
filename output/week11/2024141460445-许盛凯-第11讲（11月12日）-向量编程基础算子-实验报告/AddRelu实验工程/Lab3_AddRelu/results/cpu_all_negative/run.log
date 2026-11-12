@@ -1,0 +1,17 @@
+[TmSim]: Run in serial mode.
+[TmSim]: Run in serial mode.
+[TmSim]: Run in serial mode.
+[TmSim]: Run in serial mode.
+[TmSim]: Run in serial mode.
+[TmSim]: Run in serial mode.
+[TmSim]: Run in serial mode.
+[TmSim]: Run in serial mode.
+[SUCCESS][CORE_0][pid 15553] exit success!
+[SUCCESS][CORE_1][pid 15554] exit success!
+[SUCCESS][CORE_2][pid 15555] exit success!
+[SUCCESS][CORE_3][pid 15556] exit success!
+[SUCCESS][CORE_4][pid 15557] exit success!
+[SUCCESS][CORE_5][pid 15558] exit success!
+[SUCCESS][CORE_6][pid 15559] exit success!
+[SUCCESS][CORE_7][pid 15560] exit success!
+CPU_CALL_SUCCESS blockDim=8 elements=16384 dtype=float32 bytes=65536

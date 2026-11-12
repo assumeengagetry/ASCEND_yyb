@@ -1,0 +1,1576 @@
+{
+  "total_cases": 10,
+  "passed_cases": 10,
+  "cases": [
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-06,
+      "atol": 1e-06,
+      "golden_matches_independent_reference": true,
+      "all_finite": true,
+      "all_nonnegative": true,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "sum_counts": {
+        "negative": 16384,
+        "zero": 0,
+        "positive": 0
+      },
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": -1.262608289718628,
+          "y": -7.611732482910156,
+          "sum": -8.874341011047363,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": -9.0037260055542,
+          "y": -2.954087257385254,
+          "sum": -11.957813262939453,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": -6.564745903015137,
+          "y": -6.558463096618652,
+          "sum": -13.123208999633789,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": -1.1543710231781006,
+          "y": -8.715066909790039,
+          "sum": -9.869438171386719,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": -8.781158447265625,
+          "y": -8.036849021911621,
+          "sum": -16.818008422851562,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": -6.70781946182251,
+          "y": -0.3950622081756592,
+          "sum": -7.10288143157959,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": -6.797309875488281,
+          "y": -1.917392611503601,
+          "sum": -8.714702606201172,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": -3.502042293548584,
+          "y": -1.4758223295211792,
+          "sum": -4.977864742279053,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 8,
+          "x": -8.720393180847168,
+          "y": -1.5670462846755981,
+          "sum": -10.287439346313477,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 9,
+          "x": -6.883616924285889,
+          "y": -6.83483362197876,
+          "sum": -13.718450546264648,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 10,
+          "x": -9.039091110229492,
+          "y": -1.0096405744552612,
+          "sum": -10.048731803894043,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 11,
+          "x": -5.998031139373779,
+          "y": -2.6685261726379395,
+          "sum": -8.666557312011719,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "case": "cpu_all_negative"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-06,
+      "atol": 1e-06,
+      "golden_matches_independent_reference": true,
+      "all_finite": true,
+      "all_nonnegative": true,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "sum_counts": {
+        "negative": 0,
+        "zero": 0,
+        "positive": 16384
+      },
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 8.747391700744629,
+          "y": 2.3982675075531006,
+          "sum": 11.145659446716309,
+          "golden": 11.145659446716309,
+          "reference": 11.145659446716309,
+          "actual": 11.145659446716309,
+          "abs_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 1.0062737464904785,
+          "y": 7.055912971496582,
+          "sum": 8.062187194824219,
+          "golden": 8.062187194824219,
+          "reference": 8.062187194824219,
+          "actual": 8.062187194824219,
+          "abs_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 3.44525408744812,
+          "y": 3.4515368938446045,
+          "sum": 6.896790981292725,
+          "golden": 6.896790981292725,
+          "reference": 6.896790981292725,
+          "actual": 6.896790981292725,
+          "abs_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 8.855628967285156,
+          "y": 1.294933557510376,
+          "sum": 10.150562286376953,
+          "golden": 10.150562286376953,
+          "reference": 10.150562286376953,
+          "actual": 10.150562286376953,
+          "abs_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 1.2288411855697632,
+          "y": 1.973150610923767,
+          "sum": 3.2019917964935303,
+          "golden": 3.2019917964935303,
+          "reference": 3.2019917964935303,
+          "actual": 3.2019917964935303,
+          "abs_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 3.302180528640747,
+          "y": 9.614937782287598,
+          "sum": 12.917118072509766,
+          "golden": 12.917118072509766,
+          "reference": 12.917118072509766,
+          "actual": 12.917118072509766,
+          "abs_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 3.2126901149749756,
+          "y": 8.092607498168945,
+          "sum": 11.3052978515625,
+          "golden": 11.3052978515625,
+          "reference": 11.3052978515625,
+          "actual": 11.3052978515625,
+          "abs_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 6.507957935333252,
+          "y": 8.534177780151367,
+          "sum": 15.042135238647461,
+          "golden": 15.042135238647461,
+          "reference": 15.042135238647461,
+          "actual": 15.042135238647461,
+          "abs_error": 0.0
+        },
+        {
+          "index": 8,
+          "x": 1.289607048034668,
+          "y": 8.442954063415527,
+          "sum": 9.732561111450195,
+          "golden": 9.732561111450195,
+          "reference": 9.732561111450195,
+          "actual": 9.732561111450195,
+          "abs_error": 0.0
+        },
+        {
+          "index": 9,
+          "x": 3.126383066177368,
+          "y": 3.175166606903076,
+          "sum": 6.301549911499023,
+          "golden": 6.301549911499023,
+          "reference": 6.301549911499023,
+          "actual": 6.301549911499023,
+          "abs_error": 0.0
+        },
+        {
+          "index": 10,
+          "x": 0.9709087610244751,
+          "y": 9.000359535217285,
+          "sum": 9.971268653869629,
+          "golden": 9.971268653869629,
+          "reference": 9.971268653869629,
+          "actual": 9.971268653869629,
+          "abs_error": 0.0
+        },
+        {
+          "index": 11,
+          "x": 4.011968612670898,
+          "y": 7.341473579406738,
+          "sum": 11.353442192077637,
+          "golden": 11.353442192077637,
+          "reference": 11.353442192077637,
+          "actual": 11.353442192077637,
+          "abs_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "case": "cpu_all_positive"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-06,
+      "atol": 1e-06,
+      "golden_matches_independent_reference": true,
+      "all_finite": true,
+      "all_nonnegative": true,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "sum_counts": {
+        "negative": 8162,
+        "zero": 99,
+        "positive": 8123
+      },
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": -10.0,
+          "y": -10.0,
+          "sum": -20.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 10.0,
+          "y": 10.0,
+          "sum": 20.0,
+          "golden": 20.0,
+          "reference": 20.0,
+          "actual": 20.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": -10.0,
+          "y": 10.0,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 10.0,
+          "y": -10.0,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 0.0,
+          "y": 0.0,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": -3.0,
+          "y": 1.0,
+          "sum": -2.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 3.0,
+          "y": -1.0,
+          "sum": 2.0,
+          "golden": 2.0,
+          "reference": 2.0,
+          "actual": 2.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 1.0,
+          "y": -3.0,
+          "sum": -2.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 8,
+          "x": -1.0,
+          "y": 3.0,
+          "sum": 2.0,
+          "golden": 2.0,
+          "reference": 2.0,
+          "actual": 2.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 9,
+          "x": 1.0000001192092896,
+          "y": -1.0,
+          "sum": 1.1920928955078125e-07,
+          "golden": 1.1920928955078125e-07,
+          "reference": 1.1920928955078125e-07,
+          "actual": 1.1920928955078125e-07,
+          "abs_error": 0.0
+        },
+        {
+          "index": 10,
+          "x": 0.9999999403953552,
+          "y": -1.0,
+          "sum": -5.960464477539063e-08,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 11,
+          "x": 1.0,
+          "y": -0.9999999403953552,
+          "sum": 5.960464477539063e-08,
+          "golden": 5.960464477539063e-08,
+          "reference": 5.960464477539063e-08,
+          "actual": 5.960464477539063e-08,
+          "abs_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "case": "cpu_boundary"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-06,
+      "atol": 1e-06,
+      "golden_matches_independent_reference": true,
+      "all_finite": true,
+      "all_nonnegative": true,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "sum_counts": {
+        "negative": 0,
+        "zero": 16384,
+        "positive": 0
+      },
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 7.492275714874268,
+          "y": -7.492275714874268,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": -8.005457878112793,
+          "y": 8.005457878112793,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": -3.1226143836975098,
+          "y": 3.1226143836975098,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 7.708967208862305,
+          "y": -7.708967208862305,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": -7.559877395629883,
+          "y": 7.559877395629883,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": -3.409048080444336,
+          "y": 3.409048080444336,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": -3.588207721710205,
+          "y": 3.588207721710205,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 3.0089244842529297,
+          "y": -3.0089244842529297,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 8,
+          "x": -7.4382243156433105,
+          "y": 7.4382243156433105,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 9,
+          "x": -3.7609949111938477,
+          "y": 3.7609949111938477,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 10,
+          "x": -8.076258659362793,
+          "y": 8.076258659362793,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 11,
+          "x": -1.9880504608154297,
+          "y": 1.9880504608154297,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "case": "cpu_cancellation"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-06,
+      "atol": 1e-06,
+      "golden_matches_independent_reference": true,
+      "all_finite": true,
+      "all_nonnegative": true,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "sum_counts": {
+        "negative": 8216,
+        "zero": 0,
+        "positive": 8168
+      },
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 7.492275714874268,
+          "y": -5.21868371963501,
+          "sum": 2.273591995239258,
+          "golden": 2.273591995239258,
+          "reference": 2.273591995239258,
+          "actual": 2.273591995239258,
+          "abs_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": -8.005457878112793,
+          "y": 4.105931282043457,
+          "sum": -3.899526596069336,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": -3.1226143836975098,
+          "y": -3.1100363731384277,
+          "sum": -6.2326507568359375,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 7.708967208862305,
+          "y": -7.427560329437256,
+          "sum": 0.28140687942504883,
+          "golden": 0.28140687942504883,
+          "reference": 0.28140687942504883,
+          "actual": 0.28140687942504883,
+          "abs_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": -7.559877395629883,
+          "y": -6.06976842880249,
+          "sum": -13.629646301269531,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": -3.409048080444336,
+          "y": 9.229104995727539,
+          "sum": 5.820056915283203,
+          "golden": 5.820056915283203,
+          "reference": 5.820056915283203,
+          "actual": 5.820056915283203,
+          "abs_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": -3.588207721710205,
+          "y": 6.181396007537842,
+          "sum": 2.5931882858276367,
+          "golden": 2.5931882858276367,
+          "reference": 2.5931882858276367,
+          "actual": 2.5931882858276367,
+          "abs_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 3.0089244842529297,
+          "y": 7.065420627593994,
+          "sum": 10.074344635009766,
+          "golden": 10.074344635009766,
+          "reference": 10.074344635009766,
+          "actual": 10.074344635009766,
+          "abs_error": 0.0
+        },
+        {
+          "index": 8,
+          "x": -7.4382243156433105,
+          "y": 6.8827900886535645,
+          "sum": -0.5554342269897461,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 9,
+          "x": -3.7609949111938477,
+          "y": -3.663330316543579,
+          "sum": -7.424324989318848,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 10,
+          "x": -8.076258659362793,
+          "y": 7.998717784881592,
+          "sum": -0.07754087448120117,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 11,
+          "x": -1.9880504608154297,
+          "y": 4.6776251792907715,
+          "sum": 2.689574718475342,
+          "golden": 2.689574718475342,
+          "reference": 2.689574718475342,
+          "actual": 2.689574718475342,
+          "abs_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "case": "cpu_random"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-06,
+      "atol": 1e-06,
+      "golden_matches_independent_reference": true,
+      "all_finite": true,
+      "all_nonnegative": true,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "sum_counts": {
+        "negative": 16384,
+        "zero": 0,
+        "positive": 0
+      },
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": -1.262608289718628,
+          "y": -7.611732482910156,
+          "sum": -8.874341011047363,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": -9.0037260055542,
+          "y": -2.954087257385254,
+          "sum": -11.957813262939453,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": -6.564745903015137,
+          "y": -6.558463096618652,
+          "sum": -13.123208999633789,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": -1.1543710231781006,
+          "y": -8.715066909790039,
+          "sum": -9.869438171386719,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": -8.781158447265625,
+          "y": -8.036849021911621,
+          "sum": -16.818008422851562,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": -6.70781946182251,
+          "y": -0.3950622081756592,
+          "sum": -7.10288143157959,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": -6.797309875488281,
+          "y": -1.917392611503601,
+          "sum": -8.714702606201172,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": -3.502042293548584,
+          "y": -1.4758223295211792,
+          "sum": -4.977864742279053,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 8,
+          "x": -8.720393180847168,
+          "y": -1.5670462846755981,
+          "sum": -10.287439346313477,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 9,
+          "x": -6.883616924285889,
+          "y": -6.83483362197876,
+          "sum": -13.718450546264648,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 10,
+          "x": -9.039091110229492,
+          "y": -1.0096405744552612,
+          "sum": -10.048731803894043,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 11,
+          "x": -5.998031139373779,
+          "y": -2.6685261726379395,
+          "sum": -8.666557312011719,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "case": "npu_all_negative"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-06,
+      "atol": 1e-06,
+      "golden_matches_independent_reference": true,
+      "all_finite": true,
+      "all_nonnegative": true,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "sum_counts": {
+        "negative": 0,
+        "zero": 0,
+        "positive": 16384
+      },
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 8.747391700744629,
+          "y": 2.3982675075531006,
+          "sum": 11.145659446716309,
+          "golden": 11.145659446716309,
+          "reference": 11.145659446716309,
+          "actual": 11.145659446716309,
+          "abs_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 1.0062737464904785,
+          "y": 7.055912971496582,
+          "sum": 8.062187194824219,
+          "golden": 8.062187194824219,
+          "reference": 8.062187194824219,
+          "actual": 8.062187194824219,
+          "abs_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 3.44525408744812,
+          "y": 3.4515368938446045,
+          "sum": 6.896790981292725,
+          "golden": 6.896790981292725,
+          "reference": 6.896790981292725,
+          "actual": 6.896790981292725,
+          "abs_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 8.855628967285156,
+          "y": 1.294933557510376,
+          "sum": 10.150562286376953,
+          "golden": 10.150562286376953,
+          "reference": 10.150562286376953,
+          "actual": 10.150562286376953,
+          "abs_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 1.2288411855697632,
+          "y": 1.973150610923767,
+          "sum": 3.2019917964935303,
+          "golden": 3.2019917964935303,
+          "reference": 3.2019917964935303,
+          "actual": 3.2019917964935303,
+          "abs_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 3.302180528640747,
+          "y": 9.614937782287598,
+          "sum": 12.917118072509766,
+          "golden": 12.917118072509766,
+          "reference": 12.917118072509766,
+          "actual": 12.917118072509766,
+          "abs_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 3.2126901149749756,
+          "y": 8.092607498168945,
+          "sum": 11.3052978515625,
+          "golden": 11.3052978515625,
+          "reference": 11.3052978515625,
+          "actual": 11.3052978515625,
+          "abs_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 6.507957935333252,
+          "y": 8.534177780151367,
+          "sum": 15.042135238647461,
+          "golden": 15.042135238647461,
+          "reference": 15.042135238647461,
+          "actual": 15.042135238647461,
+          "abs_error": 0.0
+        },
+        {
+          "index": 8,
+          "x": 1.289607048034668,
+          "y": 8.442954063415527,
+          "sum": 9.732561111450195,
+          "golden": 9.732561111450195,
+          "reference": 9.732561111450195,
+          "actual": 9.732561111450195,
+          "abs_error": 0.0
+        },
+        {
+          "index": 9,
+          "x": 3.126383066177368,
+          "y": 3.175166606903076,
+          "sum": 6.301549911499023,
+          "golden": 6.301549911499023,
+          "reference": 6.301549911499023,
+          "actual": 6.301549911499023,
+          "abs_error": 0.0
+        },
+        {
+          "index": 10,
+          "x": 0.9709087610244751,
+          "y": 9.000359535217285,
+          "sum": 9.971268653869629,
+          "golden": 9.971268653869629,
+          "reference": 9.971268653869629,
+          "actual": 9.971268653869629,
+          "abs_error": 0.0
+        },
+        {
+          "index": 11,
+          "x": 4.011968612670898,
+          "y": 7.341473579406738,
+          "sum": 11.353442192077637,
+          "golden": 11.353442192077637,
+          "reference": 11.353442192077637,
+          "actual": 11.353442192077637,
+          "abs_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "case": "npu_all_positive"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-06,
+      "atol": 1e-06,
+      "golden_matches_independent_reference": true,
+      "all_finite": true,
+      "all_nonnegative": true,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "sum_counts": {
+        "negative": 8162,
+        "zero": 99,
+        "positive": 8123
+      },
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": -10.0,
+          "y": -10.0,
+          "sum": -20.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 10.0,
+          "y": 10.0,
+          "sum": 20.0,
+          "golden": 20.0,
+          "reference": 20.0,
+          "actual": 20.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": -10.0,
+          "y": 10.0,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 10.0,
+          "y": -10.0,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 0.0,
+          "y": 0.0,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": -3.0,
+          "y": 1.0,
+          "sum": -2.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 3.0,
+          "y": -1.0,
+          "sum": 2.0,
+          "golden": 2.0,
+          "reference": 2.0,
+          "actual": 2.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 1.0,
+          "y": -3.0,
+          "sum": -2.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 8,
+          "x": -1.0,
+          "y": 3.0,
+          "sum": 2.0,
+          "golden": 2.0,
+          "reference": 2.0,
+          "actual": 2.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 9,
+          "x": 1.0000001192092896,
+          "y": -1.0,
+          "sum": 1.1920928955078125e-07,
+          "golden": 1.1920928955078125e-07,
+          "reference": 1.1920928955078125e-07,
+          "actual": 1.1920928955078125e-07,
+          "abs_error": 0.0
+        },
+        {
+          "index": 10,
+          "x": 0.9999999403953552,
+          "y": -1.0,
+          "sum": -5.960464477539063e-08,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 11,
+          "x": 1.0,
+          "y": -0.9999999403953552,
+          "sum": 5.960464477539063e-08,
+          "golden": 5.960464477539063e-08,
+          "reference": 5.960464477539063e-08,
+          "actual": 5.960464477539063e-08,
+          "abs_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "case": "npu_boundary"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-06,
+      "atol": 1e-06,
+      "golden_matches_independent_reference": true,
+      "all_finite": true,
+      "all_nonnegative": true,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "sum_counts": {
+        "negative": 0,
+        "zero": 16384,
+        "positive": 0
+      },
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 7.492275714874268,
+          "y": -7.492275714874268,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": -8.005457878112793,
+          "y": 8.005457878112793,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": -3.1226143836975098,
+          "y": 3.1226143836975098,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 7.708967208862305,
+          "y": -7.708967208862305,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": -7.559877395629883,
+          "y": 7.559877395629883,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": -3.409048080444336,
+          "y": 3.409048080444336,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": -3.588207721710205,
+          "y": 3.588207721710205,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 3.0089244842529297,
+          "y": -3.0089244842529297,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 8,
+          "x": -7.4382243156433105,
+          "y": 7.4382243156433105,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 9,
+          "x": -3.7609949111938477,
+          "y": 3.7609949111938477,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 10,
+          "x": -8.076258659362793,
+          "y": 8.076258659362793,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 11,
+          "x": -1.9880504608154297,
+          "y": 1.9880504608154297,
+          "sum": 0.0,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "case": "npu_cancellation"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-06,
+      "atol": 1e-06,
+      "golden_matches_independent_reference": true,
+      "all_finite": true,
+      "all_nonnegative": true,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "sum_counts": {
+        "negative": 8216,
+        "zero": 0,
+        "positive": 8168
+      },
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 7.492275714874268,
+          "y": -5.21868371963501,
+          "sum": 2.273591995239258,
+          "golden": 2.273591995239258,
+          "reference": 2.273591995239258,
+          "actual": 2.273591995239258,
+          "abs_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": -8.005457878112793,
+          "y": 4.105931282043457,
+          "sum": -3.899526596069336,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": -3.1226143836975098,
+          "y": -3.1100363731384277,
+          "sum": -6.2326507568359375,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 7.708967208862305,
+          "y": -7.427560329437256,
+          "sum": 0.28140687942504883,
+          "golden": 0.28140687942504883,
+          "reference": 0.28140687942504883,
+          "actual": 0.28140687942504883,
+          "abs_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": -7.559877395629883,
+          "y": -6.06976842880249,
+          "sum": -13.629646301269531,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": -3.409048080444336,
+          "y": 9.229104995727539,
+          "sum": 5.820056915283203,
+          "golden": 5.820056915283203,
+          "reference": 5.820056915283203,
+          "actual": 5.820056915283203,
+          "abs_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": -3.588207721710205,
+          "y": 6.181396007537842,
+          "sum": 2.5931882858276367,
+          "golden": 2.5931882858276367,
+          "reference": 2.5931882858276367,
+          "actual": 2.5931882858276367,
+          "abs_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 3.0089244842529297,
+          "y": 7.065420627593994,
+          "sum": 10.074344635009766,
+          "golden": 10.074344635009766,
+          "reference": 10.074344635009766,
+          "actual": 10.074344635009766,
+          "abs_error": 0.0
+        },
+        {
+          "index": 8,
+          "x": -7.4382243156433105,
+          "y": 6.8827900886535645,
+          "sum": -0.5554342269897461,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 9,
+          "x": -3.7609949111938477,
+          "y": -3.663330316543579,
+          "sum": -7.424324989318848,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 10,
+          "x": -8.076258659362793,
+          "y": 7.998717784881592,
+          "sum": -0.07754087448120117,
+          "golden": 0.0,
+          "reference": 0.0,
+          "actual": 0.0,
+          "abs_error": 0.0
+        },
+        {
+          "index": 11,
+          "x": -1.9880504608154297,
+          "y": 4.6776251792907715,
+          "sum": 2.689574718475342,
+          "golden": 2.689574718475342,
+          "reference": 2.689574718475342,
+          "actual": 2.689574718475342,
+          "abs_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "case": "npu_random"
+    }
+  ]
+}

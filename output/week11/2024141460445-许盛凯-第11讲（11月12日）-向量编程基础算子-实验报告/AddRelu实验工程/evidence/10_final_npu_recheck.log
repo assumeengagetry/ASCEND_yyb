@@ -1,0 +1,205 @@
+[CONFIG] mode=npu soc=Ascend910B4 dtype=float32 shape=8x2048 case=random
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu
+[  2%] Creating directories for 'kernels_precompile'
+[  4%] No download step for 'kernels_precompile'
+[  6%] No update step for 'kernels_precompile'
+[  9%] No patch step for 'kernels_precompile'
+[ 11%] Performing configure step for 'kernels_precompile'
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DYNAMIC_MODE
+    INCLUDE_DIR
+
+
+-- Build files have been written to: /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_precompile-prefix/src/kernels_precompile-build
+[ 13%] Performing build step for 'kernels_precompile'
+[100%] Building CXX object CMakeFiles/precompile_obj.dir/home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/addrelu_custom.cpp.o
+[100%] Built target precompile_obj
+[100%] Built target check_src_template
+[ 15%] No install step for 'kernels_precompile'
+[ 18%] Completed 'kernels_precompile'
+[ 18%] Built target kernels_precompile
+[ 20%] Creating directories for 'kernels_preprocess'
+[ 22%] No download step for 'kernels_preprocess'
+[ 25%] No update step for 'kernels_preprocess'
+[ 27%] No patch step for 'kernels_preprocess'
+[ 29%] Performing configure step for 'kernels_preprocess'
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_preprocess-prefix/src/kernels_preprocess-build
+[ 31%] Performing build step for 'kernels_preprocess'
+[ 33%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/addrelu_custom.cpp.o
+[100%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/addrelu_custom.cpp.o
+[100%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/addrelu_custom.cpp.o
+[100%] Built target preprocess_obj
+[100%] Built target aiv_obj
+/usr/local/Ascend/ascend-toolkit/latest/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/aiv_obj.dir/home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/addrelu_custom.cpp.o -o /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/aiv_obj.dir/home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/addrelu_custom.cpp.o[100%] Built target merge_aiv_obj_text
+[100%] Built target aic_obj
+/usr/local/Ascend/ascend-toolkit/latest/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/aic_obj.dir/home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/addrelu_custom.cpp.o -o /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/aic_obj.dir/home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/addrelu_custom.cpp.o[100%] Built target merge_aic_obj_text
+[100%] Built target _host_cpp
+[ 34%] No install step for 'kernels_preprocess'
+[ 36%] Completed 'kernels_preprocess'
+[ 36%] Built target kernels_preprocess
+[ 40%] Creating directories for 'kernels_host'
+[ 40%] Creating directories for 'kernels_aiv_device'
+[ 43%] Creating directories for 'kernels_aic_device'
+[ 47%] No download step for 'kernels_aiv_device'
+[ 47%] No download step for 'kernels_host'
+[ 50%] No download step for 'kernels_aic_device'
+[ 52%] No update step for 'kernels_host'
+[ 54%] No update step for 'kernels_aiv_device'
+[ 56%] No update step for 'kernels_aic_device'
+[ 59%] No patch step for 'kernels_host'
+[ 61%] No patch step for 'kernels_aic_device'
+[ 63%] No patch step for 'kernels_aiv_device'
+[ 65%] Performing configure step for 'kernels_host'
+[ 68%] Performing configure step for 'kernels_aic_device'
+[ 70%] Performing configure step for 'kernels_aiv_device'
+-- The C compiler identification is GNU 10.3.1
+-- The C compiler identification is GNU 10.3.1
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Detecting CXX compiler ABI info - done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ASCEND_PYTHON_EXECUTABLE
+
+
+-- Build files have been written to: /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_host-prefix/src/kernels_host-build
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_MODE
+
+
+-- Build files have been written to: /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_aic_device-prefix/src/kernels_aic_device-build
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+[ 72%] Performing build step for 'kernels_host'
+-- Generating done
+-- Build files have been written to: /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_aiv_device-prefix/src/kernels_aiv_device-build
+[ 75%] Performing build step for 'kernels_aic_device'
+[ 77%] Performing build step for 'kernels_aiv_device'
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/addrelu_custom.cpp.o
+[ 79%] No install step for 'kernels_aic_device'
+[ 81%] Completed 'kernels_aic_device'
+[100%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/auto_gen/kernels/auto_gen_addrelu_custom.cpp.o
+[ 81%] Built target kernels_aic_device
+[100%] Built target host_bisheng_obj
+[ 84%] Performing install step for 'kernels_host'
+Consolidate compiler generated dependencies of target host_bisheng_obj
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/addrelu_custom.cpp.o
+[100%] Built target host_bisheng_obj
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/addrelu_custom.cpp.o
+[ 86%] Completed 'kernels_host'
+[ 86%] Built target kernels_host
+[100%] Built target device_aiv_obj
+/usr/local/Ascend/ascend-toolkit/latest/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux -r  -Ttext=0 /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_aiv_device-prefix/src/kernels_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/auto_gen/kernels/auto_gen_addrelu_custom.cpp.o -static -o /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_aiv_device_dir/device_aiv.o
+[100%] Built target merge_aiv_device_obj
+[ 88%] No install step for 'kernels_aiv_device'
+[ 90%] Completed 'kernels_aiv_device'
+[ 90%] Built target kernels_aiv_device
+/usr/local/Ascend/ascend-toolkit/latest/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux   -Ttext=0 /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_aiv_device_dir/device_aiv.o -static -o /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_merge_obj_dir/device_aiv.o
+[ 90%] Built target kernels_merge_obj
+[ 93%] Building CXX object CMakeFiles/kernels_host_stub_obj.dir/auto_gen/kernels/host_stub.cpp.o
+[ 93%] Built target kernels_host_stub_obj
+[ 95%] Linking CXX static library lib/libkernels.a
+/usr/local/Ascend/ascend-toolkit/latest/bin/ascendc_pack_kernel /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/CMakeFiles/kernels_host_stub_obj.dir/auto_gen/kernels/host_stub.cpp.o /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_merge_obj_dir/device_aiv.o 1 /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/CMakeFiles/kernels_host_stub_obj.dir/auto_gen/kernels/host_stub.cpp.o
+recompile: /usr/bin/ar qc lib/libkernels.a CMakeFiles/kernels_host_stub_obj.dir/auto_gen/kernels/host_stub.cpp.o /home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/build_npu/kernels_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/ascend_week11_20261112/Lab3_AddRelu/addrelu_custom.cpp.o  ascendc_runtime.cpp.o aicpu_rt.cpp.o ascendc_elf_tool.c.o
+recompile: /usr/bin/ranlib lib/libkernels.a
+[ 95%] Built target kernels
+[ 97%] Building CXX object CMakeFiles/main.dir/main.cpp.o
+[100%] Linking CXX executable main
+[100%] Built target main
+[DATA] case=random seed=20261112 dtype=float32 shape=8x2048 elements=16384 bytes=65536
+[DATA] sum_counts={"negative": 8216, "positive": 8168, "zero": 0}
+NPU_CALL_SUCCESS blockDim=8 elements=16384 dtype=float32 bytes=65536
+[VERIFY] elements=16384 failed=0 max_abs_error=0 rtol=1e-06 atol=1e-06
+[VERIFY] sum_counts={"negative": 8216, "positive": 8168, "zero": 0}
+[VERIFY] core_failed_counts=[0, 0, 0, 0, 0, 0, 0, 0]
+[VERIFY] first 12 elements: index x y sum expected actual
+    0 +7.49227571 -5.21868372 +2.273592 +2.273592 +2.273592
+    1 -8.00545788 +4.10593128 -3.8995266 +0 +0
+    2 -3.12261438 -3.11003637 -6.23265076 +0 +0
+    3 +7.70896721 -7.42756033 +0.281406879 +0.281406879 +0.281406879
+    4 -7.5598774 -6.06976843 -13.6296463 +0 +0
+    5 -3.40904808 +9.229105 +5.82005692 +5.82005692 +5.82005692
+    6 -3.58820772 +6.18139601 +2.59318829 +2.59318829 +2.59318829
+    7 +3.00892448 +7.06542063 +10.0743446 +10.0743446 +10.0743446
+    8 -7.43822432 +6.88279009 -0.555434227 +0 +0
+    9 -3.76099491 -3.66333032 -7.42432499 +0 +0
+   10 -8.07625866 +7.99871778 -0.0775408745 +0 +0
+   11 -1.98805046 +4.67762518 +2.68957472 +2.68957472 +2.68957472
+test pass

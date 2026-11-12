@@ -1,0 +1,31 @@
+{
+  "case": "all_positive",
+  "seed": 20261112,
+  "shape": [
+    8,
+    2048
+  ],
+  "numel": 16384,
+  "dtype": "float32",
+  "byte_order": "little",
+  "bytes_per_tensor": 65536,
+  "input_range": [
+    -10.0,
+    10.0
+  ],
+  "core_count": 8,
+  "elements_per_core": 2048,
+  "tile_length": 128,
+  "formula": "maximum(add(x, y, dtype=float32), float32(0))",
+  "sum_counts": {
+    "negative": 0,
+    "zero": 0,
+    "positive": 16384
+  },
+  "boundary_indexes": [],
+  "sha256": {
+    "input/input_x.bin": "61b057947da918e69380348f238fda2571521656f7dc56871ae8b7d08fcfc94c",
+    "input/input_y.bin": "718646b4ce21e381e1ba1260700fdb9851df613e8e1810300cb049d63b416fd7",
+    "output/golden.bin": "854701f5fac49a7dde94be2948b53f370f02a19c0b887baa747a04a81f479fb5"
+  }
+}

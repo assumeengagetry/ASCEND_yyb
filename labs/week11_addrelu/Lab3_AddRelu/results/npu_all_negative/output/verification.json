@@ -1,0 +1,156 @@
+{
+  "passed": true,
+  "dtype": "float32",
+  "shape": [
+    8,
+    2048
+  ],
+  "numel": 16384,
+  "bytes_per_tensor": 65536,
+  "rtol": 1e-06,
+  "atol": 1e-06,
+  "golden_matches_independent_reference": true,
+  "all_finite": true,
+  "all_nonnegative": true,
+  "failed_elements": 0,
+  "max_abs_error": 0.0,
+  "mean_abs_error": 0.0,
+  "sum_counts": {
+    "negative": 16384,
+    "zero": 0,
+    "positive": 0
+  },
+  "core_failed_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "sample_elements": [
+    {
+      "index": 0,
+      "x": -1.262608289718628,
+      "y": -7.611732482910156,
+      "sum": -8.874341011047363,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 1,
+      "x": -9.0037260055542,
+      "y": -2.954087257385254,
+      "sum": -11.957813262939453,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 2,
+      "x": -6.564745903015137,
+      "y": -6.558463096618652,
+      "sum": -13.123208999633789,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 3,
+      "x": -1.1543710231781006,
+      "y": -8.715066909790039,
+      "sum": -9.869438171386719,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 4,
+      "x": -8.781158447265625,
+      "y": -8.036849021911621,
+      "sum": -16.818008422851562,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 5,
+      "x": -6.70781946182251,
+      "y": -0.3950622081756592,
+      "sum": -7.10288143157959,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 6,
+      "x": -6.797309875488281,
+      "y": -1.917392611503601,
+      "sum": -8.714702606201172,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 7,
+      "x": -3.502042293548584,
+      "y": -1.4758223295211792,
+      "sum": -4.977864742279053,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 8,
+      "x": -8.720393180847168,
+      "y": -1.5670462846755981,
+      "sum": -10.287439346313477,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 9,
+      "x": -6.883616924285889,
+      "y": -6.83483362197876,
+      "sum": -13.718450546264648,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 10,
+      "x": -9.039091110229492,
+      "y": -1.0096405744552612,
+      "sum": -10.048731803894043,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 11,
+      "x": -5.998031139373779,
+      "y": -2.6685261726379395,
+      "sum": -8.666557312011719,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    }
+  ],
+  "first_failed_indexes": []
+}

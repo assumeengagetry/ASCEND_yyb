@@ -1,0 +1,156 @@
+{
+  "passed": true,
+  "dtype": "float32",
+  "shape": [
+    8,
+    2048
+  ],
+  "numel": 16384,
+  "bytes_per_tensor": 65536,
+  "rtol": 1e-06,
+  "atol": 1e-06,
+  "golden_matches_independent_reference": true,
+  "all_finite": true,
+  "all_nonnegative": true,
+  "failed_elements": 0,
+  "max_abs_error": 0.0,
+  "mean_abs_error": 0.0,
+  "sum_counts": {
+    "negative": 8162,
+    "zero": 99,
+    "positive": 8123
+  },
+  "core_failed_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "sample_elements": [
+    {
+      "index": 0,
+      "x": -10.0,
+      "y": -10.0,
+      "sum": -20.0,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 1,
+      "x": 10.0,
+      "y": 10.0,
+      "sum": 20.0,
+      "golden": 20.0,
+      "reference": 20.0,
+      "actual": 20.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 2,
+      "x": -10.0,
+      "y": 10.0,
+      "sum": 0.0,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 3,
+      "x": 10.0,
+      "y": -10.0,
+      "sum": 0.0,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 4,
+      "x": 0.0,
+      "y": 0.0,
+      "sum": 0.0,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 5,
+      "x": -3.0,
+      "y": 1.0,
+      "sum": -2.0,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 6,
+      "x": 3.0,
+      "y": -1.0,
+      "sum": 2.0,
+      "golden": 2.0,
+      "reference": 2.0,
+      "actual": 2.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 7,
+      "x": 1.0,
+      "y": -3.0,
+      "sum": -2.0,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 8,
+      "x": -1.0,
+      "y": 3.0,
+      "sum": 2.0,
+      "golden": 2.0,
+      "reference": 2.0,
+      "actual": 2.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 9,
+      "x": 1.0000001192092896,
+      "y": -1.0,
+      "sum": 1.1920928955078125e-07,
+      "golden": 1.1920928955078125e-07,
+      "reference": 1.1920928955078125e-07,
+      "actual": 1.1920928955078125e-07,
+      "abs_error": 0.0
+    },
+    {
+      "index": 10,
+      "x": 0.9999999403953552,
+      "y": -1.0,
+      "sum": -5.960464477539063e-08,
+      "golden": 0.0,
+      "reference": 0.0,
+      "actual": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 11,
+      "x": 1.0,
+      "y": -0.9999999403953552,
+      "sum": 5.960464477539063e-08,
+      "golden": 5.960464477539063e-08,
+      "reference": 5.960464477539063e-08,
+      "actual": 5.960464477539063e-08,
+      "abs_error": 0.0
+    }
+  ],
+  "first_failed_indexes": []
+}
