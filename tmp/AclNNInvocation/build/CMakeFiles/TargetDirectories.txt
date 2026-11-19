@@ -1,3 +1,0 @@
-/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build/CMakeFiles/rebuild_cache.dir
-/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build/CMakeFiles/execute_sigmoid.dir
-/home/ma-user/work/ascend_lab_20261029/SigmoidCustom/AclNNInvocation/build/CMakeFiles/edit_cache.dir

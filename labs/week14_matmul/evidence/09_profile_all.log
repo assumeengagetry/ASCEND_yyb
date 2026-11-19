@@ -1,0 +1,7 @@
+
+[RUN] cores5_base128
+[INFO] Start profiling...
+PLATFORM cube_cores=20 vector_cores=40 workspace=16777216
+CONFIG blockDim=5 usedCoreNum=10 M=4096 N=5120 K=4096 base=128,128,128 singleCore=2048,1024,4096 repeats=15 warmup=5
+[WARNING] The specified program cannot exit normally, exitCode:6. Please check your code or make sure that the operation is valid.
+[ERROR] Running profiling failed.Please check log for more info.

@@ -1,0 +1,399 @@
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ma-user/work/ascend_week14_20261119/build_npu
+[  2%] Creating directories for 'kernels_precompile'
+[  4%] No download step for 'kernels_precompile'
+[  6%] No update step for 'kernels_precompile'
+[  9%] No patch step for 'kernels_precompile'
+[ 11%] Performing configure step for 'kernels_precompile'
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_precompile-prefix/src/kernels_precompile-build
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DYNAMIC_MODE
+    INCLUDE_DIR
+
+
+[ 13%] Performing build step for 'kernels_precompile'
+[100%] Building CXX object CMakeFiles/precompile_obj.dir/home/ma-user/work/ascend_week14_20261119/matmul_custom.cpp.o
+[100%] Built target precompile_obj
+[100%] Built target check_src_template
+[ 15%] No install step for 'kernels_precompile'
+[ 18%] Completed 'kernels_precompile'
+[ 18%] Built target kernels_precompile
+[ 20%] Creating directories for 'kernels_preprocess'
+[ 22%] No download step for 'kernels_preprocess'
+[ 25%] No update step for 'kernels_preprocess'
+[ 27%] No patch step for 'kernels_preprocess'
+[ 29%] Performing configure step for 'kernels_preprocess'
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_preprocess-prefix/src/kernels_preprocess-build
+[ 31%] Performing build step for 'kernels_preprocess'
+[100%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/ascend_week14_20261119/matmul_custom.cpp.o
+[100%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/ascend_week14_20261119/matmul_custom.cpp.o
+[100%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/ascend_week14_20261119/matmul_custom.cpp.o
+[100%] Built target preprocess_obj
+[100%] Built target aiv_obj
+/usr/local/Ascend/ascend-toolkit/latest/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/aiv_obj.dir/home/ma-user/work/ascend_week14_20261119/matmul_custom.cpp.o -o /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/aiv_obj.dir/home/ma-user/work/ascend_week14_20261119/matmul_custom.cpp.o[100%] Built target merge_aiv_obj_text
+[100%] Built target aic_obj
+/usr/local/Ascend/ascend-toolkit/latest/aarch64-linux/ccec_compiler/bin/ld.lld -m aicorelinux -Ttext=0 /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/aic_obj.dir/home/ma-user/work/ascend_week14_20261119/matmul_custom.cpp.o -o /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/aic_obj.dir/home/ma-user/work/ascend_week14_20261119/matmul_custom.cpp.o[100%] Built target merge_aic_obj_text
+[100%] Built target _host_cpp
+[ 34%] No install step for 'kernels_preprocess'
+[ 36%] Completed 'kernels_preprocess'
+[ 36%] Built target kernels_preprocess
+[ 38%] Creating directories for 'kernels_aiv_device'
+[ 40%] Creating directories for 'kernels_host'
+[ 43%] Creating directories for 'kernels_aic_device'
+[ 45%] No download step for 'kernels_aiv_device'
+[ 47%] No download step for 'kernels_host'
+[ 50%] No download step for 'kernels_aic_device'
+[ 52%] No update step for 'kernels_aiv_device'
+[ 54%] No update step for 'kernels_host'
+[ 56%] No update step for 'kernels_aic_device'
+[ 59%] No patch step for 'kernels_aiv_device'
+[ 61%] No patch step for 'kernels_host'
+[ 63%] No patch step for 'kernels_aic_device'
+[ 65%] Performing configure step for 'kernels_aiv_device'
+[ 68%] Performing configure step for 'kernels_host'
+[ 70%] Performing configure step for 'kernels_aic_device'
+-- The C compiler identification is GNU 10.3.1
+-- The C compiler identification is GNU 10.3.1
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compiler ABI info - done
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Configuring done
+-- Generating done
+-- Generating done
+-- Build files have been written to: /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_host-prefix/src/kernels_host-build
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ASCEND_PYTHON_EXECUTABLE
+
+
+-- Build files have been written to: /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_aiv_device-prefix/src/kernels_aiv_device-build
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_aic_device-prefix/src/kernels_aic_device-build
+[ 72%] Performing build step for 'kernels_aiv_device'
+[ 75%] Performing build step for 'kernels_host'
+[ 77%] Performing build step for 'kernels_aic_device'
+[100%] Building CXX object CMakeFiles/device_obj.dir/home/ma-user/work/ascend_week14_20261119/build_npu/auto_gen/kernels/auto_gen_matmul_custom.cpp.o
+[100%] Building CXX object CMakeFiles/device_obj.dir/home/ma-user/work/ascend_week14_20261119/build_npu/auto_gen/kernels/auto_gen_matmul_custom.cpp.o
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/ascend_week14_20261119/matmul_custom.cpp.o
+[100%] Built target host_bisheng_obj
+[ 79%] Performing install step for 'kernels_host'
+Consolidate compiler generated dependencies of target host_bisheng_obj
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/ascend_week14_20261119/matmul_custom.cpp.o
+[100%] Built target host_bisheng_obj
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/ascend_week14_20261119/matmul_custom.cpp.o
+[ 81%] Completed 'kernels_host'
+[ 81%] Built target kernels_host
+[100%] Built target device_obj
+/usr/local/Ascend/ascend-toolkit/latest/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux -r  -Ttext=0 /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_aiv_device-prefix/src/kernels_aiv_device-build/CMakeFiles/device_obj.dir/home/ma-user/work/ascend_week14_20261119/build_npu/auto_gen/kernels/auto_gen_matmul_custom.cpp.o -static -o /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_aiv_device_dir/device.o
+[100%] Built target merge_device_obj
+[ 84%] No install step for 'kernels_aiv_device'
+[ 86%] Completed 'kernels_aiv_device'
+[ 86%] Built target kernels_aiv_device
+[100%] Built target device_obj
+/usr/local/Ascend/ascend-toolkit/latest/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux -r  -Ttext=0 /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_aic_device-prefix/src/kernels_aic_device-build/CMakeFiles/device_obj.dir/home/ma-user/work/ascend_week14_20261119/build_npu/auto_gen/kernels/auto_gen_matmul_custom.cpp.o -static -o /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_aic_device_dir/device.o
+[100%] Built target merge_device_obj
+[ 88%] No install step for 'kernels_aic_device'
+[ 90%] Completed 'kernels_aic_device'
+[ 90%] Built target kernels_aic_device
+/usr/local/Ascend/ascend-toolkit/latest/aarch64-linux/ccec_compiler/bin/ld.lld  -m aicorelinux   -Ttext=0 /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_aic_device_dir/device.o /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_aiv_device_dir/device.o -static -o /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_merge_obj_dir/device.o
+[ 90%] Built target kernels_merge_obj
+[ 93%] Building CXX object CMakeFiles/kernels_host_stub_obj.dir/auto_gen/kernels/host_stub.cpp.o
+[ 93%] Built target kernels_host_stub_obj
+[ 95%] Linking CXX static library lib/libkernels.a
+/usr/local/Ascend/ascend-toolkit/latest/bin/ascendc_pack_kernel /home/ma-user/work/ascend_week14_20261119/build_npu/CMakeFiles/kernels_host_stub_obj.dir/auto_gen/kernels/host_stub.cpp.o /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_merge_obj_dir/device.o 0 /home/ma-user/work/ascend_week14_20261119/build_npu/CMakeFiles/kernels_host_stub_obj.dir/auto_gen/kernels/host_stub.cpp.o
+recompile: /usr/bin/ar qc lib/libkernels.a CMakeFiles/kernels_host_stub_obj.dir/auto_gen/kernels/host_stub.cpp.o /home/ma-user/work/ascend_week14_20261119/build_npu/kernels_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/ascend_week14_20261119/matmul_custom.cpp.o  ascendc_runtime.cpp.o aicpu_rt.cpp.o ascendc_elf_tool.c.o
+recompile: /usr/bin/ranlib lib/libkernels.a
+[ 95%] Built target kernels
+[ 97%] Building CXX object CMakeFiles/main.dir/main.cpp.o
+[100%] Linking CXX executable main
+[100%] Built target main
+
+[RUN] cores5_base128
+[INFO] Start profiling...
+PLATFORM cube_cores=20 vector_cores=40 workspace=16777216
+TILING autoBaseK=128 effectiveBaseK=128 stepKa=4 stepKb=2 depthA1=8 depthB1=4
+CONFIG blockDim=5 usedCoreNum=10 M=4096 N=5120 K=4096 base=128,128,128 singleCore=2048,1024,4096 repeats=15 warmup=5
+NPU_MATMUL_SUCCESS elements=20971520 bytes=83886080 output=/home/ma-user/work/ascend_week14_20261119/results/cores5_base128/output.bin
+[INFO] Start export data in PROF_000001_20261119105618730_QFRDEOJRIMACKIJB.
+Thu 19 Nov 2026 10:56:23 [INFO] [MSVP] [64971] msprof_common.py: Start analyzing data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores5_base128/PROF_000001_20261119105618730_QFRDEOJRIMACKIJB/host" ...
+Thu 19 Nov 2026 10:56:23 [INFO] [MSVP] [64971] msprof_common.py: It may take few minutes, please be patient ...
+Thu 19 Nov 2026 10:56:23 [INFO] [MSVP] [64971] msprof_common.py: Analysis data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores5_base128/PROF_000001_20261119105618730_QFRDEOJRIMACKIJB/host" finished.
+Thu 19 Nov 2026 10:56:23 [INFO] [MSVP] [64971] msprof_common.py: Start analyzing data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores5_base128/PROF_000001_20261119105618730_QFRDEOJRIMACKIJB/device_0" ...
+Thu 19 Nov 2026 10:56:23 [INFO] [MSVP] [64971] msprof_common.py: It may take few minutes, please be patient ...
+Thu 19 Nov 2026 10:56:23 [INFO] [MSVP] [64971] msprof_common.py: Analysis data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores5_base128/PROF_000001_20261119105618730_QFRDEOJRIMACKIJB/device_0" finished.
+Thu 19 Nov 2026 10:56:23 [INFO] [MSVP] [64971] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores5_base128/PROF_000001_20261119105618730_QFRDEOJRIMACKIJB/device_0.
+Thu 19 Nov 2026 10:56:24 [INFO] [MSVP] [64971] msprof_export.py: There is no timeline data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores5_base128/PROF_000001_20261119105618730_QFRDEOJRIMACKIJB/host"
+Thu 19 Nov 2026 10:56:25 [INFO] [MSVP] [65205] msprof_export.py: The data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores5_base128/PROF_000001_20261119105618730_QFRDEOJRIMACKIJB/host" has been analyzed. Parsing phase will be skipped.
+Thu 19 Nov 2026 10:56:25 [INFO] [MSVP] [65205] msprof_export.py: The data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores5_base128/PROF_000001_20261119105618730_QFRDEOJRIMACKIJB/device_0" has been analyzed. Parsing phase will be skipped.
+Thu 19 Nov 2026 10:56:25 [INFO] [MSVP] [65205] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores5_base128/PROF_000001_20261119105618730_QFRDEOJRIMACKIJB/device_0.
+Thu 19 Nov 2026 10:56:25 [INFO] [MSVP] [65205] msprof_export.py: There is no summary data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores5_base128/PROF_000001_20261119105618730_QFRDEOJRIMACKIJB/host"
+Thu 19 Nov 2026 10:56:25 [INFO] [MSVP] [65205] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores5_base128/PROF_000001_20261119105618730_QFRDEOJRIMACKIJB/device_0.
+Thu 19 Nov 2026 10:56:25 [INFO] [MSVP] [65205] msprof_export.py: There is no summary data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores5_base128/PROF_000001_20261119105618730_QFRDEOJRIMACKIJB/device_0"
+Thu 19 Nov 2026 10:56:25 [INFO] [MSVP] [65205] msprof_common.py: Start exporting summary output_file.
+Thu 19 Nov 2026 10:56:25 [INFO] [MSVP] [65205] msprof_common.py: End exporting summary output_file.The file is stored in the /home/ma-user/work/ascend_week14_20261119/profiles/cores5_base128/PROF_000001_20261119105618730_QFRDEOJRIMACKIJB/mindstudio_profiler_output path.
+[INFO] Export all data in PROF_000001_20261119105618730_QFRDEOJRIMACKIJB done.
+[INFO] Start query data in PROF_000001_20261119105618730_QFRDEOJRIMACKIJB.
+Job Info	Device ID	Dir Name	Collection Time           	Model ID	Iteration Number	Top Time Iteration	Rank ID	
+
+NA      	         	host    	2026-11-19 10:56:18.733025	N/A     	N/A             	N/A               	0      	
+
+NA      	0        	device_0	2026-11-19 10:56:19.522920	N/A     	N/A             	N/A               	0      	
+
+[INFO] Query all data in PROF_000001_20261119105618730_QFRDEOJRIMACKIJB done.
+[INFO] Profiling finished.
+[INFO] Process profiling data complete. Data is saved in /home/ma-user/work/ascend_week14_20261119/profiles/cores5_base128/PROF_000001_20261119105618730_QFRDEOJRIMACKIJB
+[VERIFY] shape=4096x5120 elements=20971520 failed=0 rtol=0.0001 atol=0.02
+[VERIFY] finite=True max_abs_error=0.2109375 max_rel_error=1.69764726e-06 rmse=0.0379474716
+[SAMPLES] index row column actual golden abs_error
+0 0 0 122304.1171875 122304.1875 0.0703125
+1 0 1 122748.1953125 122748.125 0.0703125
+2 0 2 121538.7109375 121538.65625 0.0546875
+127 0 127 125156.3515625 125156.3984375 0.046875
+128 0 128 123737.2109375 123737.1953125 0.015625
+5119 0 5119 124153.0 124153.0 0.0
+5120 1 0 121999.0078125 121999.03125 0.0234375
+5121 1 1 122311.046875 122311.0625 0.015625
+10488320 2048 2560 120981.296875 120981.3125 0.015625
+20971518 4095 5118 124701.328125 124701.3125 0.015625
+20971519 4095 5119 124893.2421875 124893.25 0.0078125
+test pass
+
+[RUN] cores20_base64
+[INFO] Start profiling...
+PLATFORM cube_cores=20 vector_cores=40 workspace=16777216
+TILING autoBaseK=256 effectiveBaseK=64 stepKa=16 stepKb=4 depthA1=32 depthB1=8
+CONFIG blockDim=20 usedCoreNum=40 M=4096 N=5120 K=4096 base=64,64,64 singleCore=512,1024,4096 repeats=15 warmup=5
+NPU_MATMUL_SUCCESS elements=20971520 bytes=83886080 output=/home/ma-user/work/ascend_week14_20261119/results/cores20_base64/output.bin
+[INFO] Start export data in PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA.
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_common.py: Start analyzing data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/host" ...
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_common.py: It may take few minutes, please be patient ...
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_common.py: Analysis data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/host" finished.
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_common.py: Start analyzing data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/device_0" ...
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_common.py: It may take few minutes, please be patient ...
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_common.py: Analysis data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/device_0" finished.
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/device_0.
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_export.py: There is no timeline data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/host"
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_export.py: The data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/host" has been analyzed. Parsing phase will be skipped.
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_export.py: The data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/device_0" has been analyzed. Parsing phase will be skipped.
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/device_0.
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_export.py: There is no summary data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/host"
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/device_0.
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_export.py: There is no summary data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/device_0"
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_common.py: Start exporting summary output_file.
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_common.py: End exporting summary output_file.The file is stored in the /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/mindstudio_profiler_output path.
+[INFO] Export all data in PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA done.
+[INFO] Start query data in PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA.
+Job Info	Device ID	Dir Name	Collection Time           	Model ID	Iteration Number	Top Time Iteration	Rank ID	
+
+NA      	         	host    	2026-11-19 10:56:30.447885	N/A     	N/A             	N/A               	0      	
+
+NA      	0        	device_0	2026-11-19 10:56:31.251490	N/A     	N/A             	N/A               	0      	
+
+[INFO] Query all data in PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA done.
+[INFO] Profiling finished.
+[INFO] Process profiling data complete. Data is saved in /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA
+[VERIFY] shape=4096x5120 elements=20971520 failed=0 rtol=0.0001 atol=0.02
+[VERIFY] finite=True max_abs_error=0.2109375 max_rel_error=1.69764726e-06 rmse=0.0379474716
+[SAMPLES] index row column actual golden abs_error
+0 0 0 122304.1171875 122304.1875 0.0703125
+1 0 1 122748.1953125 122748.125 0.0703125
+2 0 2 121538.7109375 121538.65625 0.0546875
+127 0 127 125156.3515625 125156.3984375 0.046875
+128 0 128 123737.2109375 123737.1953125 0.015625
+5119 0 5119 124153.0 124153.0 0.0
+5120 1 0 121999.0078125 121999.03125 0.0234375
+5121 1 1 122311.046875 122311.0625 0.015625
+10488320 2048 2560 120981.296875 120981.3125 0.015625
+20971518 4095 5118 124701.328125 124701.3125 0.015625
+20971519 4095 5119 124893.2421875 124893.25 0.0078125
+test pass
+
+[RUN] cores20_base128
+[INFO] Start profiling...
+PLATFORM cube_cores=20 vector_cores=40 workspace=16777216
+TILING autoBaseK=128 effectiveBaseK=128 stepKa=4 stepKb=2 depthA1=8 depthB1=4
+CONFIG blockDim=20 usedCoreNum=40 M=4096 N=5120 K=4096 base=128,128,128 singleCore=512,1024,4096 repeats=15 warmup=5
+NPU_MATMUL_SUCCESS elements=20971520 bytes=83886080 output=/home/ma-user/work/ascend_week14_20261119/results/cores20_base128/output.bin
+[INFO] Start export data in PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA.
+Thu 19 Nov 2026 10:56:45 [INFO] [MSVP] [66109] msprof_common.py: Start analyzing data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128/PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA/host" ...
+Thu 19 Nov 2026 10:56:45 [INFO] [MSVP] [66109] msprof_common.py: It may take few minutes, please be patient ...
+Thu 19 Nov 2026 10:56:46 [INFO] [MSVP] [66109] msprof_common.py: Analysis data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128/PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA/host" finished.
+Thu 19 Nov 2026 10:56:46 [INFO] [MSVP] [66109] msprof_common.py: Start analyzing data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128/PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA/device_0" ...
+Thu 19 Nov 2026 10:56:46 [INFO] [MSVP] [66109] msprof_common.py: It may take few minutes, please be patient ...
+Thu 19 Nov 2026 10:56:46 [INFO] [MSVP] [66109] msprof_common.py: Analysis data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128/PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA/device_0" finished.
+Thu 19 Nov 2026 10:56:46 [INFO] [MSVP] [66109] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128/PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA/device_0.
+Thu 19 Nov 2026 10:56:46 [INFO] [MSVP] [66109] msprof_export.py: There is no timeline data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128/PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA/host"
+Thu 19 Nov 2026 10:56:47 [INFO] [MSVP] [66322] msprof_export.py: The data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128/PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA/host" has been analyzed. Parsing phase will be skipped.
+Thu 19 Nov 2026 10:56:47 [INFO] [MSVP] [66322] msprof_export.py: The data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128/PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA/device_0" has been analyzed. Parsing phase will be skipped.
+Thu 19 Nov 2026 10:56:48 [INFO] [MSVP] [66322] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128/PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA/device_0.
+Thu 19 Nov 2026 10:56:48 [INFO] [MSVP] [66322] msprof_export.py: There is no summary data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128/PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA/host"
+Thu 19 Nov 2026 10:56:48 [INFO] [MSVP] [66322] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128/PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA/device_0.
+Thu 19 Nov 2026 10:56:48 [INFO] [MSVP] [66322] msprof_export.py: There is no summary data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128/PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA/device_0"
+Thu 19 Nov 2026 10:56:48 [INFO] [MSVP] [66322] msprof_common.py: Start exporting summary output_file.
+Thu 19 Nov 2026 10:56:48 [INFO] [MSVP] [66322] msprof_common.py: End exporting summary output_file.The file is stored in the /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128/PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA/mindstudio_profiler_output path.
+[INFO] Export all data in PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA done.
+[INFO] Start query data in PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA.
+Job Info	Device ID	Dir Name	Collection Time           	Model ID	Iteration Number	Top Time Iteration	Rank ID	
+
+NA      	         	host    	2026-11-19 10:56:41.372577	N/A     	N/A             	N/A               	0      	
+
+NA      	0        	device_0	2026-11-19 10:56:42.163487	N/A     	N/A             	N/A               	0      	
+
+[INFO] Query all data in PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA done.
+[INFO] Profiling finished.
+[INFO] Process profiling data complete. Data is saved in /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128/PROF_000001_20261119105641370_PCIRLBGMIGLBHMGA
+[VERIFY] shape=4096x5120 elements=20971520 failed=0 rtol=0.0001 atol=0.02
+[VERIFY] finite=True max_abs_error=0.2109375 max_rel_error=1.69764726e-06 rmse=0.0379474716
+[SAMPLES] index row column actual golden abs_error
+0 0 0 122304.1171875 122304.1875 0.0703125
+1 0 1 122748.1953125 122748.125 0.0703125
+2 0 2 121538.7109375 121538.65625 0.0546875
+127 0 127 125156.3515625 125156.3984375 0.046875
+128 0 128 123737.2109375 123737.1953125 0.015625
+5119 0 5119 124153.0 124153.0 0.0
+5120 1 0 121999.0078125 121999.03125 0.0234375
+5121 1 1 122311.046875 122311.0625 0.015625
+10488320 2048 2560 120981.296875 120981.3125 0.015625
+20971518 4095 5118 124701.328125 124701.3125 0.015625
+20971519 4095 5119 124893.2421875 124893.25 0.0078125
+test pass
+
+[RUN] cores20_base128x256
+[INFO] Start profiling...
+PLATFORM cube_cores=20 vector_cores=40 workspace=16777216
+TILING autoBaseK=64 effectiveBaseK=64 stepKa=8 stepKb=2 depthA1=16 depthB1=4
+CONFIG blockDim=20 usedCoreNum=40 M=4096 N=5120 K=4096 base=128,256,64 singleCore=512,1024,4096 repeats=15 warmup=5
+NPU_MATMUL_SUCCESS elements=20971520 bytes=83886080 output=/home/ma-user/work/ascend_week14_20261119/results/cores20_base128x256/output.bin
+[INFO] Start export data in PROF_000001_20261119105653463_DOKRKRBINQBJAHHC.
+Thu 19 Nov 2026 10:56:57 [INFO] [MSVP] [66665] msprof_common.py: Start analyzing data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128x256/PROF_000001_20261119105653463_DOKRKRBINQBJAHHC/host" ...
+Thu 19 Nov 2026 10:56:57 [INFO] [MSVP] [66665] msprof_common.py: It may take few minutes, please be patient ...
+Thu 19 Nov 2026 10:56:57 [INFO] [MSVP] [66665] msprof_common.py: Analysis data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128x256/PROF_000001_20261119105653463_DOKRKRBINQBJAHHC/host" finished.
+Thu 19 Nov 2026 10:56:57 [INFO] [MSVP] [66665] msprof_common.py: Start analyzing data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128x256/PROF_000001_20261119105653463_DOKRKRBINQBJAHHC/device_0" ...
+Thu 19 Nov 2026 10:56:57 [INFO] [MSVP] [66665] msprof_common.py: It may take few minutes, please be patient ...
+Thu 19 Nov 2026 10:56:57 [INFO] [MSVP] [66665] msprof_common.py: Analysis data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128x256/PROF_000001_20261119105653463_DOKRKRBINQBJAHHC/device_0" finished.
+Thu 19 Nov 2026 10:56:57 [INFO] [MSVP] [66665] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128x256/PROF_000001_20261119105653463_DOKRKRBINQBJAHHC/device_0.
+Thu 19 Nov 2026 10:56:57 [INFO] [MSVP] [66665] msprof_export.py: There is no timeline data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128x256/PROF_000001_20261119105653463_DOKRKRBINQBJAHHC/host"
+Thu 19 Nov 2026 10:56:59 [INFO] [MSVP] [66881] msprof_export.py: The data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128x256/PROF_000001_20261119105653463_DOKRKRBINQBJAHHC/host" has been analyzed. Parsing phase will be skipped.
+Thu 19 Nov 2026 10:56:59 [INFO] [MSVP] [66881] msprof_export.py: The data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128x256/PROF_000001_20261119105653463_DOKRKRBINQBJAHHC/device_0" has been analyzed. Parsing phase will be skipped.
+Thu 19 Nov 2026 10:56:59 [INFO] [MSVP] [66881] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128x256/PROF_000001_20261119105653463_DOKRKRBINQBJAHHC/device_0.
+Thu 19 Nov 2026 10:56:59 [INFO] [MSVP] [66881] msprof_export.py: There is no summary data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128x256/PROF_000001_20261119105653463_DOKRKRBINQBJAHHC/host"
+Thu 19 Nov 2026 10:56:59 [INFO] [MSVP] [66881] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128x256/PROF_000001_20261119105653463_DOKRKRBINQBJAHHC/device_0.
+Thu 19 Nov 2026 10:56:59 [INFO] [MSVP] [66881] msprof_export.py: There is no summary data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128x256/PROF_000001_20261119105653463_DOKRKRBINQBJAHHC/device_0"
+Thu 19 Nov 2026 10:56:59 [INFO] [MSVP] [66881] msprof_common.py: Start exporting summary output_file.
+Thu 19 Nov 2026 10:56:59 [INFO] [MSVP] [66881] msprof_common.py: End exporting summary output_file.The file is stored in the /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128x256/PROF_000001_20261119105653463_DOKRKRBINQBJAHHC/mindstudio_profiler_output path.
+[INFO] Export all data in PROF_000001_20261119105653463_DOKRKRBINQBJAHHC done.
+[INFO] Start query data in PROF_000001_20261119105653463_DOKRKRBINQBJAHHC.
+Job Info	Device ID	Dir Name	Collection Time           	Model ID	Iteration Number	Top Time Iteration	Rank ID	
+
+NA      	         	host    	2026-11-19 10:56:53.466291	N/A     	N/A             	N/A               	0      	
+
+NA      	0        	device_0	2026-11-19 10:56:54.251492	N/A     	N/A             	N/A               	0      	
+
+[INFO] Query all data in PROF_000001_20261119105653463_DOKRKRBINQBJAHHC done.
+[INFO] Profiling finished.
+[INFO] Process profiling data complete. Data is saved in /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base128x256/PROF_000001_20261119105653463_DOKRKRBINQBJAHHC
+[VERIFY] shape=4096x5120 elements=20971520 failed=0 rtol=0.0001 atol=0.02
+[VERIFY] finite=True max_abs_error=0.2109375 max_rel_error=1.69764726e-06 rmse=0.0379474716
+[SAMPLES] index row column actual golden abs_error
+0 0 0 122304.1171875 122304.1875 0.0703125
+1 0 1 122748.1953125 122748.125 0.0703125
+2 0 2 121538.7109375 121538.65625 0.0546875
+127 0 127 125156.3515625 125156.3984375 0.046875
+128 0 128 123737.2109375 123737.1953125 0.015625
+5119 0 5119 124153.0 124153.0 0.0
+5120 1 0 121999.0078125 121999.03125 0.0234375
+5121 1 1 122311.046875 122311.0625 0.015625
+10488320 2048 2560 120981.296875 120981.3125 0.015625
+20971518 4095 5118 124701.328125 124701.3125 0.015625
+20971519 4095 5119 124893.2421875 124893.25 0.0078125
+test pass
+WEEK14 | M=4096 K=4096 N=5120 | fp16 inputs -> fp32 output
+Ascend910B4 | 20 Cube / 40 Vector | msprof PipeUtilization
+5 warmups excluded, 15 measured launches per configuration
+cores5_base128: blocks=5 AIV=10 base=(128,128,128)
+  median us: Task Duration(us)=4239.12, aicore_time(us)=4030.008, aic_mac_time(us)=2834.469, aic_mte2_time(us)=3955.756
+  correctness: 20971520 elements, failed=0, max_rel_error=1.69764726e-06
+cores20_base64: blocks=20 AIV=40 base=(64,64,64)
+  median us: Task Duration(us)=6096.4, aicore_time(us)=5635.587, aic_mac_time(us)=1062.392, aic_mte2_time(us)=5577.001
+  correctness: 20971520 elements, failed=0, max_rel_error=1.69764726e-06
+cores20_base128: blocks=20 AIV=40 base=(128,128,128)
+  median us: Task Duration(us)=1565.08, aicore_time(us)=1507.625, aic_mac_time(us)=712.628, aic_mte2_time(us)=1482.12
+  correctness: 20971520 elements, failed=0, max_rel_error=1.69764726e-06
+cores20_base128x256: blocks=20 AIV=40 base=(128,256,64)
+  median us: Task Duration(us)=1203.44, aicore_time(us)=1186.418, aic_mac_time(us)=711.773, aic_mte2_time(us)=1170.292
+  correctness: 20971520 elements, failed=0, max_rel_error=1.69764726e-06
+20-vs-5 speedup: Task Duration=2.7086x, AI Core=2.6731x
+ALL FOUR CONFIGURATIONS: PASS

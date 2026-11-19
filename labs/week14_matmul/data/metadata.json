@@ -1,0 +1,313 @@
+{
+  "seed": 20261119,
+  "M": 4096,
+  "K": 4096,
+  "N": 5120,
+  "input_dtype": "float16",
+  "output_dtype": "float32",
+  "format": "ND",
+  "byte_order": "little",
+  "input_range": [
+    1.0,
+    10.0
+  ],
+  "input_a_shape": [
+    4096,
+    4096
+  ],
+  "input_b_shape": [
+    4096,
+    5120
+  ],
+  "output_shape": [
+    4096,
+    5120
+  ],
+  "input_a_actual_range": [
+    1.0,
+    10.0
+  ],
+  "input_b_actual_range": [
+    1.0,
+    10.0
+  ],
+  "golden_range": [
+    116107.2109375,
+    131200.375
+  ],
+  "reference_method": "CPU NumPy: float32(A_fp16) @ float32(B_fp16)",
+  "reference_compute_seconds": 1.6213949939992744,
+  "numpy_version": "1.26.4",
+  "blas_thread_limit": 8,
+  "output_elements": 20971520,
+  "file_bytes": {
+    "input_a.bin": 33554432,
+    "input_b.bin": 41943040,
+    "golden.bin": 83886080
+  },
+  "sha256": {
+    "input_a.bin": "8acd44c093f78aeba9087ed8ba3ba45be4484ee19c1246bcda784b6e01687c7b",
+    "input_b.bin": "8ffd11be54d5596ea56bb5d40c74101c8a0b39714ef36aed88e51b285324014b",
+    "golden.bin": "dd882acb5982537c98e9ca8746d33dfea06cc165fc87a9f0cc28685b5c111734"
+  },
+  "float64_spot_check_count": 32,
+  "float64_spot_check_max_rel_error": 5.433071664900478e-07,
+  "float64_spot_checks": [
+    {
+      "row": 0,
+      "column": 0,
+      "float64_reference": 122304.12906265259,
+      "float32_golden": 122304.1875,
+      "abs_error": 0.058437347412109375,
+      "rel_error": 4.77803552995122e-07
+    },
+    {
+      "row": 0,
+      "column": 5119,
+      "float64_reference": 124153.00907897949,
+      "float32_golden": 124153.0,
+      "abs_error": 0.0090789794921875,
+      "rel_error": 7.312734149207725e-08
+    },
+    {
+      "row": 127,
+      "column": 255,
+      "float64_reference": 124670.39646911621,
+      "float32_golden": 124670.453125,
+      "abs_error": 0.0566558837890625,
+      "rel_error": 4.544453646868565e-07
+    },
+    {
+      "row": 128,
+      "column": 256,
+      "float64_reference": 124482.20713424683,
+      "float32_golden": 124482.234375,
+      "abs_error": 0.027240753173828125,
+      "rel_error": 2.1883250466832224e-07
+    },
+    {
+      "row": 320,
+      "column": 3021,
+      "float64_reference": 122138.36452007294,
+      "float32_golden": 122138.3515625,
+      "abs_error": 0.012957572937011719,
+      "rel_error": 1.0608929461211341e-07
+    },
+    {
+      "row": 380,
+      "column": 4520,
+      "float64_reference": 123381.66742229462,
+      "float32_golden": 123381.6640625,
+      "abs_error": 0.0033597946166992188,
+      "rel_error": 2.7230906235038577e-08
+    },
+    {
+      "row": 603,
+      "column": 4736,
+      "float64_reference": 123204.57750225067,
+      "float32_golden": 123204.578125,
+      "abs_error": 0.0006227493286132812,
+      "rel_error": 5.054595707711469e-09
+    },
+    {
+      "row": 631,
+      "column": 903,
+      "float64_reference": 124244.58874702454,
+      "float32_golden": 124244.65625,
+      "abs_error": 0.06750297546386719,
+      "rel_error": 5.433071664900478e-07
+    },
+    {
+      "row": 743,
+      "column": 3395,
+      "float64_reference": 123629.03378582001,
+      "float32_golden": 123629.03125,
+      "abs_error": 0.0025358200073242188,
+      "rel_error": 2.0511524919925985e-08
+    },
+    {
+      "row": 777,
+      "column": 2085,
+      "float64_reference": 123531.31014919281,
+      "float32_golden": 123531.296875,
+      "abs_error": 0.013274192810058594,
+      "rel_error": 1.0745609994767251e-07
+    },
+    {
+      "row": 1051,
+      "column": 4883,
+      "float64_reference": 122366.09702968597,
+      "float32_golden": 122366.1484375,
+      "abs_error": 0.051407814025878906,
+      "rel_error": 4.201148461359145e-07
+    },
+    {
+      "row": 1289,
+      "column": 4452,
+      "float64_reference": 121903.64541816711,
+      "float32_golden": 121903.65625,
+      "abs_error": 0.010831832885742188,
+      "rel_error": 8.885569294163155e-08
+    },
+    {
+      "row": 1357,
+      "column": 266,
+      "float64_reference": 123220.7038488388,
+      "float32_golden": 123220.71875,
+      "abs_error": 0.014901161193847656,
+      "rel_error": 1.2093066123147356e-07
+    },
+    {
+      "row": 1643,
+      "column": 27,
+      "float64_reference": 118592.72836875916,
+      "float32_golden": 118592.75,
+      "abs_error": 0.021631240844726562,
+      "rel_error": 1.823993860522807e-07
+    },
+    {
+      "row": 1696,
+      "column": 4267,
+      "float64_reference": 124778.55588531494,
+      "float32_golden": 124778.609375,
+      "abs_error": 0.05348968505859375,
+      "rel_error": 4.286769042892e-07
+    },
+    {
+      "row": 1894,
+      "column": 767,
+      "float64_reference": 122250.13632774353,
+      "float32_golden": 122250.109375,
+      "abs_error": 0.026952743530273438,
+      "rel_error": 2.2047209385529955e-07
+    },
+    {
+      "row": 1902,
+      "column": 2107,
+      "float64_reference": 120433.62253284454,
+      "float32_golden": 120433.6484375,
+      "abs_error": 0.02590465545654297,
+      "rel_error": 2.1509487891953327e-07
+    },
+    {
+      "row": 2047,
+      "column": 4095,
+      "float64_reference": 125165.0184879303,
+      "float32_golden": 125165.0625,
+      "abs_error": 0.04401206970214844,
+      "rel_error": 3.5163235090635594e-07
+    },
+    {
+      "row": 2048,
+      "column": 2560,
+      "float64_reference": 120981.309009552,
+      "float32_golden": 120981.3125,
+      "abs_error": 0.003490447998046875,
+      "rel_error": 2.8851134333248855e-08
+    },
+    {
+      "row": 2137,
+      "column": 2043,
+      "float64_reference": 122886.09948730469,
+      "float32_golden": 122886.1328125,
+      "abs_error": 0.0333251953125,
+      "rel_error": 2.711876725808423e-07
+    },
+    {
+      "row": 2813,
+      "column": 2337,
+      "float64_reference": 123542.4178571701,
+      "float32_golden": 123542.4375,
+      "abs_error": 0.01964282989501953,
+      "rel_error": 1.5899664451871912e-07
+    },
+    {
+      "row": 3055,
+      "column": 3773,
+      "float64_reference": 125128.2111568451,
+      "float32_golden": 125128.21875,
+      "abs_error": 0.0075931549072265625,
+      "rel_error": 6.068299735947421e-08
+    },
+    {
+      "row": 3064,
+      "column": 3342,
+      "float64_reference": 123351.85095119476,
+      "float32_golden": 123351.8203125,
+      "abs_error": 0.030638694763183594,
+      "rel_error": 2.4838455626665917e-07
+    },
+    {
+      "row": 3077,
+      "column": 4396,
+      "float64_reference": 124560.7417678833,
+      "float32_golden": 124560.765625,
+      "abs_error": 0.02385711669921875,
+      "rel_error": 1.915299825660645e-07
+    },
+    {
+      "row": 3097,
+      "column": 1078,
+      "float64_reference": 123066.57816123962,
+      "float32_golden": 123066.5859375,
+      "abs_error": 0.0077762603759765625,
+      "rel_error": 6.31874266121891e-08
+    },
+    {
+      "row": 3163,
+      "column": 3862,
+      "float64_reference": 122975.16549015045,
+      "float32_golden": 122975.1640625,
+      "abs_error": 0.0014276504516601562,
+      "rel_error": 1.1609258226812488e-08
+    },
+    {
+      "row": 3358,
+      "column": 4044,
+      "float64_reference": 120943.51318264008,
+      "float32_golden": 120943.5,
+      "abs_error": 0.013182640075683594,
+      "rel_error": 1.0899832267792761e-07
+    },
+    {
+      "row": 3789,
+      "column": 3599,
+      "float64_reference": 122427.02459049225,
+      "float32_golden": 122426.9609375,
+      "abs_error": 0.06365299224853516,
+      "rel_error": 5.199259923325661e-07
+    },
+    {
+      "row": 3872,
+      "column": 1892,
+      "float64_reference": 124156.50971794128,
+      "float32_golden": 124156.5234375,
+      "abs_error": 0.013719558715820312,
+      "rel_error": 1.1050212950564092e-07
+    },
+    {
+      "row": 3921,
+      "column": 4129,
+      "float64_reference": 123537.38959598541,
+      "float32_golden": 123537.3515625,
+      "abs_error": 0.038033485412597656,
+      "rel_error": 3.0787023699449797e-07
+    },
+    {
+      "row": 4095,
+      "column": 0,
+      "float64_reference": 123290.70358753204,
+      "float32_golden": 123290.65625,
+      "abs_error": 0.04733753204345703,
+      "rel_error": 3.839505385728378e-07
+    },
+    {
+      "row": 4095,
+      "column": 5119,
+      "float64_reference": 124893.28274345398,
+      "float32_golden": 124893.25,
+      "abs_error": 0.03274345397949219,
+      "rel_error": 2.621714575855231e-07
+    }
+  ]
+}

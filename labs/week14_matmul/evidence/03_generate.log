@@ -1,0 +1,7 @@
+[DATA] seed=20261119 A=4096x4096 B=4096x5120 input=float16 ND range=[1,10]
+[REFERENCE] CPU NumPy float32 matmul; BLAS thread limit=8
+[REFERENCE] complete elements=20971520 range=[116107.211,131200.375] cpu_seconds=1.621
+[REFERENCE] float64_spot_checks=32 max_rel_error=5.43307166e-07
+[SHA256] 8acd44c093f78aeba9087ed8ba3ba45be4484ee19c1246bcda784b6e01687c7b  input_a.bin
+[SHA256] 8ffd11be54d5596ea56bb5d40c74101c8a0b39714ef36aed88e51b285324014b  input_b.bin
+[SHA256] dd882acb5982537c98e9ca8746d33dfea06cc165fc87a9f0cc28685b5c111734  golden.bin

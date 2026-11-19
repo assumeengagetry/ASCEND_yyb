@@ -1,0 +1,13 @@
+[VERIFY] elements=16384 failed=0 max_abs_error=0.0009765625 max_rel_error=1.1932626e-07 rtol=1e-05 atol=1e-06
+[VERIFY] golden_matches_independent_reference=True
+[VERIFY] core_failed_counts=[0, 0, 0, 0, 0, 0, 0, 0]
+[VERIFY] first 8 elements: index x expected actual abs_error rel_error
+    0 1 1.17520118 1.17520118 0 0
+    1 1.00054932 1.17604899 1.17604899 0 0
+    2 1.00109875 1.17689741 1.17689729 1.1920929e-07 1.01291148e-07
+    3 1.00164807 1.17774594 1.17774594 0 0
+    4 1.00219738 1.17859483 1.17859483 0 0
+    5 1.0027467 1.17944396 1.17944396 0 0
+    6 1.00329614 1.1802938 1.1802938 0 0
+    7 1.00384545 1.18114376 1.18114376 0 0
+test pass

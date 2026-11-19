@@ -1,0 +1,2 @@
+Device_id,OP Type,Core Type,Count,Total Time(us),Min Time(us),Avg Time(us),Max Time(us),Ratio(%)
+0,matmul_custom,MIX_AIC,20,121970.22,6083.46,6098.511,6114.68,100

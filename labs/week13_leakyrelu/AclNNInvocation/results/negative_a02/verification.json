@@ -1,0 +1,68 @@
+{
+  "case": "negative_a02",
+  "shape": [
+    8,
+    200,
+    1024
+  ],
+  "elements": 1638400,
+  "negative_slope": 0.2,
+  "passed": true,
+  "failed_elements": 0,
+  "max_abs_error": 0.0,
+  "max_rel_error_nonzero": 0.0,
+  "negative_count": 1638396,
+  "zero_count": 4,
+  "positive_count": 0,
+  "samples": [
+    {
+      "index": 0,
+      "x": -10.0,
+      "reference": -2.0,
+      "actual": -2.0
+    },
+    {
+      "index": 1,
+      "x": -1.0,
+      "reference": -0.20000000298023224,
+      "actual": -0.20000000298023224
+    },
+    {
+      "index": 2,
+      "x": -9.999999747378752e-06,
+      "reference": -1.9999999949504854e-06,
+      "actual": -1.9999999949504854e-06
+    },
+    {
+      "index": 3,
+      "x": -0.0,
+      "reference": -0.0,
+      "actual": 0.0
+    },
+    {
+      "index": 4,
+      "x": -0.0,
+      "reference": -0.0,
+      "actual": 0.0
+    },
+    {
+      "index": 5,
+      "x": -9.999999747378752e-06,
+      "reference": -1.9999999949504854e-06,
+      "actual": -1.9999999949504854e-06
+    },
+    {
+      "index": 6,
+      "x": -1.0,
+      "reference": -0.20000000298023224,
+      "actual": -0.20000000298023224
+    },
+    {
+      "index": 7,
+      "x": -10.0,
+      "reference": -2.0,
+      "actual": -2.0
+    }
+  ],
+  "input_sha256": "d606675317f4bd572a81fd4f3c3298b7a46cc988498ed81ed6bcef13607518cb"
+}

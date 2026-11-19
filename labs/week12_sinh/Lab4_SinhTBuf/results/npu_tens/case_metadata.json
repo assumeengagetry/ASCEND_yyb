@@ -1,0 +1,28 @@
+{
+  "case": "tens",
+  "seed": 20261119,
+  "shape": [
+    8,
+    2048
+  ],
+  "numel": 16384,
+  "dtype": "float32",
+  "byte_order": "little",
+  "bytes_per_tensor": 65536,
+  "input_range": [
+    1.0,
+    10.0
+  ],
+  "actual_input_min": 10.0,
+  "actual_input_max": 10.0,
+  "core_count": 8,
+  "elements_per_core": 2048,
+  "tile_length": 128,
+  "tiles_per_core": 16,
+  "formula": "float32(sinh(float64(x)))",
+  "boundary_indexes": [],
+  "sha256": {
+    "input/input_x.bin": "a105b9aea20b2687bf383aa9220045499181dedf10bb5f886464b6d0cfca6c59",
+    "output/golden.bin": "b99c6670750c4bf32f3448cae090797fa3a186d1e8fed91394604fe19ae5dc99"
+  }
+}

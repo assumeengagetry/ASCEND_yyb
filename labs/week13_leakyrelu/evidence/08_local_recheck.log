@@ -1,0 +1,6 @@
+RECHECK_PASS random_a01 1638400
+RECHECK_PASS random_a15 1638400
+RECHECK_PASS negative_a02 1638400
+RECHECK_PASS positive_a01 1638400
+RECHECK_PASS tail_257_a01 257
+RECHECK_PASS activation and complete network outputs

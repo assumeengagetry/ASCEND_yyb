@@ -1,0 +1,5 @@
+# Preserve binary experiment evidence without text conversion or text diffs.
+*.bin binary
+*.db binary
+*.slice_* binary
+*.run binary

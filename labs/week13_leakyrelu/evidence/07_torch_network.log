@@ -1,0 +1,79 @@
+/home/ma-user/anaconda3/envs/PyTorch-2.7.1/lib/python3.12/site-packages/torch_npu/utils/collect_env.py:58: UserWarning: Warning: The /usr/local/Ascend/cann-8.5.2 owner does not match the current owner.
+  warnings.warn(f"Warning: The {path} owner does not match the current owner.")
+/home/ma-user/anaconda3/envs/PyTorch-2.7.1/lib/python3.12/site-packages/torch_npu/utils/collect_env.py:58: UserWarning: Warning: The /usr/local/Ascend/cann-8.5.2/aarch64-linux/ascend_toolkit_install.info owner does not match the current owner.
+  warnings.warn(f"Warning: The {path} owner does not match the current owner.")
+/home/ma-user/anaconda3/envs/PyTorch-2.7.1/lib/python3.12/site-packages/torch_npu/utils/collect_env.py:58: UserWarning: Warning: The /usr/local/Ascend/cann-8.5.2 owner does not match the current owner.
+  warnings.warn(f"Warning: The {path} owner does not match the current owner.")
+/home/ma-user/anaconda3/envs/PyTorch-2.7.1/lib/python3.12/site-packages/torch_npu/utils/collect_env.py:58: UserWarning: Warning: The /usr/local/Ascend/cann-8.5.2/aarch64-linux/ascend_toolkit_install.info owner does not match the current owner.
+  warnings.warn(f"Warning: The {path} owner does not match the current owner.")
+[W1119 10:46:58.207972570 compiler_depend.ts:338] Warning: Cannot create tensor with interal format while allow_internel_format=False, tensor will be created with base format. (function operator())
+{
+  "seed": 20261119,
+  "device": "npu:0",
+  "torch": "2.7.1+cpu",
+  "torch_npu": "2.7.1.post2",
+  "negative_slope": 0.1,
+  "network": "Linear(1024,1024) -> LeakyReLU(0.1) -> Linear(1024,64)",
+  "input_shape": [
+    1600,
+    1024
+  ],
+  "output_shape": [
+    1600,
+    64
+  ],
+  "replacement": "activation between fc1 and fc2",
+  "custom_api": "torch.ops.week13.leaky_relu -> C++ PrivateUse1 -> aclnnLeakyReluCustom",
+  "rtol": 0.0001,
+  "atol": 1e-05,
+  "direct_activation_vs_math": {
+    "passed": true,
+    "numel": 1638400,
+    "failed_elements": 0,
+    "max_abs_error": 0.0,
+    "mean_abs_error": 0.0,
+    "max_rel_error": 0.0
+  },
+  "direct_activation_vs_builtin_npu": {
+    "passed": true,
+    "numel": 1638400,
+    "failed_elements": 0,
+    "max_abs_error": 0.0,
+    "mean_abs_error": 0.0,
+    "max_rel_error": 0.0
+  },
+  "network_original_vs_replaced": {
+    "passed": true,
+    "numel": 102400,
+    "failed_elements": 0,
+    "max_abs_error": 0.0,
+    "mean_abs_error": 0.0,
+    "max_rel_error": 0.0
+  },
+  "custom_kernel_calls": 2,
+  "negative_activation_inputs": 819231,
+  "nonnegative_activation_inputs": 819169,
+  "first_original_values": [
+    0.02155616506934166,
+    -0.2244807630777359,
+    0.007696893066167831,
+    0.04013776406645775,
+    -0.07689247280359268,
+    0.10900693386793137,
+    0.31984925270080566,
+    0.06308591365814209
+  ],
+  "first_replaced_values": [
+    0.02155616506934166,
+    -0.2244807630777359,
+    0.007696893066167831,
+    0.04013776406645775,
+    -0.07689247280359268,
+    0.10900693386793137,
+    0.31984925270080566,
+    0.06308591365814209
+  ],
+  "scope": "inference only; autograd and performance not evaluated",
+  "passed": true
+}
+NETWORK_REPLACEMENT_PASS

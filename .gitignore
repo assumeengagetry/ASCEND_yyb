@@ -1,7 +1,77 @@
-# macOS and Python generated files
+# macOS and editor files
 .DS_Store
+._*
+.AppleDouble/
+.LSOverride
+Thumbs.db
+*.swp
+*.swo
+~$*
+
+# Python environments and caches
 __pycache__/
 *.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.egg-info/
 
-# Local renders, font caches and scratch work (existing tracked files are retained)
+# Local rendering, downloads, fonts, SSH sessions and scratch work
 /tmp/
+.env
+.env.*
+!.env.example
+!.env.sample
+.ssh/
+*.pem
+*.key
+id_rsa
+id_ed25519
+id_ecdsa
+id_dsa
+ssh_config
+known_hosts
+known_hosts.old
+
+# CMake / Ascend compilation products; source build scripts stay tracked
+build/
+build_*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.run
+# Preserve the small installer verified in the week 13 experiment.
+!/labs/week13_leakyrelu/package/custom_opp_hce_aarch64.run
+cceprint/
+npuchk/
+sim_log/
+stub_reg.log
+
+# Generated tensors, model weights and simulator dumps
+# Keep tiling parameters, validation JSON, logs, profiler CSV/DB and screenshots.
+*.bin
+!**/tiling.bin
+*.npy
+*.npz
+*.pt
+*.pth
+*.dump
+
+# Local submission bundles and duplicate/history copies
+# Final PDFs and archive/report_sources remain tracked.
+/output/**/*.zip
+/archive/combined/
+/archive/duplicates/
+/archive/extracted/
+/archive/report_history/

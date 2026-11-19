@@ -1,0 +1,68 @@
+{
+  "case": "positive_a01",
+  "shape": [
+    8,
+    200,
+    1024
+  ],
+  "elements": 1638400,
+  "negative_slope": 0.1,
+  "passed": true,
+  "failed_elements": 0,
+  "max_abs_error": 0.0,
+  "max_rel_error_nonzero": 0.0,
+  "negative_count": 0,
+  "zero_count": 4,
+  "positive_count": 1638396,
+  "samples": [
+    {
+      "index": 0,
+      "x": 10.0,
+      "reference": 10.0,
+      "actual": 10.0
+    },
+    {
+      "index": 1,
+      "x": 1.0,
+      "reference": 1.0,
+      "actual": 1.0
+    },
+    {
+      "index": 2,
+      "x": 9.999999747378752e-06,
+      "reference": 9.999999747378752e-06,
+      "actual": 9.999999747378752e-06
+    },
+    {
+      "index": 3,
+      "x": 0.0,
+      "reference": 0.0,
+      "actual": 0.0
+    },
+    {
+      "index": 4,
+      "x": 0.0,
+      "reference": 0.0,
+      "actual": 0.0
+    },
+    {
+      "index": 5,
+      "x": 9.999999747378752e-06,
+      "reference": 9.999999747378752e-06,
+      "actual": 9.999999747378752e-06
+    },
+    {
+      "index": 6,
+      "x": 1.0,
+      "reference": 1.0,
+      "actual": 1.0
+    },
+    {
+      "index": 7,
+      "x": 10.0,
+      "reference": 10.0,
+      "actual": 10.0
+    }
+  ],
+  "input_sha256": "001e211dfa4241453acb8903a99660eff1bd10265413290499b9a6e2a2103db3"
+}

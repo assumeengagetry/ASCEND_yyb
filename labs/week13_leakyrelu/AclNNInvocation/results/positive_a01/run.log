@@ -1,0 +1,2 @@
+$ /home/ma-user/work/ascend_week13_20261119/AclNNInvocation/main float32 8,200,1024 /home/ma-user/work/ascend_week13_20261119/AclNNInvocation/results/positive_a01/input.bin /home/ma-user/work/ascend_week13_20261119/AclNNInvocation/results/positive_a01/output.bin 0.1
+NPU_CALL_SUCCESS dtype=float32 shape=8,200,1024 numel=1638400 negative_slope=0.1 device=0 workspace_bytes=0

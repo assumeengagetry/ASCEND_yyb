@@ -1,0 +1,6 @@
+4.2M	/home/ma-user/work/ascend_week14_20261119/profiles
+367M	/home/ma-user/work/week14_results.tar.gz
+2ba617c6564a65dda3aa2f6ed8bd8f083558e8700165c2211ca0cc8756b21fbf  main.cpp
+dbbe4d197cdfb5c6c580db340073abd66456da7971b5e50802db8eb58416a2ba  matmul_custom.cpp
+007ea8e84113c48abc9a53e204cc6d195b6253ad28ffd8a4209e7494536d7f1a  CMakeLists.txt
+8fdbf56555871f04eaf4929963c7f428d2b930406e1b68f02db8336d5737136a  build_npu/main

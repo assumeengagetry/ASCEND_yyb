@@ -1,0 +1,33 @@
+[INFO] Start profiling...
+PLATFORM cube_cores=20 vector_cores=40 workspace=16777216
+TILING autoBaseK=256 effectiveBaseK=64 stepKa=16 stepKb=4 depthA1=32 depthB1=8
+CONFIG blockDim=20 usedCoreNum=40 M=4096 N=5120 K=4096 base=64,64,64 singleCore=512,1024,4096 repeats=15 warmup=5
+NPU_MATMUL_SUCCESS elements=20971520 bytes=83886080 output=/home/ma-user/work/ascend_week14_20261119/results/cores20_base64/output.bin
+[INFO] Start export data in PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA.
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_common.py: Start analyzing data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/host" ...
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_common.py: It may take few minutes, please be patient ...
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_common.py: Analysis data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/host" finished.
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_common.py: Start analyzing data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/device_0" ...
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_common.py: It may take few minutes, please be patient ...
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_common.py: Analysis data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/device_0" finished.
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/device_0.
+Thu 19 Nov 2026 10:56:34 [INFO] [MSVP] [65514] msprof_export.py: There is no timeline data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/host"
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_export.py: The data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/host" has been analyzed. Parsing phase will be skipped.
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_export.py: The data in "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/device_0" has been analyzed. Parsing phase will be skipped.
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/device_0.
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_export.py: There is no summary data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/host"
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_export.py: All collected data will be exported, path is: /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/device_0.
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_export.py: There is no summary data to export for "/home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/device_0"
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_common.py: Start exporting summary output_file.
+Thu 19 Nov 2026 10:56:36 [INFO] [MSVP] [65746] msprof_common.py: End exporting summary output_file.The file is stored in the /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA/mindstudio_profiler_output path.
+[INFO] Export all data in PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA done.
+[INFO] Start query data in PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA.
+Job Info	Device ID	Dir Name	Collection Time           	Model ID	Iteration Number	Top Time Iteration	Rank ID	
+
+NA      	         	host    	2026-11-19 10:56:30.447885	N/A     	N/A             	N/A               	0      	
+
+NA      	0        	device_0	2026-11-19 10:56:31.251490	N/A     	N/A             	N/A               	0      	
+
+[INFO] Query all data in PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA done.
+[INFO] Profiling finished.
+[INFO] Process profiling data complete. Data is saved in /home/ma-user/work/ascend_week14_20261119/profiles/cores20_base64/PROF_000001_20261119105630445_KKCFOHPOCCLQKPJA

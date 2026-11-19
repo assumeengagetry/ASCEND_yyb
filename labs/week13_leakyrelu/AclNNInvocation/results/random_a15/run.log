@@ -1,0 +1,2 @@
+$ /home/ma-user/work/ascend_week13_20261119/AclNNInvocation/main float32 8,200,1024 /home/ma-user/work/ascend_week13_20261119/AclNNInvocation/results/random_a15/input.bin /home/ma-user/work/ascend_week13_20261119/AclNNInvocation/results/random_a15/output.bin 1.5
+NPU_CALL_SUCCESS dtype=float32 shape=8,200,1024 numel=1638400 negative_slope=1.5 device=0 workspace_bytes=0

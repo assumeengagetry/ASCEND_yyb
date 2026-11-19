@@ -1,0 +1,17 @@
+2026-11-19 10:39:29 (34502) - [INFO] Start to generate AI Core operator files. 
+2026-11-19 10:39:29 (34502) - [INFO] Start to parse the ir template:/home/ma-user/work/ascend_week13_20261119/LeakyReluCustom.json 
+2026-11-19 10:39:29 (34502) - [INFO] Start to parse the op: LeakyReluCustom 
+2026-11-19 10:39:29 (34502) - [INFO] Start to parse the input_desc: x 
+2026-11-19 10:39:29 (34502) - [INFO] Start to parse the output_desc: y 
+2026-11-19 10:39:29 (34502) - [INFO] Start to parse the attribute: negative_slope 
+2026-11-19 10:39:29 (34502) - [INFO] Start to check the type and format between the inputs/outputs in IR template. 
+2026-11-19 10:39:29 (34502) - [INFO] Start to generate a new project. 
+2026-11-19 10:39:29 (34502) - [WARNING] File config.cmake lack of ASCEND_FRAMEWORK_TYPE. Please check your config env. 
+2026-11-19 10:39:29 (34502) - [WARNING] File /home/ma-user/work/ascend_week13_20261119/LeakyReluCustom/cmake/config.cmake already exists and will be overwrite! 
+2026-11-19 10:39:29 (34502) - [INFO] File /home/ma-user/work/ascend_week13_20261119/LeakyReluCustom/cmake/config.cmake generated successfully. 
+2026-11-19 10:39:29 (34502) - [INFO] File /home/ma-user/work/ascend_week13_20261119/LeakyReluCustom/op_host/leaky_relu_custom_tiling.h generated successfully. 
+2026-11-19 10:39:29 (34502) - [INFO] File /home/ma-user/work/ascend_week13_20261119/LeakyReluCustom/op_host/leaky_relu_custom.cpp generated successfully. 
+2026-11-19 10:39:29 (34502) - [INFO] File /home/ma-user/work/ascend_week13_20261119/LeakyReluCustom/op_kernel/leaky_relu_custom.cpp generated successfully. 
+2026-11-19 10:39:29 (34502) - [INFO] File /home/ma-user/work/ascend_week13_20261119/LeakyReluCustom/framework/tf_plugin/tensorflow_leaky_relu_custom_plugin.cc generated successfully. 
+2026-11-19 10:39:29 (34502) - [INFO] File /home/ma-user/work/ascend_week13_20261119/LeakyReluCustom/framework/tf_plugin/CMakeLists.txt generated successfully. 
+2026-11-19 10:39:29 (34502) - [INFO] Generation completed. 

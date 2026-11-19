@@ -1,0 +1,6 @@
+PASS random_a01 elements=1638400 slope=0.1 failed=0 max_abs_error=0.0
+PASS random_a15 elements=1638400 slope=1.5 failed=0 max_abs_error=0.0
+PASS negative_a02 elements=1638400 slope=0.2 failed=0 max_abs_error=0.0
+PASS positive_a01 elements=1638400 slope=0.1 failed=0 max_abs_error=0.0
+PASS tail_257_a01 elements=257 slope=0.1 failed=0 max_abs_error=0.0
+ACLNN SUMMARY 5/5 PASS

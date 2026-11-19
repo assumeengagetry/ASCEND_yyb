@@ -1,0 +1,21 @@
+WEEK 13 | LeakyReluCustom | Ascend 910B4 | CANN 8.5.2
+Course: 2026-11-26 | Executed: 2026-11-19
+Archived real NPU results (this screen reads saved verification files)
+API: aclnnLeakyReluCustomGetWorkspaceSize -> aclnnLeakyReluCustom
+random_a01           elements=1638400 slope=0.1  failed=0 max_abs=0.0
+random_a15           elements=1638400 slope=1.5  failed=0 max_abs=0.0
+negative_a02         elements=1638400 slope=0.2  failed=0 max_abs=0.0
+positive_a01         elements=1638400 slope=0.1  failed=0 max_abs=0.0
+tail_257_a01         elements=257     slope=0.1  failed=0 max_abs=0.0
+ACLNN SUMMARY: 5/5 PASS
+
+NETWORK: Linear(1024,1024) -> LeakyReLU(0.1) -> Linear(1024,64)
+REPLACE: activation between fc1 and fc2
+PLUGIN: torch.ops.week13.leaky_relu -> C++ PrivateUse1 -> aclnnLeakyReluCustom
+DEVICE: npu:0 | torch=2.7.1+cpu | torch_npu=2.7.1.post2
+INPUT: [1600, 1024] | OUTPUT: [1600, 64]
+Custom kernel calls: 2
+direct_activation_vs_math: elements=1638400 failed=0 max_abs=0.0
+direct_activation_vs_builtin_npu: elements=1638400 failed=0 max_abs=0.0
+network_original_vs_replaced: elements=102400 failed=0 max_abs=0.0
+NETWORK_REPLACEMENT_PASS

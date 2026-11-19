@@ -1,0 +1,17 @@
+WEEK14 | M=4096 K=4096 N=5120 | fp16 inputs -> fp32 output
+Ascend910B4 | 20 Cube / 40 Vector | msprof PipeUtilization
+5 warmups excluded, 15 measured launches per configuration
+cores5_base128: blocks=5 AIV=10 base=(128,128,128)
+  median us: Task Duration(us)=4239.12, aicore_time(us)=4030.008, aic_mac_time(us)=2834.469, aic_mte2_time(us)=3955.756
+  correctness: 20971520 elements, failed=0, max_rel_error=1.69764726e-06
+cores20_base64: blocks=20 AIV=40 base=(64,64,64)
+  median us: Task Duration(us)=6096.4, aicore_time(us)=5635.587, aic_mac_time(us)=1062.392, aic_mte2_time(us)=5577.001
+  correctness: 20971520 elements, failed=0, max_rel_error=1.69764726e-06
+cores20_base128: blocks=20 AIV=40 base=(128,128,128)
+  median us: Task Duration(us)=1565.08, aicore_time(us)=1507.625, aic_mac_time(us)=712.628, aic_mte2_time(us)=1482.12
+  correctness: 20971520 elements, failed=0, max_rel_error=1.69764726e-06
+cores20_base128x256: blocks=20 AIV=40 base=(128,256,64)
+  median us: Task Duration(us)=1203.44, aicore_time(us)=1186.418, aic_mac_time(us)=711.773, aic_mte2_time(us)=1170.292
+  correctness: 20971520 elements, failed=0, max_rel_error=1.69764726e-06
+20-vs-5 speedup: Task Duration=2.7086x, AI Core=2.6731x
+ALL FOUR CONFIGURATIONS: PASS

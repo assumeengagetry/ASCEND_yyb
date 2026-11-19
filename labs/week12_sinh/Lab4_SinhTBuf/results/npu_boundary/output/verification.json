@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "dtype": "float32",
+  "shape": [
+    8,
+    2048
+  ],
+  "numel": 16384,
+  "bytes_per_tensor": 65536,
+  "rtol": 1e-05,
+  "atol": 1e-06,
+  "reference": "float32(sinh(float64(x)))",
+  "golden_matches_independent_reference": true,
+  "golden_failed_elements": 0,
+  "all_finite": true,
+  "all_positive": true,
+  "input_min": 1.0,
+  "input_max": 10.0,
+  "failed_elements": 0,
+  "max_abs_error": 0.0009765625,
+  "mean_abs_error": 1.5271689335349947e-05,
+  "max_rel_error": 1.223703004833321e-07,
+  "core_failed_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "sample_elements": [
+    {
+      "index": 0,
+      "x": 1.0,
+      "golden": 1.175201177597046,
+      "reference": 1.175201177597046,
+      "actual": 1.175201177597046,
+      "abs_error": 0.0,
+      "rel_error": 0.0
+    },
+    {
+      "index": 1,
+      "x": 1.0000001192092896,
+      "golden": 1.175201416015625,
+      "reference": 1.175201416015625,
+      "actual": 1.175201416015625,
+      "abs_error": 0.0,
+      "rel_error": 0.0
+    },
+    {
+      "index": 2,
+      "x": 9.999999046325684,
+      "golden": 11013.22265625,
+      "reference": 11013.22265625,
+      "actual": 11013.22265625,
+      "abs_error": 0.0,
+      "rel_error": 0.0
+    },
+    {
+      "index": 3,
+      "x": 10.0,
+      "golden": 11013.232421875,
+      "reference": 11013.232421875,
+      "actual": 11013.232421875,
+      "abs_error": 0.0,
+      "rel_error": 0.0
+    },
+    {
+      "index": 4,
+      "x": 2.0,
+      "golden": 3.6268603801727295,
+      "reference": 3.6268603801727295,
+      "actual": 3.6268603801727295,
+      "abs_error": 0.0,
+      "rel_error": 0.0
+    },
+    {
+      "index": 5,
+      "x": 3.0,
+      "golden": 10.017874717712402,
+      "reference": 10.017874717712402,
+      "actual": 10.017874717712402,
+      "abs_error": 0.0,
+      "rel_error": 0.0
+    },
+    {
+      "index": 6,
+      "x": 5.0,
+      "golden": 74.20320892333984,
+      "reference": 74.20320892333984,
+      "actual": 74.20320892333984,
+      "abs_error": 0.0,
+      "rel_error": 0.0
+    },
+    {
+      "index": 7,
+      "x": 7.5,
+      "golden": 904.0209350585938,
+      "reference": 904.0209350585938,
+      "actual": 904.0208740234375,
+      "abs_error": 6.103515625e-05,
+      "rel_error": 6.751520222929797e-08
+    }
+  ],
+  "first_failed_indexes": []
+}

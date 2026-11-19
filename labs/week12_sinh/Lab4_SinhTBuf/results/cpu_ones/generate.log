@@ -1,0 +1,2 @@
+[DATA] case=ones seed=20261119 dtype=float32 shape=8x2048 elements=16384 bytes=65536
+[DATA] input_min=1 input_max=1 oracle=float32(sinh(float64(x)))

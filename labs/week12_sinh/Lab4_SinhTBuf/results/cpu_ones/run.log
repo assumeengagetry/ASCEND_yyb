@@ -1,0 +1,17 @@
+[TmSim]: Run in serial mode.
+[TmSim]: Run in serial mode.
+[TmSim]: Run in serial mode.
+[TmSim]: Run in serial mode.
+[TmSim]: Run in serial mode.
+[TmSim]: Run in serial mode.
+[TmSim]: Run in serial mode.
+[SUCCESS][CORE_0][pid 21712] exit success!
+[SUCCESS][CORE_1][pid 21713] exit success!
+[SUCCESS][CORE_2][pid 21714] exit success!
+[SUCCESS][CORE_3][pid 21715] exit success!
+[SUCCESS][CORE_4][pid 21716] exit success!
+[TmSim]: Run in serial mode.
+[SUCCESS][CORE_5][pid 21717] exit success!
+[SUCCESS][CORE_6][pid 21718] exit success!
+[SUCCESS][CORE_7][pid 21719] exit success!
+CALL_SUCCESS variant=SinhTBuf run_mode=cpu blockDim=8 elements=16384 dtype=float32 bytes=65536

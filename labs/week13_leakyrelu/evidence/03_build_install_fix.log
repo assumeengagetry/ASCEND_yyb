@@ -1,0 +1,54 @@
+-- Opbuild generating sources
+-- Opbuild generating sources - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ma-user/work/ascend_week13_20261119/LeakyReluCustom/build_out
+Consolidate compiler generated dependencies of target cust_tf_parsers
+Consolidate compiler generated dependencies of target cust_op_proto
+[  8%] Built target modify_vendor
+[ 25%] Built target cust_tf_parsers
+[ 25%] Built target gen_version_info
+[ 33%] Building CXX object op_host/CMakeFiles/cust_op_proto.dir/__/autogen/op_proto.cc.o
+Consolidate compiler generated dependencies of target cust_optiling
+Consolidate compiler generated dependencies of target cust_opapi
+[ 50%] Built target cust_optiling
+[ 58%] Building CXX object op_host/CMakeFiles/cust_opapi.dir/__/autogen/aclnn_leaky_relu_custom.cpp.o
+[ 66%] Built target ops_info_gen_ascend910b
+[ 75%] Built target npu_supported_ops
+[ 75%] Built target optiling_compat
+[ 83%] Linking CXX shared library libcust_opapi.so
+[ 83%] Built target cust_opapi
+[ 91%] Linking CXX shared library libcust_opsproto_rt2.0.so
+[100%] Built target cust_op_proto
+Run CPack packaging tool...
+CPack: Create package using External
+CPack: Install projects
+CPack: - Run preinstall target for: opp
+CPack: - Install project: opp []
+CPack: Create package
+
+About to compress 800 KB of data...
+Adding files to archive named "custom_opp_hce_aarch64.run"...
+./help.info
+./install.sh
+./packages/vendors/lab_week13/framework/tensorflow/libcust_tf_parsers.so
+./packages/vendors/lab_week13/framework/tensorflow/npu_supported_ops.json
+./packages/vendors/lab_week13/op_api/include/aclnn_leaky_relu_custom.h
+./packages/vendors/lab_week13/op_api/lib/libcust_opapi.so
+./packages/vendors/lab_week13/op_impl/ai_core/tbe/config/ascend910b/aic-ascend910b-ops-info.json
+./packages/vendors/lab_week13/op_impl/ai_core/tbe/lab_week13_impl/dynamic/leaky_relu_custom.cpp
+./packages/vendors/lab_week13/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64/libcust_opmaster_rt2.0.so
+./packages/vendors/lab_week13/op_impl/ai_core/tbe/op_tiling/liboptiling.so
+./packages/vendors/lab_week13/op_proto/inc/op_proto.h
+./packages/vendors/lab_week13/op_proto/lib/linux/aarch64/libcust_opsproto_rt2.0.so
+./packages/vendors/lab_week13/version.info
+./upgrade.sh
+CRC: 2838236827
+SHA256: bc720c7a81e35eb7091153249283fd325619e58be86e8f090b225915ad08b9a2
+Skipping md5sum at user request
+
+Self-extractable archive "custom_opp_hce_aarch64.run" successfully created.
+Copy /home/ma-user/work/ascend_week13_20261119/LeakyReluCustom/build_out/_CPack_Packages/Linux/External/custom_opp_hce_aarch64.run/custom_opp_hce_aarch64.run to /home/ma-user/work/ascend_week13_20261119/LeakyReluCustom/build_out/
+CPack: - package: /home/ma-user/work/ascend_week13_20261119/LeakyReluCustom/build_out/custom_opp_hce_aarch64.run.json generated.
+CPack: - package: /home/ma-user/work/ascend_week13_20261119/LeakyReluCustom/build_out/custom_opp_hce_aarch64.run generated.
+bash: build_out/custom_opp_euleros_aarch64.run: No such file or directory

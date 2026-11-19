@@ -1,8 +1,0 @@
-[network.stream2.task0]
-	stream_id = 2
-	task_id = 0
-	start_cycle = 71
-	end_cycle = 11089
-	duration = 11018
-	num_thread_subtasks = 1
-	wait_cycle = 97

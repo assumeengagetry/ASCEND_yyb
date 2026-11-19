@@ -1,0 +1,23 @@
+PASS project=Lab4_Sinh mode=cpu case=random elements=16384
+PASS project=Lab4_Sinh mode=cpu case=boundary elements=16384
+PASS project=Lab4_Sinh mode=cpu case=ramp elements=16384
+PASS project=Lab4_Sinh mode=cpu case=ones elements=16384
+PASS project=Lab4_Sinh mode=cpu case=tens elements=16384
+PASS project=Lab4_Sinh mode=npu case=random elements=16384
+PASS project=Lab4_Sinh mode=npu case=boundary elements=16384
+PASS project=Lab4_Sinh mode=npu case=ramp elements=16384
+PASS project=Lab4_Sinh mode=npu case=ones elements=16384
+PASS project=Lab4_Sinh mode=npu case=tens elements=16384
+PASS project=Lab4_SinhTBuf mode=cpu case=random elements=16384
+PASS project=Lab4_SinhTBuf mode=cpu case=boundary elements=16384
+PASS project=Lab4_SinhTBuf mode=cpu case=ramp elements=16384
+PASS project=Lab4_SinhTBuf mode=cpu case=ones elements=16384
+PASS project=Lab4_SinhTBuf mode=cpu case=tens elements=16384
+PASS project=Lab4_SinhTBuf mode=npu case=random elements=16384
+PASS project=Lab4_SinhTBuf mode=npu case=boundary elements=16384
+PASS project=Lab4_SinhTBuf mode=npu case=ramp elements=16384
+PASS project=Lab4_SinhTBuf mode=npu case=ones elements=16384
+PASS project=Lab4_SinhTBuf mode=npu case=tens elements=16384
+SUMMARY 20/20 PASS elements=327680
+max_abs_error=0.0009765625 max_rel_error=1.223703e-07
+Sinh vs SinhTBuf: 10/10 comparisons bitwise equal

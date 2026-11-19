@@ -1,2 +1,0 @@
-[DATA] case=boundary seed=20261112 dtype=float32 shape=8x2048 elements=16384 bytes=65536
-[DATA] sum_counts={"negative": 8162, "positive": 8123, "zero": 99}

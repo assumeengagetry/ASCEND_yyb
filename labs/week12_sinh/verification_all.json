@@ -1,0 +1,2291 @@
+{
+  "total_cases": 20,
+  "passed_cases": 20,
+  "total_elements": 327680,
+  "max_abs_error": 0.0009765625,
+  "max_rel_error": 1.223703004833321e-07,
+  "cases": [
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.000702142715454,
+      "input_max": 9.999591827392578,
+      "failed_elements": 0,
+      "max_abs_error": 0.0009765625,
+      "mean_abs_error": 1.5504643670283258e-05,
+      "max_rel_error": 1.223703004833321e-07,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.8219151496887207,
+          "golden": 3.0109870433807373,
+          "reference": 3.0109870433807373,
+          "actual": 3.010986804962158,
+          "abs_error": 2.384185791015625e-07,
+          "rel_error": 7.918286451138828e-08
+        },
+        {
+          "index": 1,
+          "x": 3.616422653198242,
+          "golden": 18.58867835998535,
+          "reference": 18.58867835998535,
+          "actual": 18.58867835998535,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 6.133223056793213,
+          "golden": 230.45858764648438,
+          "reference": 230.45858764648438,
+          "actual": 230.45858764648438,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 3.1651456356048584,
+          "golden": 11.824993133544922,
+          "reference": 11.824993133544922,
+          "actual": 11.824993133544922,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 3.727672576904297,
+          "golden": 20.779083251953125,
+          "reference": 20.779083251953125,
+          "actual": 20.779083251953125,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 5.596545696258545,
+          "golden": 134.74508666992188,
+          "reference": 134.74508666992188,
+          "actual": 134.74508666992188,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 9.905501365661621,
+          "golden": 10020.158203125,
+          "reference": 10020.158203125,
+          "actual": 10020.158203125,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 7.1539435386657715,
+          "golden": 639.5697631835938,
+          "reference": 639.5697631835938,
+          "actual": 639.56982421875,
+          "abs_error": 6.103515625e-05,
+          "rel_error": 9.54315850489626e-08
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_Sinh",
+      "mode": "cpu",
+      "case": "random"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.0,
+      "input_max": 10.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0009765625,
+      "mean_abs_error": 1.5271689335349947e-05,
+      "max_rel_error": 1.223703004833321e-07,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 1.0000001192092896,
+          "golden": 1.175201416015625,
+          "reference": 1.175201416015625,
+          "actual": 1.175201416015625,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 9.999999046325684,
+          "golden": 11013.22265625,
+          "reference": 11013.22265625,
+          "actual": 11013.22265625,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 2.0,
+          "golden": 3.6268603801727295,
+          "reference": 3.6268603801727295,
+          "actual": 3.6268603801727295,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 3.0,
+          "golden": 10.017874717712402,
+          "reference": 10.017874717712402,
+          "actual": 10.017874717712402,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 5.0,
+          "golden": 74.20320892333984,
+          "reference": 74.20320892333984,
+          "actual": 74.20320892333984,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 7.5,
+          "golden": 904.0209350585938,
+          "reference": 904.0209350585938,
+          "actual": 904.0208740234375,
+          "abs_error": 6.103515625e-05,
+          "rel_error": 6.751520222929797e-08
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_Sinh",
+      "mode": "cpu",
+      "case": "boundary"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.0,
+      "input_max": 10.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0009765625,
+      "mean_abs_error": 1.527224958408624e-05,
+      "max_rel_error": 1.1932626007039056e-07,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 1.00054931640625,
+          "golden": 1.176048994064331,
+          "reference": 1.176048994064331,
+          "actual": 1.176048994064331,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 1.0010987520217896,
+          "golden": 1.176897406578064,
+          "reference": 1.176897406578064,
+          "actual": 1.1768972873687744,
+          "abs_error": 1.1920928955078125e-07,
+          "rel_error": 1.0129114813617703e-07
+        },
+        {
+          "index": 3,
+          "x": 1.0016480684280396,
+          "golden": 1.1777459383010864,
+          "reference": 1.1777459383010864,
+          "actual": 1.1777459383010864,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 1.0021973848342896,
+          "golden": 1.1785948276519775,
+          "reference": 1.1785948276519775,
+          "actual": 1.1785948276519775,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 1.0027467012405396,
+          "golden": 1.1794439554214478,
+          "reference": 1.1794439554214478,
+          "actual": 1.1794439554214478,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 1.003296136856079,
+          "golden": 1.1802937984466553,
+          "reference": 1.1802937984466553,
+          "actual": 1.1802937984466553,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 1.003845453262329,
+          "golden": 1.1811437606811523,
+          "reference": 1.1811437606811523,
+          "actual": 1.1811437606811523,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_Sinh",
+      "mode": "cpu",
+      "case": "ramp"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.0,
+      "input_max": 1.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "max_rel_error": 0.0,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_Sinh",
+      "mode": "cpu",
+      "case": "ones"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 10.0,
+      "input_max": 10.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "max_rel_error": 0.0,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_Sinh",
+      "mode": "cpu",
+      "case": "tens"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.000702142715454,
+      "input_max": 9.999591827392578,
+      "failed_elements": 0,
+      "max_abs_error": 0.0009765625,
+      "mean_abs_error": 1.5504643670283258e-05,
+      "max_rel_error": 1.223703004833321e-07,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.8219151496887207,
+          "golden": 3.0109870433807373,
+          "reference": 3.0109870433807373,
+          "actual": 3.010986804962158,
+          "abs_error": 2.384185791015625e-07,
+          "rel_error": 7.918286451138828e-08
+        },
+        {
+          "index": 1,
+          "x": 3.616422653198242,
+          "golden": 18.58867835998535,
+          "reference": 18.58867835998535,
+          "actual": 18.58867835998535,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 6.133223056793213,
+          "golden": 230.45858764648438,
+          "reference": 230.45858764648438,
+          "actual": 230.45858764648438,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 3.1651456356048584,
+          "golden": 11.824993133544922,
+          "reference": 11.824993133544922,
+          "actual": 11.824993133544922,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 3.727672576904297,
+          "golden": 20.779083251953125,
+          "reference": 20.779083251953125,
+          "actual": 20.779083251953125,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 5.596545696258545,
+          "golden": 134.74508666992188,
+          "reference": 134.74508666992188,
+          "actual": 134.74508666992188,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 9.905501365661621,
+          "golden": 10020.158203125,
+          "reference": 10020.158203125,
+          "actual": 10020.158203125,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 7.1539435386657715,
+          "golden": 639.5697631835938,
+          "reference": 639.5697631835938,
+          "actual": 639.56982421875,
+          "abs_error": 6.103515625e-05,
+          "rel_error": 9.54315850489626e-08
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_Sinh",
+      "mode": "npu",
+      "case": "random"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.0,
+      "input_max": 10.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0009765625,
+      "mean_abs_error": 1.5271689335349947e-05,
+      "max_rel_error": 1.223703004833321e-07,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 1.0000001192092896,
+          "golden": 1.175201416015625,
+          "reference": 1.175201416015625,
+          "actual": 1.175201416015625,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 9.999999046325684,
+          "golden": 11013.22265625,
+          "reference": 11013.22265625,
+          "actual": 11013.22265625,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 2.0,
+          "golden": 3.6268603801727295,
+          "reference": 3.6268603801727295,
+          "actual": 3.6268603801727295,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 3.0,
+          "golden": 10.017874717712402,
+          "reference": 10.017874717712402,
+          "actual": 10.017874717712402,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 5.0,
+          "golden": 74.20320892333984,
+          "reference": 74.20320892333984,
+          "actual": 74.20320892333984,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 7.5,
+          "golden": 904.0209350585938,
+          "reference": 904.0209350585938,
+          "actual": 904.0208740234375,
+          "abs_error": 6.103515625e-05,
+          "rel_error": 6.751520222929797e-08
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_Sinh",
+      "mode": "npu",
+      "case": "boundary"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.0,
+      "input_max": 10.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0009765625,
+      "mean_abs_error": 1.527224958408624e-05,
+      "max_rel_error": 1.1932626007039056e-07,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 1.00054931640625,
+          "golden": 1.176048994064331,
+          "reference": 1.176048994064331,
+          "actual": 1.176048994064331,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 1.0010987520217896,
+          "golden": 1.176897406578064,
+          "reference": 1.176897406578064,
+          "actual": 1.1768972873687744,
+          "abs_error": 1.1920928955078125e-07,
+          "rel_error": 1.0129114813617703e-07
+        },
+        {
+          "index": 3,
+          "x": 1.0016480684280396,
+          "golden": 1.1777459383010864,
+          "reference": 1.1777459383010864,
+          "actual": 1.1777459383010864,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 1.0021973848342896,
+          "golden": 1.1785948276519775,
+          "reference": 1.1785948276519775,
+          "actual": 1.1785948276519775,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 1.0027467012405396,
+          "golden": 1.1794439554214478,
+          "reference": 1.1794439554214478,
+          "actual": 1.1794439554214478,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 1.003296136856079,
+          "golden": 1.1802937984466553,
+          "reference": 1.1802937984466553,
+          "actual": 1.1802937984466553,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 1.003845453262329,
+          "golden": 1.1811437606811523,
+          "reference": 1.1811437606811523,
+          "actual": 1.1811437606811523,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_Sinh",
+      "mode": "npu",
+      "case": "ramp"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.0,
+      "input_max": 1.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "max_rel_error": 0.0,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_Sinh",
+      "mode": "npu",
+      "case": "ones"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 10.0,
+      "input_max": 10.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "max_rel_error": 0.0,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_Sinh",
+      "mode": "npu",
+      "case": "tens"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.000702142715454,
+      "input_max": 9.999591827392578,
+      "failed_elements": 0,
+      "max_abs_error": 0.0009765625,
+      "mean_abs_error": 1.5504643670283258e-05,
+      "max_rel_error": 1.223703004833321e-07,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.8219151496887207,
+          "golden": 3.0109870433807373,
+          "reference": 3.0109870433807373,
+          "actual": 3.010986804962158,
+          "abs_error": 2.384185791015625e-07,
+          "rel_error": 7.918286451138828e-08
+        },
+        {
+          "index": 1,
+          "x": 3.616422653198242,
+          "golden": 18.58867835998535,
+          "reference": 18.58867835998535,
+          "actual": 18.58867835998535,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 6.133223056793213,
+          "golden": 230.45858764648438,
+          "reference": 230.45858764648438,
+          "actual": 230.45858764648438,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 3.1651456356048584,
+          "golden": 11.824993133544922,
+          "reference": 11.824993133544922,
+          "actual": 11.824993133544922,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 3.727672576904297,
+          "golden": 20.779083251953125,
+          "reference": 20.779083251953125,
+          "actual": 20.779083251953125,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 5.596545696258545,
+          "golden": 134.74508666992188,
+          "reference": 134.74508666992188,
+          "actual": 134.74508666992188,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 9.905501365661621,
+          "golden": 10020.158203125,
+          "reference": 10020.158203125,
+          "actual": 10020.158203125,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 7.1539435386657715,
+          "golden": 639.5697631835938,
+          "reference": 639.5697631835938,
+          "actual": 639.56982421875,
+          "abs_error": 6.103515625e-05,
+          "rel_error": 9.54315850489626e-08
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_SinhTBuf",
+      "mode": "cpu",
+      "case": "random"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.0,
+      "input_max": 10.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0009765625,
+      "mean_abs_error": 1.5271689335349947e-05,
+      "max_rel_error": 1.223703004833321e-07,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 1.0000001192092896,
+          "golden": 1.175201416015625,
+          "reference": 1.175201416015625,
+          "actual": 1.175201416015625,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 9.999999046325684,
+          "golden": 11013.22265625,
+          "reference": 11013.22265625,
+          "actual": 11013.22265625,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 2.0,
+          "golden": 3.6268603801727295,
+          "reference": 3.6268603801727295,
+          "actual": 3.6268603801727295,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 3.0,
+          "golden": 10.017874717712402,
+          "reference": 10.017874717712402,
+          "actual": 10.017874717712402,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 5.0,
+          "golden": 74.20320892333984,
+          "reference": 74.20320892333984,
+          "actual": 74.20320892333984,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 7.5,
+          "golden": 904.0209350585938,
+          "reference": 904.0209350585938,
+          "actual": 904.0208740234375,
+          "abs_error": 6.103515625e-05,
+          "rel_error": 6.751520222929797e-08
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_SinhTBuf",
+      "mode": "cpu",
+      "case": "boundary"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.0,
+      "input_max": 10.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0009765625,
+      "mean_abs_error": 1.527224958408624e-05,
+      "max_rel_error": 1.1932626007039056e-07,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 1.00054931640625,
+          "golden": 1.176048994064331,
+          "reference": 1.176048994064331,
+          "actual": 1.176048994064331,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 1.0010987520217896,
+          "golden": 1.176897406578064,
+          "reference": 1.176897406578064,
+          "actual": 1.1768972873687744,
+          "abs_error": 1.1920928955078125e-07,
+          "rel_error": 1.0129114813617703e-07
+        },
+        {
+          "index": 3,
+          "x": 1.0016480684280396,
+          "golden": 1.1777459383010864,
+          "reference": 1.1777459383010864,
+          "actual": 1.1777459383010864,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 1.0021973848342896,
+          "golden": 1.1785948276519775,
+          "reference": 1.1785948276519775,
+          "actual": 1.1785948276519775,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 1.0027467012405396,
+          "golden": 1.1794439554214478,
+          "reference": 1.1794439554214478,
+          "actual": 1.1794439554214478,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 1.003296136856079,
+          "golden": 1.1802937984466553,
+          "reference": 1.1802937984466553,
+          "actual": 1.1802937984466553,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 1.003845453262329,
+          "golden": 1.1811437606811523,
+          "reference": 1.1811437606811523,
+          "actual": 1.1811437606811523,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_SinhTBuf",
+      "mode": "cpu",
+      "case": "ramp"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.0,
+      "input_max": 1.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "max_rel_error": 0.0,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_SinhTBuf",
+      "mode": "cpu",
+      "case": "ones"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 10.0,
+      "input_max": 10.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "max_rel_error": 0.0,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_SinhTBuf",
+      "mode": "cpu",
+      "case": "tens"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.000702142715454,
+      "input_max": 9.999591827392578,
+      "failed_elements": 0,
+      "max_abs_error": 0.0009765625,
+      "mean_abs_error": 1.5504643670283258e-05,
+      "max_rel_error": 1.223703004833321e-07,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.8219151496887207,
+          "golden": 3.0109870433807373,
+          "reference": 3.0109870433807373,
+          "actual": 3.010986804962158,
+          "abs_error": 2.384185791015625e-07,
+          "rel_error": 7.918286451138828e-08
+        },
+        {
+          "index": 1,
+          "x": 3.616422653198242,
+          "golden": 18.58867835998535,
+          "reference": 18.58867835998535,
+          "actual": 18.58867835998535,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 6.133223056793213,
+          "golden": 230.45858764648438,
+          "reference": 230.45858764648438,
+          "actual": 230.45858764648438,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 3.1651456356048584,
+          "golden": 11.824993133544922,
+          "reference": 11.824993133544922,
+          "actual": 11.824993133544922,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 3.727672576904297,
+          "golden": 20.779083251953125,
+          "reference": 20.779083251953125,
+          "actual": 20.779083251953125,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 5.596545696258545,
+          "golden": 134.74508666992188,
+          "reference": 134.74508666992188,
+          "actual": 134.74508666992188,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 9.905501365661621,
+          "golden": 10020.158203125,
+          "reference": 10020.158203125,
+          "actual": 10020.158203125,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 7.1539435386657715,
+          "golden": 639.5697631835938,
+          "reference": 639.5697631835938,
+          "actual": 639.56982421875,
+          "abs_error": 6.103515625e-05,
+          "rel_error": 9.54315850489626e-08
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_SinhTBuf",
+      "mode": "npu",
+      "case": "random"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.0,
+      "input_max": 10.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0009765625,
+      "mean_abs_error": 1.5271689335349947e-05,
+      "max_rel_error": 1.223703004833321e-07,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 1.0000001192092896,
+          "golden": 1.175201416015625,
+          "reference": 1.175201416015625,
+          "actual": 1.175201416015625,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 9.999999046325684,
+          "golden": 11013.22265625,
+          "reference": 11013.22265625,
+          "actual": 11013.22265625,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 2.0,
+          "golden": 3.6268603801727295,
+          "reference": 3.6268603801727295,
+          "actual": 3.6268603801727295,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 3.0,
+          "golden": 10.017874717712402,
+          "reference": 10.017874717712402,
+          "actual": 10.017874717712402,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 5.0,
+          "golden": 74.20320892333984,
+          "reference": 74.20320892333984,
+          "actual": 74.20320892333984,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 7.5,
+          "golden": 904.0209350585938,
+          "reference": 904.0209350585938,
+          "actual": 904.0208740234375,
+          "abs_error": 6.103515625e-05,
+          "rel_error": 6.751520222929797e-08
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_SinhTBuf",
+      "mode": "npu",
+      "case": "boundary"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.0,
+      "input_max": 10.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0009765625,
+      "mean_abs_error": 1.527224958408624e-05,
+      "max_rel_error": 1.1932626007039056e-07,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 1.00054931640625,
+          "golden": 1.176048994064331,
+          "reference": 1.176048994064331,
+          "actual": 1.176048994064331,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 1.0010987520217896,
+          "golden": 1.176897406578064,
+          "reference": 1.176897406578064,
+          "actual": 1.1768972873687744,
+          "abs_error": 1.1920928955078125e-07,
+          "rel_error": 1.0129114813617703e-07
+        },
+        {
+          "index": 3,
+          "x": 1.0016480684280396,
+          "golden": 1.1777459383010864,
+          "reference": 1.1777459383010864,
+          "actual": 1.1777459383010864,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 1.0021973848342896,
+          "golden": 1.1785948276519775,
+          "reference": 1.1785948276519775,
+          "actual": 1.1785948276519775,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 1.0027467012405396,
+          "golden": 1.1794439554214478,
+          "reference": 1.1794439554214478,
+          "actual": 1.1794439554214478,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 1.003296136856079,
+          "golden": 1.1802937984466553,
+          "reference": 1.1802937984466553,
+          "actual": 1.1802937984466553,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 1.003845453262329,
+          "golden": 1.1811437606811523,
+          "reference": 1.1811437606811523,
+          "actual": 1.1811437606811523,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_SinhTBuf",
+      "mode": "npu",
+      "case": "ramp"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 1.0,
+      "input_max": 1.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "max_rel_error": 0.0,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 1.0,
+          "golden": 1.175201177597046,
+          "reference": 1.175201177597046,
+          "actual": 1.175201177597046,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_SinhTBuf",
+      "mode": "npu",
+      "case": "ones"
+    },
+    {
+      "passed": true,
+      "dtype": "float32",
+      "shape": [
+        8,
+        2048
+      ],
+      "numel": 16384,
+      "bytes_per_tensor": 65536,
+      "rtol": 1e-05,
+      "atol": 1e-06,
+      "reference": "float32(sinh(float64(x)))",
+      "golden_matches_independent_reference": true,
+      "golden_failed_elements": 0,
+      "all_finite": true,
+      "all_positive": true,
+      "input_min": 10.0,
+      "input_max": 10.0,
+      "failed_elements": 0,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "max_rel_error": 0.0,
+      "core_failed_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sample_elements": [
+        {
+          "index": 0,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 1,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 2,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 3,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 4,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 5,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 6,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        },
+        {
+          "index": 7,
+          "x": 10.0,
+          "golden": 11013.232421875,
+          "reference": 11013.232421875,
+          "actual": 11013.232421875,
+          "abs_error": 0.0,
+          "rel_error": 0.0
+        }
+      ],
+      "first_failed_indexes": [],
+      "project": "Lab4_SinhTBuf",
+      "mode": "npu",
+      "case": "tens"
+    }
+  ],
+  "version_comparisons": [
+    {
+      "mode": "cpu",
+      "case": "random",
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "mode": "cpu",
+      "case": "boundary",
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "mode": "cpu",
+      "case": "ramp",
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "mode": "cpu",
+      "case": "ones",
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "mode": "cpu",
+      "case": "tens",
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "mode": "npu",
+      "case": "random",
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "mode": "npu",
+      "case": "boundary",
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "mode": "npu",
+      "case": "ramp",
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "mode": "npu",
+      "case": "ones",
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "mode": "npu",
+      "case": "tens",
+      "bitwise_equal": true,
+      "max_abs_difference": 0.0
+    }
+  ]
+}

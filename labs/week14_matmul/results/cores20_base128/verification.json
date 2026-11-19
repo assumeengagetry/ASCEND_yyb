@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "shape": [
+    4096,
+    5120
+  ],
+  "M": 4096,
+  "K": 4096,
+  "N": 5120,
+  "dtype": "float32",
+  "format": "ND",
+  "numel": 20971520,
+  "bytes_per_tensor": 83886080,
+  "rtol": 0.0001,
+  "atol": 0.02,
+  "failed_elements": 0,
+  "all_finite": true,
+  "nonfinite_actual": 0,
+  "nonfinite_golden": 0,
+  "nonpositive_actual": 0,
+  "nonpositive_golden": 0,
+  "max_abs_error": 0.2109375,
+  "max_rel_error": 1.6976472620973715e-06,
+  "root_mean_square_error": 0.03794747160315918,
+  "error_metrics_exclude_nonfinite_pairs": false,
+  "first_failed_indexes": [],
+  "rows_with_failures": [],
+  "sample_elements": [
+    {
+      "index": 0,
+      "row": 0,
+      "column": 0,
+      "actual": 122304.1171875,
+      "golden": 122304.1875,
+      "abs_error": 0.0703125
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "column": 1,
+      "actual": 122748.1953125,
+      "golden": 122748.125,
+      "abs_error": 0.0703125
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "column": 2,
+      "actual": 121538.7109375,
+      "golden": 121538.65625,
+      "abs_error": 0.0546875
+    },
+    {
+      "index": 127,
+      "row": 0,
+      "column": 127,
+      "actual": 125156.3515625,
+      "golden": 125156.3984375,
+      "abs_error": 0.046875
+    },
+    {
+      "index": 128,
+      "row": 0,
+      "column": 128,
+      "actual": 123737.2109375,
+      "golden": 123737.1953125,
+      "abs_error": 0.015625
+    },
+    {
+      "index": 5119,
+      "row": 0,
+      "column": 5119,
+      "actual": 124153.0,
+      "golden": 124153.0,
+      "abs_error": 0.0
+    },
+    {
+      "index": 5120,
+      "row": 1,
+      "column": 0,
+      "actual": 121999.0078125,
+      "golden": 121999.03125,
+      "abs_error": 0.0234375
+    },
+    {
+      "index": 5121,
+      "row": 1,
+      "column": 1,
+      "actual": 122311.046875,
+      "golden": 122311.0625,
+      "abs_error": 0.015625
+    },
+    {
+      "index": 10488320,
+      "row": 2048,
+      "column": 2560,
+      "actual": 120981.296875,
+      "golden": 120981.3125,
+      "abs_error": 0.015625
+    },
+    {
+      "index": 20971518,
+      "row": 4095,
+      "column": 5118,
+      "actual": 124701.328125,
+      "golden": 124701.3125,
+      "abs_error": 0.015625
+    },
+    {
+      "index": 20971519,
+      "row": 4095,
+      "column": 5119,
+      "actual": 124893.2421875,
+      "golden": 124893.25,
+      "abs_error": 0.0078125
+    }
+  ],
+  "output_sha256": "96ad2d871699e8ecaf256c1b4b6b000b9d58cd21174607905575b18de9ed0902",
+  "golden_sha256": "dd882acb5982537c98e9ca8746d33dfea06cc165fc87a9f0cc28685b5c111734"
+}
